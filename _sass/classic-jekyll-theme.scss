@@ -32,8 +32,8 @@ $large-1-font-size:				$theme-font-size * 1.125;
 $large-2-font-size:				$large-1-font-size * 1.125;
 $theme-line-height:				1.5;
 //
-$hspacing-unit:					  14px; // For best results, use even numbers only
-$vspacing-unit:					  14px; // For best results, use even numbers only
+$hspacing-unit:					  12px; // For best results, use even numbers only
+$vspacing-unit:					  12px; // For best results, use even numbers only
 //
 $text-color:					    #111;
 $background-color:				#fdfdfd; // Applied to the top element, override by background settings below
@@ -109,8 +109,8 @@ $banner-enabled-widest:					true;
 // CSS property: Height
 //
 $banner-height-narrow:					48px;
-$banner-height-medium:					68px;
-$banner-height-widest:					135px;
+$banner-height-medium:					48px;
+$banner-height-widest:					48px;
 
 // The background of the banner. (Not the banner-area!)
 // CSS property: Background.
