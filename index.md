@@ -9,8 +9,10 @@ permalink: /
 # Focus on writing good documentation
 We will start with a new page
 
-```mermaid
-a --> b
-b --> c
-d --> c
-```
+{% mermaid %}
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+{% endmermaid %}
