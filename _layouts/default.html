@@ -1,152 +1,47 @@
+---
+layout: table_wrappers
+---
+
 <!DOCTYPE html>
 
-{%- comment -%}<!-- Determine placing of secondary column -->{%- endcomment -%}
+<html lang="{{ site.lang | default: 'en-US' }}">
+{% include head.html %}
+<body>
+  <a class="skip-to-main" href="#main-content">Skip to main content</a>
+  {% include icons/icons.html %}
+  {% if page.nav_enabled == true %}
+    {% include components/sidebar.html %}
+  {% elsif layout.nav_enabled == true and page.nav_enabled == nil %}
+    {% include components/sidebar.html %}
+  {% elsif site.nav_enabled != false and layout.nav_enabled == nil and page.nav_enabled == nil %}
+    {% include components/sidebar.html %}
+  {% endif %}
+  <div class="main" id="top">
+    {% include components/header.html %}
+    <div class="main-content-wrap">
+      {% include components/breadcrumbs.html %}
+      <div id="main-content" class="main-content">
+        <main>
+          {% if site.heading_anchors != false %}
+            {% include vendor/anchor_headings.html html=content beforeHeading="true" anchorBody="<svg viewBox=\"0 0 16 16\" aria-hidden=\"true\"><use xlink:href=\"#svg-link\"></use></svg>" anchorClass="anchor-heading" anchorAttrs="aria-labelledby=\"%html_id%\"" %}
+          {% else %}
+            {{ content }}
+          {% endif %}
 
-{%- if page.secondary-column -%}
-	{%- if page.secondary-column == 'left' -%}
-		{%- assign secondary-column = 'left' -%}
-	{%- endif -%}
-	{%- if page.secondary-column == 'right' -%}
-		{%- assign secondary-column = 'right' -%}
-	{%- endif -%}
-{%- else -%}
-	{%- if site.data.setup.secondary-column == 'left' -%}
-		{%- assign secondary-column = 'left' -%}
-	{%- endif -%}
-	{%- if site.data.setup.secondary-column == 'right' -%}
-		{%- assign secondary-column = 'right' -%}
-	{%- endif -%}
-{%- endif -%}
+          {% if page.has_toc != false %}
+            {% include components/children_nav.html %}
+          {% endif %}
+        </main>
+        {% include components/footer.html %}
+      </div>
+    </div>
+    {% if site.search_enabled != false %}
+      {% include components/search_footer.html %}
+    {% endif %}
+  </div>
 
-
-{%- comment -%}<!-- Determine content source of secondary column -->{%- endcomment -%}
-
-{%- if page.secondary-column-content -%}
-	{%- assign secondary-column-content = page.secondary-column-content -%}
-{%- else -%}
-	{%- assign secondary-column-content = 'secondary-column.html' -%}
-{%- endif -%}
-
-
-{%- comment -%}<!-- Determine placing of tertiary column -->{%- endcomment -%}
-
-{%- if page.tertiary-column -%}
-	{%- if page.tertiary-column == 'present' -%}
-		{%- assign tertiary-column = 'present' -%}
-	{%- endif -%}
-{%- else -%}
-	{%- if site.data.setup.tertiary-column == 'present' -%}
-		{%- assign tertiary-column = 'present' -%}
-	{%- endif -%}
-{%- endif -%}
-
-
-{%- comment -%}<!-- Determine content source of secondary column -->{%- endcomment -%}
-
-{%- if page.tertiary-column-content -%}
-	{%- assign tertiary-column-content = page.tertiary-column-content -%}
-{%- else -%}
-	{%- assign tertiary-column-content = 'tertiary-column.html' -%}
-{%- endif -%}
-
-
-{%- comment -%}<!-- Determine placing of banner-area -->{%- endcomment -%}
-
-{%- if page.banner-position -%}
-	{%- assign banner-position = page.banner-position -%}
-{%- elsif page.navbanner-position -%}
-	{%- assign banner-position = page.navbanner-position -%}
-{%- else -%}
-	{%- assign banner-position = site.data.setup.banner-position -%}
-{%- endif %}
-<html>
-	{% include head.html %}
-	
-  	<body class="body-panel">
-  	
-	{%- if banner-position == 'top' or banner-position == 'top-fixed' -%}
-		{%- if site.data.setup.use-separate-banner-menubar-file %}
-  		<div id="navFrame"><script>$("#navFrame").load("/banner-area.html");</script></div>
-		{%- else -%}
-			{%- include banner-area.html -%}
-		{%- endif -%}
-	{%- endif %}
-
-		<div class="column-panel">
-
-	{%- if secondary-column == 'left' %}
-			<div class="secondary-column">
-				<div class="secondary-column-content">
-		{%- if site.data.setup.drop-down-menu -%}{%- else -%}
-			{%- include vertical-menu.html label-modifier="a" -%}
-		{%- endif %}
-		{% include {{ secondary-column-content }} label-modifier="a" %}
-				</div>
-		{%- if tertiary-column == 'present' %}	
-				<div class="tertiary-column-content">
-			{% include {{ tertiary-column-content }} %}
-				</div>
-		{%- endif %}
-			</div>
-			<div class="secondary-separator"></div>
-	{%- else -%}
-		{%- if tertiary-column == 'present' %}
-			<div class="tertiary-column">
-				<div class="tertiary-column-content">
-			{% include {{ tertiary-column-content }} %}
-				</div>
-			</div>
-			<div class="tertiary-separator"></div>
-		{%- endif -%}			
-	{%- endif %}
-
-			<div class="primary-column">
-  	{%- if banner-position == 'main' -%}
-		{%- if site.data.setup.use-separate-banner-menubar-file %}
-  				<div id="navFrame"><script>$("#navFrame").load("/banner-area.html");</script></div>
-		{%- else -%}
-			{% include banner-area.html %}
-		{%- endif -%}
-	{%- endif %}
-				<main>
-
-<!-- Start of main content -->
-{{ content }}
-<!-- End of main content -->
-
-				</main>
-			</div>
-			
-	{%- if secondary-column == 'right' %}
-			<div class="secondary-separator"></div>			
-			<div class="secondary-column">
-				<div class="secondary-column-content">
-		{%- if site.data.setup.drop-down-menu -%}{%- else -%}
-			{% include vertical-menu.html label-modifier="c" %}
-		{%- endif -%}
-		{% include {{ secondary-column-content }} label-modifier="b" %}
-				</div>
-		{%- if tertiary-column == 'present' %}	
-				<div class="tertiary-column-content">
-			{%- include {{ tertiary-column-content }} %}
-				</div>
-		{%- endif -%}
-			</div>
-	{%- else -%}
-	   {%- if tertiary-column == 'present' %}
-			<div class="tertiary-separator"></div>
-			<div class="tertiary-column">
-				<div class="tertiary-column-content">
-			{% include {{ tertiary-column-content }} %}
-				</div>
-			</div>
-		{%- endif -%}
-	{%- endif %}
-
-		</div>
-		<div class="footer-separator"></div>
-		<div class="footer-panel">
-	{% include footer.html %}
-		</div>
-  	</body>
+  {% if site.mermaid %}
+    {% include components/mermaid.html %}
+  {% endif %}
+</body>
 </html>

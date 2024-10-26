@@ -1,101 +1,110 @@
-# Classic-Jekyll-Theme v2.5.0
+<p align="right">
+    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml"><img src="https://github.com/just-the-docs/just-the-docs/actions/workflows/ci.yml/badge.svg" alt="CI Build status"></a> <a href="https://app.netlify.com/sites/just-the-docs/deploys"><img src="https://api.netlify.com/api/v1/badges/9dc0386d-c2a4-4077-ad83-f02c33a6c0ca/deploy-status" alt="Netlify Status"></a>
+</p>
+<br><br>
+<p align="center">
+    <h1 align="center">Just the Docs</h1>
+    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
+    <p align="center"><strong><a href="https://just-the-docs.com/">See it in action!</a></strong></p>
+    <br><br><br>
+</p>
 
-Welcome to Classic-Jekyll-Theme. This theme centers around one of the most used website structures on the web. A banner, navigation menu (dropdown), (up to) three columns and a footer. The design is fully responsive for three different screen widths: widest, medium and narrow. It is probably best shown in an example:
+<p align="center">A video walkthrough of various Just the Docs features</p>
 
-Widest:
+https://user-images.githubusercontent.com/85418632/211225192-7e5d1116-2f4f-4305-bb9b-437fe47df071.mp4
 
-![wide-layout](http://balancingrock.nl/assets/img/classic-jekyll-theme-wide.png)
+## Installation
 
-Medium:
+### Use the template
 
-![medium-left-layout](http://balancingrock.nl/assets/img/classic-jekyll-theme-medium-left.png)
+The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
 
-Narrow:
+Note: To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs.
 
-![narrow-layout](http://balancingrock.nl/assets/img/classic-jekyll-theme-narrow.png)
+You can easily set the site created by the template to be published on [GitHub Pages] – the [template README] file explains how to do that, along with other details.
 
-The columns are called Primary (blue), Secondary (grey) and Tertiary (pink). In the above layouts the secondary column is on the left side. If it had been on the right side, the medium layout would have looked like this:
+If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^2] And you will be able to deploy your local build to a different platform than GitHub Pages.
 
-![medium-right-layout](http://balancingrock.nl/assets/img/classic-jekyll-theme-medium-right.png)
+More specifically, the created site:
 
-The menu bar (in yellow) is always deployed in the wide layout. In the medium and narrow layout the menu bar is shown in the deployed state. When not deployed, a menu-item symbol is shown in the banner that switches the menu between deployed and not.
+- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
+- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
 
-An example screenshot:
+Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
 
-![example](http://balancingrock.nl/assets/img/classic-jekyll-theme-screenshot-half.png)
+### Use RubyGems
 
-Or visit a site using this theme like [Balancing Rock](http://www.balancingrock.nl)
+Alternatively, you can install the theme as a Ruby Gem, without creating a new site.
 
-Other features:
+Add this line to your Jekyll site's `Gemfile`:
 
-- __Secondary and Tertiary Columns__ can be specified by default and on a page by page basis for presence, location and content.
+```ruby
+gem "just-the-docs"
+```
 
-- __Navigation bar with drop-down menu__ is created automatically from the available pages when these have the proper YAML frontmatter. The navigation bar contains the top level menu items, while the submenu items show up as a drop-down menu when the cursor hovers over the corresponding menu item. Hovering over submenu item brings up the sub-submenu items.
+And add this line to your Jekyll site's `_config.yml`:
 
-- __Create the menu__ from either Posts and/or Pages.
+```yaml
+theme: just-the-docs
+```
 
-- __Category pages__ are created semi-automatically; the web designer has to identify the categories for inclusion, but the menu entry and category pages are created automatically.
+And then execute:
 
-- __Cookies policy__ for european users is included by default. It can be easily disabled for non-european websites.
+    $ bundle
 
-- __Language customization__ (not multi-language support!).
+Or install it yourself as:
 
-- __Icon__ support for an icon in the upper left corner of the site and/or in the menubar.
+    $ gem install just-the-docs
 
-- __Background images__ and __Background color__ settings for nearly all site elements.
+Alternatively, you can run it inside Docker while developing your site
 
-- __Widgets__ the following widgets are included:
-	- recent-posts: Shows a list of the N most recent posts (N is configurable).
-	- social-media: Shows a list of social media sites with their links (Edit to add).
-	- subscribe: Shows how a visitor can subscribe to your site (Edit to add).
-	- youtube-player: Shows a youtube player that scales with the column it is used in (video id parameter).
-
-- __Normalize.css__ [`normalize.css`](https://necolas.github.io/normalize.css/) is used directly instead of through the Jekyll adaptation. This allows for faster upgrade cycles.
-
-- __Excerpt on pages__ Pages defining an explicit "excerpt" in their YAML will use this as the description for the header description meta tag (necessary for SEO purposes). Note that Jekyll does not generate excerpt information for pages, only posts. Hence it is necessary to define the excerpt as a YAML tag.
-
-- __Blocked layout support__ Styles and includes support the creation of blocked layout (like product pages). To see an example of blocked pages, see the [http://balancingrock.nl](http://balancingrock.nl/classic) home page.
-
-- __Enable/disable banner__ The banner at the top of the page can be disabled.
-
-- __Move banner/menu to main column__ The banner & navigation can be moved to within the main column only. The secondary and tertiary columns will then run right up to the top of the screen.
-
-- __Pin banner__ The banner area can be pinned (fixed) to the top of the browser window.
-
-- __Split files for the menus__ It is possible to generate the menu file separate from the content file. While this may slow down the loading of the site a little, it is a huge speed up for site generation under Jekyll.
-
-You can download it from [github](https://github.com/Balancingrock/classic-jekyll-theme) or install it with [rubygems](https://rubygems.org/gems/classic-jekyll-theme).
-
-Like to help out?
-
-You can support further development of this theme, or just say 'thank you' via paypal by donating to sales@balancingrock.nl or wire bitcoins to address: 1GacSREBxPy1yskLMc9de2nofNv2SNdwqH
-
-Suggested donation for personal websites is the price of a good cup of coffee: $4
-
-Suggested donation for commercial sites is the price of a good meal: $20
-
-Contract support for this (or other Jekyll related work) is available: sales@balancingrock.nl
+    $ docker-compose up
 
 ## Usage
 
-Please see [http://balancingrock.github.io/classic-jekyll-theme](http://balancingrock.github.io/classic-jekyll-theme) on how to use the theme and which frontmatter is available.
+[View the documentation][Just the Docs] for usage information.
 
-## History
+## Contributing
 
-- Release 2.0.0 (2017-12-19)
-- [Release 2.1.1 (2018-01-22)](http://balancingrock.github.io/classic-jekyll-theme/classic/2017/12/22/bugfix-2-1.html)
-- [Release 2.2.0 (2018-02-02)](http://balancingrock.github.io/classic-jekyll-theme/classic/2018/02/02/release-2-2-0.html)
-- [Release 2.3.0 (2018-02-05)](http://balancingrock.github.io/classic-jekyll-theme/classic/2018/02/05/release-2-3-0.html)
-- [Release 2.4.0 (2019-01-15)](http://balancingrock.github.io/classic-jekyll-theme//2019/01/15/release-2-4-0.html)
-- [Release 2.4.2 (2019-08-16)](http://balancingrock.github.io/classic-jekyll-theme//2019/08/16/release-2-4-2.html)
-- [Release 2.4.3 (2019-09-09)](http://balancingrock.github.io/classic-jekyll-theme//2019/09/09/release-2-4-3.html)
-- [Release 2.5.0 (2019-09-10)](http://balancingrock.github.io/classic-jekyll-theme//2019/09/10/release-2-5-0.html)
+Bug reports, proposals of new features, and pull requests are welcome on GitHub at https://github.com/just-the-docs/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-## Suport & Feedback
+### Submitting code changes:
 
-Comments, bug reports, feature requests and improvements are eagerly anticipated via email: rien@balancingrock.nl or via [github](http://balancingrock.github.io/classic-jekyll-theme).
+- Submit an [Issue](https://github.com/just-the-docs/just-the-docs/issues) that motivates the changes, using the appropriate template
+- Discuss the proposed changes with other users and the maintainers
+- Open a [Pull Request](https://github.com/just-the-docs/just-the-docs/pulls)
+- Ensure all CI tests pass
+- Provide instructions to check the effect of the changes
+- Await code review
+
+### Design and development principles of this theme:
+
+1. As few dependencies as possible
+2. No build script needed
+3. First class mobile experience
+4. Make the content shine
+
+## Development
+
+To set up your environment to develop this theme: fork this repo, the run `bundle install` from the root directory.
+
+A modern [devcontainer configuration](https://code.visualstudio.com/docs/remote/containers) for VSCode is included.
+
+Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
+
+When this theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be included in the gem.
 
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+[^2]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+
+[Jekyll]: https://jekyllrb.com
+[Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
+[Just the Docs]: https://just-the-docs.com
+[Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
+[GitHub Pages]: https://pages.github.com/
+[Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
+[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
+[use the template]: https://github.com/just-the-docs/just-the-docs-template/generate
