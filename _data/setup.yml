@@ -30,8 +30,7 @@ secondary-column: left
 tertiary-column: present
 
 # A subtitle can be displayed in de banner
-#
-subtitle: "Save some for later"
+# subtitle: "Save some for later"
 
 # Skip some of the build process for faster recompilation during content creation.
 # Values: yes | no
