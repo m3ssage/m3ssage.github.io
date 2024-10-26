@@ -13,3 +13,5 @@ This is a placeholder in the theme.
 You can edit this page in the file `pages/about/about.md`
 
 This is the 'Classic-Jekyll-Theme'. See "Jekyll -> Static Generator" for a general description of what Jekyll is.
+
+This theme was copied as a template to build my own markdown generated html site.
