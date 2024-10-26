@@ -20,8 +20,8 @@
 // ---------------------------------------------------------------------------------------------------------------------
 // These definitions have been taken from main.scss
 //
-$theme-font-family:				"Helvetica Neue", Helvetica, Arial, sans-serif;
-$theme-font-size:				16px;
+$theme-font-family:				"Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$theme-font-size:				  16px;
 $theme-font-weight:				400;
 $small-1-font-size:				$theme-font-size * 0.875;
 $small-2-font-size:				$small-1-font-size * 0.875;
@@ -32,27 +32,27 @@ $large-1-font-size:				$theme-font-size * 1.125;
 $large-2-font-size:				$large-1-font-size * 1.125;
 $theme-line-height:				1.5;
 //
-$hspacing-unit:					14px; // For best results, use even numbers only
-$vspacing-unit:					14px; // For best results, use even numbers only
+$hspacing-unit:					  14px; // For best results, use even numbers only
+$vspacing-unit:					  14px; // For best results, use even numbers only
 //
-$text-color:					#111;
+$text-color:					    #111;
 $background-color:				#fdfdfd; // Applied to the top element, override by background settings below
 //
-$grey-color:					#828282;
+$grey-color:					    #828282;
 $grey-color-light:				lighten($grey-color, 40%);
-$grey-color-light-light:		lighten($grey-color-light, 40%);
-$grey-color-dark:				darken($grey-color, 25%);
+$grey-color-light-light:	lighten($grey-color-light, 40%);
+$grey-color-dark:				  darken($grey-color, 25%);
 
 // Since Liquid is not available, it is necessary to redefine the baseurl from the _config.yml file here
 //
-$baseurl:						"/classic-jekyll-theme"; // eg: "/classic" a leading '/' is important.
+$baseurl:						      "/"; // eg: "/classic" a leading '/' is important.
 
 // *********************************************************************************************************************
 // General color and background settings
 // ---------------------------------------------------------------------------------------------------------------------
 // The theme-color is the default for some of the other elements that can be colored in this theme.
 //
-$theme-color:							green;
+$theme-color:							rgb(128, 240, 255);
 
 // Background color, picture or pattern.
 //
