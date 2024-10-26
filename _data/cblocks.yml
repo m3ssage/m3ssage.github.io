@@ -3,29 +3,29 @@
 - name: SwifterLog
   description: A logging framewrok with 5 logging destinations.
   link: https://github.com/Balancingrock/SwifterLog
-  image: /assets/img/swift-code-icon.png
+  image: /assets/img/test-pattern-110x83.png
   
 - name: SwifterJSON
   description: An easy to use single class JSON framework.
   link: https://github.com/Balancingrock/SwifterJSON
-  image: /assets/img/swift-code-icon.png
+  image: /assets/img/test-pattern-110x83.png
   
 - name: SwifterSockets
   description: An API for POSIX sockets based networking software.
   link: https://github.com/Balancingrock/SwifterSockets
-  image: /assets/img/swift-code-icon.png
+  image: /assets/img/test-pattern-110x83.png
 
 - name: SecureSockets
   description: An API for OpenSSL based networking software.
   link: https://github.com/Balancingrock/SecureSockets
-  image: /assets/img/swift-code-icon.png
+  image: /assets/img/test-pattern-110x83.png
     
 - name: Swiftfire
   description: An HTML server in Swift.
   link: http://swiftfire.nl/
-  image: /assets/img/swift-code-icon.png
+  image: /assets/img/test-pattern-110x83.png
 
 - name: Classic Jekyll Theme
   description: A theme for the Jekyll website builder.
   link: /classic-jekyll-theme
-  image: /assets/img/classic-jekyll-theme-icon.png
+  image: /assets/img/test-pattern-110x83.png
