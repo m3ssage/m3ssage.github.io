@@ -7,3 +7,5 @@ permalink: /
 ---
 
 # Focus on writing good documentation
+We will start with a new page
+
