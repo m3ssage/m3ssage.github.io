@@ -1,5 +1,5 @@
 site_name: bommel.xyz
-site_url: pages.bommel.xyz
+site_url: https://pages.bommel.xyz/
 site_description: Markdown site generated on github
 nav:
   - Home: index.md
