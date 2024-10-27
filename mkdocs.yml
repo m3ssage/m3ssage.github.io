@@ -1,6 +1,9 @@
 site_name: bommel.xyz
 site_url: https://pages.bommel.xyz
 site_description: Markdown site generated on github
+nav:
+  - Home: index.md
+  - About: about.md
 theme:
   name: material
   logo: assets/logo.png
@@ -12,7 +15,7 @@ theme:
     - announce.dismiss
   #  - navigation.tabs
     - navigation.sections
-    - toc.integrate
+  #  - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
