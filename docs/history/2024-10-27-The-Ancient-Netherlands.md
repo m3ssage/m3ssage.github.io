@@ -1,4 +1,7 @@
-# The Ancient Netherlands
+---
+title: The Ancient Netherlands
+date: 2024-10-27
+---
 
 ## Prehistory (before 500 BCE)
 
