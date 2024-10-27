@@ -1,4 +1,7 @@
-# About
+---
+title: About
+weight: 999
+---
 
 ## Building a Markdown-Powered Website with MkDocs
 

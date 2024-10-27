@@ -37,6 +37,7 @@ theme:
 plugins:
   - social
   - search
+  - mkdocs-nav-weight  
 extra:
   social:
     - icon: fontawesome/brands/github-alt
