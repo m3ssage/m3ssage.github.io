@@ -1,1 +1,1 @@
-# bommel.xyz
+# mkdocs-bommel
