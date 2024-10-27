@@ -1,5 +1,6 @@
 site_name: bommel.xyz
 site_url: http://pages.bommel.xyz/
+edit_uri: edit/main/docs/
 site_description: Markdown site generated on github
 theme:
   name: material
