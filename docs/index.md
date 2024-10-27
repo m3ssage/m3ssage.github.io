@@ -1,6 +1,5 @@
 ---
 title: Home
-icon: material/emoticon-happy
 description: my first page using mkdocs
 status: new
 ---
