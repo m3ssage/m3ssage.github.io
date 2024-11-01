@@ -47,6 +47,11 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/eelcovb/
 markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -55,9 +60,15 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
+  - tables
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
