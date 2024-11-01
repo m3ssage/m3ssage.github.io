@@ -72,3 +72,19 @@ def bubble_sort(items):
 :fontawesome-brands-twitter:{ .twitter }
 
 :octicons-heart-fill-24:{ .heart }
+
+<script src="https://giscus.app/client.js"
+        data-repo="m3ssage/m3ssage.github.io"
+        data-repo-id="R_kgDONDJ-jQ"
+        data-category="General"
+        data-category-id="DIC_kwDONDJ-jc4Cj5v0"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
