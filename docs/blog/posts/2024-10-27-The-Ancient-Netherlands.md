@@ -1,6 +1,10 @@
 ---
 title: The Ancient Netherlands
-date: 2024-10-27
+date: 2024-10-26
+author: eelco
+tags:
+  - History
+  - Netherlands
 ---
 
 ## Prehistory (before 500 BCE)

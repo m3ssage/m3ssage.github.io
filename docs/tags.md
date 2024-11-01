@@ -1,5 +1,5 @@
 ---
-title: Tags
+title: Categories
 weight: 998
 icon: material/tag
 ---
