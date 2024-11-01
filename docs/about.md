@@ -1,6 +1,7 @@
 ---
 title: About
 weight: 999
+icon: material/material-alpha-a-box-outline
 ---
 
 ## Building a Markdown-Powered Website with MkDocs
@@ -73,3 +74,12 @@ def bubble_sort(items):
 :fontawesome-brands-twitter:{ .twitter }
 
 :octicons-heart-fill-24:{ .heart }
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
