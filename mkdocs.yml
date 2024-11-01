@@ -14,7 +14,9 @@ theme:
   #  - navigation.tabs
   #  - navigation.sections
   #  - toc.integrate
+    - navigation.path
     - navigation.top
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - content.tabs.link
