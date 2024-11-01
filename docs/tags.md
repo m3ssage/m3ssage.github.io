@@ -1,7 +1,7 @@
 ---
 title: Tags
 weight: 998
-icon: material/material-tag
+icon: material/tag
 ---
 
 Following is a list of relevant tags:

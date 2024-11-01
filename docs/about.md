@@ -1,7 +1,7 @@
 ---
 title: About
 weight: 999
-icon: material/material-alpha-a-box-outline
+icon: material/a
 ---
 
 ## Building a Markdown-Powered Website with MkDocs
