@@ -38,7 +38,8 @@ plugins:
   - social
   - search
   - mkdocs-nav-weight  
-  - blog
+  - tags
+  - blog:
       blog_toc: true
       post_date_format: medium
 extra:

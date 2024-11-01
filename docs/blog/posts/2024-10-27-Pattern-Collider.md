@@ -1,5 +1,8 @@
 ---
 title: Pattern Collider
+tags: 
+  - Math
+  - Art
 ---
 
 ## Create Patterns and Explore Symmetries
