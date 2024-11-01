@@ -1,7 +1,7 @@
 ---
 title: About
 weight: 999
-icon: material/a
+icon: material/ab-testing
 ---
 
 ## Building a Markdown-Powered Website with MkDocs
