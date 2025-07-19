@@ -4,7 +4,8 @@ edit_uri: edit/main/docs/
 site_description: Markdown site generated on github
 nav:
   - Blog: blog/index.md
-  - Archive: blog/archive
+  - Archive: blog/archive/index.md
+  - Categories: blog/categories/index.md
   - Tags: tags.md
   - About: about.md
 theme:
@@ -53,8 +54,12 @@ plugins:
       post_url_format: "{date}/{slug}"  
       blog_toc: true
       post_date_format: medium
-      archive_date_format: MMMM yyyy
       pagination_per_page: 5
+      archive:
+        enabled: true
+        archive_format: "MMMM yyyy"
+      tags:
+        enabled: true
 extra:
   social:
     - icon: fontawesome/brands/github-alt
