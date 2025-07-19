@@ -1,10 +1,10 @@
 site_name: bommel.xyz
-site_url: http://pages.bommel.xyz/blog/
+site_url: http://pages.bommel.xyz/
 edit_uri: edit/main/docs/
 site_description: Markdown site generated on github
 nav:
   - Blog: blog/index.md
-  - Archive: blog/archive/index.md
+  - Archive: blog/archive
   - Tags: tags.md
   - About: about.md
 theme:
