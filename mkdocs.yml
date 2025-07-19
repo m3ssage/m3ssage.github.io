@@ -2,12 +2,12 @@ site_name: bommel.xyz
 site_url: http://pages.bommel.xyz/
 edit_uri: edit/main/docs/
 site_description: Markdown site generated on github
-nav:
-  - Blog: blog/index.md
-  - Archive: blog/archive/index.md
-  - Categories: blog/categories/index.md
-  - Tags: tags.md
-  - About: about.md
+#nav:
+#  - Blog: blog/index.md
+#  - Archive: blog/archive/index.md
+#  - Categories: blog/categories/index.md
+#  - Tags: tags.md
+#  - About: about.md
 theme:
   name: material
   logo: assets/logo.png
@@ -50,16 +50,21 @@ plugins:
   - mkdocs-nav-weight  
   - tags:
       tags_file: tags.md
-  - blog:
-      blog_dir: blog
-      format: "(%y-%m-%d)"
-      blog_toc: true
-      post_date_format: medium
-      pagination_per_page: 5
-      archive: true
-      archive_format: "MMMM yyyy"
-      tags:
-        enabled: true
+ #  - blog:
+#      blog_dir: blog
+#      post_date_format: yyyy-MM-dd
+#      post_url_format: "{date}/{slug}"  
+#      blog_toc: true
+#      post_date_format: medium
+#      archive_date_format: MMMM yyyy
+#      pagination_per_page: 5
+#      archive_pagination_per_page: 5
+#      categories_pagination_per_page: 5      
+  - pub-blog:
+      teaser_marker: "<!-- more -->"
+      searchable_non_posts: false
+      posts_per_page: 5
+      slug: blog
 extra:
   social:
     - icon: fontawesome/brands/github-alt
