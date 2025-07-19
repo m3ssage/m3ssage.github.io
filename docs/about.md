@@ -75,6 +75,8 @@ def bubble_sort(items):
 
 :octicons-heart-fill-24:{ .heart }
 
+## Mermaid diagrams are also possible
+
 ``` mermaid
 graph LR
   A[Start] --> B{Error?};
