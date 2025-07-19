@@ -1,6 +1,6 @@
 ---
 title: Tags
-weight: 998
+weight: 1
 icon: material/tag
 ---
 
