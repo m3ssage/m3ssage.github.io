@@ -19,7 +19,7 @@ theme:
     - announce.dismiss
   #  - navigation.tabs
   #  - navigation.sections
-  #  - toc.integrate
+    - toc.integrate
     - navigation.path
     - navigation.top
     - navigation.indexes
