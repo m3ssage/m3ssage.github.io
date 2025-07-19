@@ -43,6 +43,9 @@ theme:
       primary: purple
       accent: lime
 plugins:
+  - redirects:
+      redirect_maps:
+        'index.md': 'blog/index.md'
   - social
   - search:
       indexing: 'full'
