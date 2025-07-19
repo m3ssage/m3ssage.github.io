@@ -55,9 +55,8 @@ plugins:
       blog_toc: true
       post_date_format: medium
       pagination_per_page: 5
-      archive:
-        enabled: true
-        archive_format: "MMMM yyyy"
+      archive: true
+      archive_format: "MMMM yyyy"
       tags:
         enabled: true
 extra:
