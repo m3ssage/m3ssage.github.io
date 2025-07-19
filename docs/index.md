@@ -6,6 +6,8 @@ status: new
 
 ## Welcome to bommel.xyz
 
+- [Blog posts](blog/index.md)
+
 This site has been created with [mkdocs.org](https://www.mkdocs.org).
 
 
