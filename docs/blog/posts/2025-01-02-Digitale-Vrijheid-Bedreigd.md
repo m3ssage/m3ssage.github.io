@@ -7,10 +7,19 @@ tags:
   - Netherlands
 ---
 
-# Digitale Vrijheid Bedreigd: De Schaduwzijde van Chat Control
-De EU misbruikt haar macht door middel van wetgeving zoals ‘chat control’ om verregaande controle over haar burgers te verkrijgen. Dit wetsvoorstel, een onderdeel van de Digital Services Act, is disproportioneel en ineffectief in de strijd tegen kindermisbruik. Het schendt de privacy van burgers, terwijl criminelen eenvoudig manieren hebben om de wet te omzeilen.
-- De EU wil met 'chat control' alle foto’s en teksten scannen om kindermisbruikmateriaal te detecteren, maar dit is een onaanvaardbare inbreuk op de privacy van alle burgers.
-- De wet is niet doelmatig, aangezien criminelen andere methoden kunnen gebruiken om kinderporno te verspreiden die buiten de reikwijdte van de wet vallen.
-- De politici die verantwoordelijk zijn voor deze wetgeving, beschikken over te weinig technologische kennis om de impact ervan te begrijpen.
-Het gebrek aan kennis en begrip over technologie bij beleidsmakers is een groot probleem. De vraag of we bepaalde technologieën überhaupt moeten gebruiken, wordt te weinig gesteld. Het coronatoegangsbewijs is hiervan een schrijnend voorbeeld: de technologie was op orde, maar de vraag of we het nodig hadden, werd onvoldoende bediscussieerd.
-De macht van grote techbedrijven zoals Google, Meta en Apple is een bedreiging voor de democratie. Deze bedrijven hebben te veel invloed op ons leven en onze data. De oplossing is om de macht terug te geven aan de burgers en deze zaken op lokaal niveau te bespreken. We moeten als samenleving bepalen wat proportioneel is en welke grenzen we stellen aan technologie. Een sterk parlement is hierbij cruciaal.
+## De Risico's van EU Wetgeving en Technologische Macht
+
+De Europese Unie wordt bekritiseerd voor het misbruiken van haar macht via wetgeving zoals **"chat control"**, die verregaande controle over burgers zou verschaffen. Dit wetsvoorstel, onderdeel van de Digital Services Act, wordt als disproportioneel en ineffectief beschouwd in de strijd tegen kindermisbruik. Het zou de **privacy van burgers schenden**, terwijl criminelen de wet eenvoudig kunnen omzeilen.
+
+* **Privacy-inbreuk:** "Chat control" zou alle foto's en teksten scannen om kindermisbruikmateriaal te detecteren. Dit wordt gezien als een onaanvaardbare inbreuk op de privacy van alle burgers.
+* **Ineffectiviteit:** De wet is vermoedelijk niet doelmatig, omdat criminelen andere methoden kunnen gebruiken om kinderporno te verspreiden die buiten de reikwijdte van de wet vallen.
+
+### Gebrek aan Technologische Kennis bij Beleidsmakers
+
+Een significant probleem is het **gebrek aan technologische kennis en begrip bij beleidsmakers** die verantwoordelijk zijn voor dergelijke wetgeving. Dit leidt ertoe dat de impact van de wet onvoldoende wordt begrepen. De fundamentele vraag of bepaalde technologieën überhaupt gebruikt moeten worden, wordt te weinig gesteld. Het **coronatoegangsbewijs** wordt aangehaald als een schrijnend voorbeeld: de technologie was functioneel, maar de noodzaak ervan werd onvoldoende bediscussieerd.
+
+### De Macht van Grote Techbedrijven
+
+De **macht van grote techbedrijven** zoals Google, Meta en Apple vormt een bedreiging voor de democratie, gezien hun immense invloed op ons leven en onze data.
+
+De voorgestelde oplossing is om de **macht terug te geven aan de burgers** en deze kwesties op lokaal niveau te bespreken. Als samenleving moeten we bepalen wat proportioneel is en welke grenzen we stellen aan technologie. Een **sterk parlement** is hierbij cruciaal.
