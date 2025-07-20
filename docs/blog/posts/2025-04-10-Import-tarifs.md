@@ -15,7 +15,7 @@ An import tariff is a tax levied on goods entering a country. It's essentially a
 ## How does an import tariff work?
 
 Imagine a Dutch company imports shoes from China. The Dutch government might decide to impose an import tariff of, for example, 10% on shoes. This means that for every shoe the Dutch company imports, they have to pay an extra 10% of the shoe's value to the Dutch government.
-
+<!-- more -->
 There are different ways an import tariff can be levied:
 
 - Ad valorem tariff: This is the most common type of tariff and is expressed as a percentage of the customs value of the goods. In the example above, the 10% tariff is an ad valorem tariff.

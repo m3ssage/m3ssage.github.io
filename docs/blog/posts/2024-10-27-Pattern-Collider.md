@@ -10,7 +10,7 @@ tags:
 ## Create Patterns and Explore Symmetries
 
 [Pattern Collider](https://aatishb.com/patterncollider/?symmetry=12&pattern=0.46&disorder=0.44&randomSeed=0.12&rotate=-121) is a fun tool for generating and exploring quasiperiodic tiling patterns. Every pattern that you create has a custom URL that you can bookmark & share.
-
+<!-- more -->
 Learn more about how it works by watching the [Minute Physics video](https://youtu.be/-eqdj63nEr4).
 
 <a href="https://youtu.be/-eqdj63nEr4">

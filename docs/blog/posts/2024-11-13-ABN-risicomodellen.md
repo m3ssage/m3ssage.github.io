@@ -12,7 +12,7 @@ tags:
 # ABN Amro: Uitstel Kapitaalbeslissingen en Leiderschapswissel
 
 **ABN Amro** heeft de verbetering van zijn **risicomodellen uitgesteld**, wat ertoe leidt dat de bank momenteel meer kapitaal aanhoudt dan noodzakelijk is. Dit uitstel heeft ook de beslissing over de **inkoop van eigen aandelen** vertraagd tot halverwege 2025. De bank kampt al langer met de kwaliteit van zijn risicomodellen en data, die niet volledig voldoen aan de eisen van de toezichthouder.
-
+<!-- more -->
 ## Voortgang en Uitdagingen
 
 De bank heeft **extra personeel aangenomen** om de risicomodellen en data te verbeteren, maar dit proces neemt meer tijd in beslag dan verwacht. ABN Amro streeft ernaar de implementatie van de **Basel IV-regels** en de update van de risicomodellen vóór het einde van het tweede kwartaal van 2025 af te ronden. Pas daarna zal het bestuur beslissen of er ruimte is voor de inkoop van eigen aandelen.

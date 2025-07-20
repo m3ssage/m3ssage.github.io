@@ -10,7 +10,7 @@ tags:
 ## De Risico's van EU Wetgeving en Technologische Macht
 
 De Europese Unie wordt bekritiseerd voor het misbruiken van haar macht via wetgeving zoals **"chat control"**, die verregaande controle over burgers zou verschaffen. Dit wetsvoorstel, onderdeel van de Digital Services Act, wordt als disproportioneel en ineffectief beschouwd in de strijd tegen kindermisbruik. Het zou de **privacy van burgers schenden**, terwijl criminelen de wet eenvoudig kunnen omzeilen.
-
+<!-- more -->
 * **Privacy-inbreuk:** "Chat control" zou alle foto's en teksten scannen om kindermisbruikmateriaal te detecteren. Dit wordt gezien als een onaanvaardbare inbreuk op de privacy van alle burgers.
 * **Ineffectiviteit:** De wet is vermoedelijk niet doelmatig, omdat criminelen andere methoden kunnen gebruiken om kinderporno te verspreiden die buiten de reikwijdte van de wet vallen.
 
