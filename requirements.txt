@@ -1,0 +1,5 @@
+kdocs-material
+pillow
+cairosvg
+mkdocs-nav-weight
+mkdocs-redirects
