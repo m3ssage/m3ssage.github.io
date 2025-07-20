@@ -1,6 +1,6 @@
 site_name: bommel.xyz
 site_url: http://pages.bommel.xyz/
-edit_uri: edit/main/docs/
+#edit_uri: edit/main/docs/
 site_description: Markdown site generated on github
 #nav:
 #  - Blog: blog/index.md
@@ -8,6 +8,7 @@ site_description: Markdown site generated on github
 #  - Categories: blog/categories/index.md
 #  - Tags: tags.md
 #  - About: about.md
+
 theme:
   name: material
   logo: assets/logo.png
@@ -42,17 +43,15 @@ theme:
         name: Switch to light mode    
       primary: purple
       accent: lime
+
 plugins:
   - redirects:
       redirect_maps:
         'index.md': 'blog/index.md'
   - social
-  - search:
-      indexing: 'full'
-    
+  - search
   - mkdocs-nav-weight  
-  - tags:
-      tags_file: tags.md
+  - tags
   - blog:
       blog_toc: true
       post_date_format: full
@@ -70,6 +69,7 @@ extra:
       link: https://twitter.com/eelcovb
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/eelcovb/
+
 markdown_extensions:
   - toc:
       permalink: true
