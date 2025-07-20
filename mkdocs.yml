@@ -14,8 +14,8 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.png
   font:
-    text: roboto
-    code: roboto Mono
+    text: Roboto
+    code: Roboto Mono
   icon:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right  
