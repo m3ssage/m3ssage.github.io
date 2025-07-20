@@ -1,6 +1,6 @@
 ---
 title: Digitale Vrijheid Bedreigd, De Schaduwzijde van Chat Control
-date: 2025-01-02
+date: 2025-01-02T08:50:48.338+02:00
 author: eelco
 tags:
   - History
