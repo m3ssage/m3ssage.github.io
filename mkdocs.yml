@@ -59,6 +59,7 @@ plugins:
   - search
   - mkdocs-nav-weight  
   - tags
+  - glightbox
   - blog:
       blog_toc: true
       post_date_format: full
