@@ -1,5 +1,5 @@
 site_name: bommel.xyz
-site_url: http://pages.bommel.xyz/
+site_url: https://pages.bommel.xyz/
 #edit_uri: edit/main/docs/
 site_description: Markdown site generated on github
 #nav:
@@ -42,7 +42,7 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: darkpurple
+      primary: deep purple
       accent: teal 
     - scheme: slate 
       toggle:

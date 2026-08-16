@@ -1,0 +1,6 @@
+mkdocs-material==9.7.7
+mkdocs-nav-weight==0.3.0
+mkdocs-redirects==1.2.3
+mkdocs-glightbox==0.5.2
+pillow==12.3.0
+cairosvg==2.9.0
