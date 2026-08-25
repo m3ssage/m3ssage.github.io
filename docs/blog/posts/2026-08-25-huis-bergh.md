@@ -19,7 +19,7 @@ tags:
 ---
 ![Historic view of Kasteel Huis Bergh and the church of 's-Heerenberg](../../assets/2026-08-25-huis-bergh.jpg){ align=right width="250" loading=lazy }
 
-On 13 August 2026, King Willem-Alexander reopened Kasteel Huis Bergh in 's-Heerenberg after a nearly three-year restoration, striking a commemorative coin with a historic screw press to mark the occasion. On 19 September the castle fully reopens to the public. For the Netherlands' largest water castle, with almost 900 years of history, it is the start of a new chapter.
+On Thursday 17 September 2026, King Willem-Alexander will reopen Kasteel Huis Bergh in 's-Heerenberg after a nearly three-year restoration, striking a commemorative coin with a historic screw press to mark the occasion. Two days later, on 19 September, the castle fully reopens to the public. For the Netherlands' largest water castle, with almost 900 years of history, it is the start of a new chapter.
 
 <!-- more -->
 
@@ -41,7 +41,7 @@ The collection also includes more than eighty Dutch and German paintings, works 
 
 ### The 2023–2026 Restoration
 
-The recent closure was triggered by subsidence in the foundations, but the restoration was used to do far more than stabilise the building: the castle was made sustainable, a new lift was installed, and more than 220 historic window shutters were restored and repainted, improving accessibility throughout. During the royal visit, the King toured the cellar to learn about the restoration and sustainability work, then moved through the central hall to the Throne Room and the Duccio Room, where he was shown highlights of the Italian collection.
+The recent closure was triggered by subsidence in the foundations, but the restoration was used to do far more than stabilise the building: the castle was made sustainable, a new lift was installed, and more than 220 historic window shutters were restored and repainted, improving accessibility throughout. During the royal visit, the King will tour the cellar to learn about the restoration and sustainability work, then move through the central hall to the Throne Room and the Duccio Room, where he will be shown highlights of the Italian collection. He will also visit three halls on city history that will be on view for the first time.
 
 From 19 September 2026 everyone is welcome again in the restored and redesigned castle. The reopening also marks the integration of the city museum Stadsmuseum Bergh, which closed on 1 July 2026: large parts of its collection and stories now live on at Huis Bergh, with the educational programmes continuing under the Heemkundekring Bergh. After three years behind scaffolding, the largest water castle in the Netherlands once again opens its gates — richer, greener and ready for the next nine centuries.
 
