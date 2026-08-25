@@ -18,6 +18,8 @@ tags:
 
 If you've shopped for RAM or a new SSD lately, you've probably felt a sting. The same 32 GB DDR5 kit that cost a comfortable amount a year ago now costs noticeably more, and that 2 TB NVMe drive you had your eye on keeps creeping up in price. This isn't your imagination or a supply chain blip — 2026 is witnessing one of the most dramatic memory price rallies in the industry's history, and it all traces back to one thing: AI.
 
+![A DDR2 memory module (DIMM)](../../assets/2026-08-24-memory-price-surge.jpg){ align=right width="250" loading=lazy }
+
 <!-- more -->
 
 ### The AI Memory Boom
@@ -57,3 +59,4 @@ If you've been postponing a RAM or storage upgrade, there's a reasonable case fo
 - [Tom's Hardware: Memory price surge begins to cool](https://www.tomshardware.com/pc-components/ram/memory-price-surge-begins-to-cool-as-consumers-hit-affordability-limit-ai-demand-still-keeps-dram-and-nand-prices-climbing-through-q3-2026)
 - [IDC: Global Memory Shortage Crisis](https://www.idc.com/resource-center/blog/global-memory-shortage-crisis-market-analysis-and-the-potential-impact-on-the-smartphone-and-pc-markets-in-2026/)
 - [Elecinsight: DRAM & NAND Flash Price Trends 2026](https://www.elecinsight.com/news/dram-nand-flash-price-trends-market-analysis-procurement-strategies)
+- [Image: DDR2 DIMM Memory module — Wikimedia Commons (CC0)](https://commons.wikimedia.org/wiki/File:DDR2_DIMM_Memory.jpg)
