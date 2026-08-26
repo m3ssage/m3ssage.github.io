@@ -38,18 +38,17 @@ theme:
     - content.code.copy
   language: en
   palette:
-    - scheme: default
+    - scheme: latte
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: deep purple
-      accent: teal 
-    - scheme: slate 
+    - scheme: mocha
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: purple
-      accent: lime
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/catppuccin.css
 
 plugins:
   - redirects:
@@ -68,6 +67,10 @@ plugins:
       pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
       pagination_keep_content: true
       draft_if_future_date: true
+  - privacy:
+      enabled: !ENV [CI, false]
+  - optimize:
+      enabled: !ENV [CI, false]
 
 extra:
   social:
