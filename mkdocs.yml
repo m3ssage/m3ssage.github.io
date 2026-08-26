@@ -49,6 +49,7 @@ theme:
 
 extra_css:
   - stylesheets/catppuccin.css
+  - stylesheets/custom.css
 
 plugins:
   - redirects:
