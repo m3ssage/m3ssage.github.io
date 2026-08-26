@@ -17,7 +17,7 @@ tags:
   - Superconducting Magnets
   - Nuclear Fusion
 ---
-![A descriptive image](../../assets/2026-08-25-europes-impossible-fusion-reactor.png){ align=right width="250" }
+![A descriptive image](/assets/2026-08-25-europes-impossible-fusion-reactor.png){ align=right width="250" }
 
 For fifty years the tokamak — the classic donut-shaped reactor — has dominated fusion research. Now a Munich startup called Proxima Fusion, spun out of the Max Planck Institute and freshly funded with €411 million including checks from Google and energy giant RWE, is betting everything on the shape the field walked away from half a century ago: the stellarator, a twisted "donut" so absurdly complicated it was long believed impossible to build. This is the story of why fusion is so hard, why the tokamak has a fatal flaw, and how Europe's most ambitious energy bet plans to build the first stellarator power plant in history.
 

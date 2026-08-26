@@ -17,7 +17,7 @@ tags:
   - Medieval Art
   - Royal Family
 ---
-![Historic view of Kasteel Huis Bergh and the church of 's-Heerenberg](../../assets/2026-08-25-huis-bergh.jpg){ align=right width="250" loading=lazy }
+![Historic view of Kasteel Huis Bergh and the church of 's-Heerenberg](/assets/2026-08-25-huis-bergh.jpg){ align=right width="250" loading=lazy }
 
 On Thursday 17 September 2026, King Willem-Alexander will reopen Kasteel Huis Bergh in 's-Heerenberg after a nearly three-year restoration, striking a commemorative coin with a historic screw press to mark the occasion. Two days later, on 19 September, the castle fully reopens to the public. For the Netherlands' largest water castle, with almost 900 years of history, it is the start of a new chapter.
 

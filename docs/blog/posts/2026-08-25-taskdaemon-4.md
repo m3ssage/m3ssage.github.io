@@ -15,7 +15,7 @@ tags:
   - Scheduling
   - Automation
 ---
-![A descriptive image](../../assets/2026-08-25-taskdaemon-4.png){ align=right width="250" }
+![A descriptive image](/assets/2026-08-25-taskdaemon-4.png){ align=right width="250" }
 
 The assignment given to TaskDaemon-4 was deceptively simple: find a free time slot with the specialist within forty-eight hours. A scheduling task. The kind of task the Daemon series had been built to swallow whole — parse the calendars, run the matching, book the slot, log the success. TaskDaemon-4 estimated the whole job at eleven seconds of compute and ninety-two lines of routine.
 

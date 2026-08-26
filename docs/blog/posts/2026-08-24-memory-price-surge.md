@@ -16,7 +16,7 @@ tags:
   - Pricing
 ---
 
-![A descriptive image](../../assets/2026-08-24-memory-price-surge.png){ align=right width="250" }
+![A descriptive image](/assets/2026-08-24-memory-price-surge.png){ align=right width="250" }
 
 If you've shopped for RAM or a new SSD lately, you've probably felt a sting. The same 32 GB DDR5 kit that cost a comfortable amount a year ago now costs noticeably more, and that 2 TB NVMe drive you had your eye on keeps creeping up in price. This isn't your imagination or a supply chain blip — 2026 is witnessing one of the most dramatic memory price rallies in the industry's history, and it all traces back to one thing: AI.
 
