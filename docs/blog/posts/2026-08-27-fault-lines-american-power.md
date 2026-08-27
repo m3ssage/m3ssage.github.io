@@ -61,7 +61,7 @@ At the federal level, executive power leans on specific legal instruments and ad
 
 **Historical Fringe Theories (Executive Order 11110).** JFK's 1963 order merely transferred regulatory authority over silver certificates to the Treasury Secretary as part of a planned transition to Federal Reserve Notes. Frequently cited in conspiracy narratives claiming Kennedy was targeting the Federal Reserve, it was in fact an administrative phase-out measure.
 
-**Immigration and Customs Enforcement (ICE).** Established in 2003 under DHS in the wake of 9/11, ICE splits operational focus between cross-border crime (HSI) and interior deportations (ERO). Enforcement priorities shift sharply by administration — from Bush-era workplace raids, to Obama-era criminal priorities, to Trump-era enforcement of everyone present (including mass-deportation campaigns), to Biden-era targeted risk assessments.
+**Immigration and Customs Enforcement (ICE).** Established in 2003 under DHS in the wake of 9/11, ICE splits operational focus between cross-border crime (HSI) and interior deportations (ERO). Enforcement priorities have shifted sharply by administration — from Bush-era workplace raids, to Obama-era criminal priorities, to the first Trump term's "everyone present" posture, to Biden-era targeted risk assessments. The second Trump term has gone further still: a mass-deportation campaign under "border czar" Tom Homan, with ICE increasingly arresting people far from the border and holding detainees longer. The numbers are historic — roughly 50,000 arrests in July 2026 alone (the largest single month of the second term), a push toward a 2,000-per-day arrest target, and some 600,000 people passing through immigration detention since 2025. Public data releases were themselves disrupted by the late-2025 government shutdown.
 
 ### The Takeaway
 
@@ -84,3 +84,6 @@ Across all four fault lines, the core trend is the same: American political powe
 - [PolitiFact: No, JFK did not plan to end the Federal Reserve](https://politifact.com/factchecks/2022/feb/21/facebook-posts/no-jfk-did-not-plan-end-federal-reserve/)
 - [ICE: History](https://www.ice.gov/history)
 - [ICE: Who We Are (HSI/ERO/OPLA)](https://www.ice.gov/about-ice)
+- [The Guardian: ICE arrested 50,000 people in July — biggest month in Trump's second term](https://www.theguardian.com/us-news/2026/aug/26/record-arrests-deportations-immigrants)
+- [The Marshall Project: 600K people put in immigration detention during Trump's second term](https://www.themarshallproject.org/2026/08/25/immigrant-detention-trump-ice-thousands-length)
+- [Wikipedia: Deportation in the second Trump administration](https://en.wikipedia.org/wiki/Deportation_in_the_second_Trump_administration)
