@@ -17,6 +17,7 @@ tags:
   - NUS
   - Neurons
 ---
+![Pixelated detail of a data center server rack](../../assets/2026-08-28-biological-data-center-singapore.jpg){ align=right width="250" loading=lazy }
 In Singapore, researchers have switched on a data center that runs on a different kind of silicon substitute: living human brain cells. The prototype, built at the NUS Life Sciences Institute by the Yong Loo Lin School of Medicine (NUS Medicine) together with global data center developer and operator DayOne and Melbourne-based biological computing startup Cortical Labs, packs roughly 16 million living human neurons into a single server rack — the world's first independently operated biologically integrated rack.
 
 <!-- more -->
@@ -52,3 +53,4 @@ The collaboration is structured to move from the validation phase into a live de
 - [Interesting Engineering: World-first biological data center packs 16 million living human neurons](https://interestingengineering.com/innovation/world-first-biological-data-center)
 - [Data Center Dynamics: DayOne partners with Cortical Labs, NUS Medicine for Singapore's first biological data center prototype](https://www.datacenterdynamics.com/en/news/dayone-partners-with-cortical-labs-nus-medicine-for-deployment-of-singapores-first-biological-data-center-prototype/)
 - [PR Newswire: DayOne launches Singapore's first biological data center prototype with Cortical Labs and NUS Medicine](https://www.prnewswire.com/apac/news-releases/dayone-launches-singapores-first-biological-data-center-prototype-with-cortical-labs-and-nus-medicine-302852460.html)
+- [Image: Rear of rack at NERSC data center — Wikimedia Commons (CC0), pixelated](https://commons.wikimedia.org/wiki/File:Rear_of_rack_at_NERSC_data_center_-_closeup.jpg)
