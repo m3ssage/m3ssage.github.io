@@ -31,7 +31,7 @@ NAC had fought their way back to the top flight in the summer of 2025, winning p
 
 What makes NAC's 2026-27 prospects different from those of most Eerste Divisie clubs is money. According to the published budgets for the Keuken Kampioen Divisie, NAC Breda fields the **largest budget in the entire division** — reportedly the only club with more to spend than Heracles Almelo, whose budget alone stands at €15.5 million. That gives the Breda club a resource advantage over almost every rival, underpinned by a stadium (the Rat Verlegh Stadion, around 20,500 and expanding), an enormous and devoted home crowd, and ownership under the fan-owned association NAC=Breda, which took over the club in August 2022.
 
-Yet the money cuts both ways. AC Breda have repeatedly pointed out that in the Eerste Divisie it is near-impossible to sustain a balanced budget while chasing promotion, and finishing the season with heavy fixed costs can hurt the club's score on the KNVB Financial Rating System. Spring 2026 saw alarming reporting about a potential financial "time-bomb" once the television millions from the Eredivisie disappeared. The biggest budget in the division is an advantage — but it is also a load to carry.
+Yet the money cuts both ways. NAC Breda have repeatedly pointed out that in the Eerste Divisie it is near-impossible to sustain a balanced budget while chasing promotion, and finishing the season with heavy fixed costs can hurt the club's score on the KNVB Financial Rating System. Spring 2026 saw alarming reporting about a potential financial "time-bomb" once the television millions from the Eredivisie disappeared. The biggest budget in the division is an advantage — but it is also a load to carry.
 
 ### Continuity in the Dugout
 
