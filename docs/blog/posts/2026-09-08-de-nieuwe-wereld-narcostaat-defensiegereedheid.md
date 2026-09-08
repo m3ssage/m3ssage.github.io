@@ -19,7 +19,7 @@ tags:
 ---
 ![A debate in the Dutch Tweede Kamer](../../assets/2026-09-08-de-nieuwe-wereld-narcostaat-defensiegereedheid.jpg){ align=right width="250" loading=lazy }
 
-In the weekly roundtable from De Nieuwe Wereld (episode #2359, broadcast on Sunday 6 September 2026), host Rembrandt van Bemmel sits down with publicist Ewald Engelen, journalist Wierd Duk and the lawyer and activist Stan — who has been campaigning against the bill — to talk about the Wet op de Defensiegereedheid, the drug problem, and whether the Netherlands is quietly slipping away from the rule of law. It is the kind of conversation that asks uncomfortable questions rather than answering them.
+In the weekly roundtable from De Nieuwe Wereld (episode #2359, broadcast on Sunday 6 September 2026), host Rogier van Bemmel sits down with publicist Ewald Engelen, journalist Wierd Duk and the lawyer and activist Stan Baggen — who has been campaigning against the bill — to talk about the Wet op de Defensiegereedheid, the drug problem, and whether the Netherlands is quietly slipping away from the rule of law. It is the kind of conversation that asks uncomfortable questions rather than answering them.
 
 <!-- more -->
 
