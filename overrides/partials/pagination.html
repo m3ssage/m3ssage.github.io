@@ -1,0 +1,31 @@
+{#- Local override (overrides/partials/pagination.html): the pager's symbol links (first /
+    previous / next / last) are icon-only anchors with no accessible name (Lighthouse link-name
+    + SEO link-text). They now get an aria-label via the paginate library's link_tag hook.
+    Rest is Material 9.7.7 default markup. -#}
+{% import ".icons/material/chevron-double-left.svg" as icon_first %}
+{% import ".icons/material/chevron-left.svg" as icon_previous %}
+{% import ".icons/material/chevron-right.svg" as icon_next %}
+{% import ".icons/material/chevron-double-right.svg" as icon_last %}
+{% macro symbol_link(page) -%}
+  {%- set labels = {"first_page": "First page", "previous_page": "Previous page",
+                    "next_page": "Next page", "last_page": "Last page"} -%}
+  {#- Only the icon-only symbol links get a label: the paginate range reuses the
+      first_page/last_page types for numbered links, and labelling a visible "5" as
+      "Last page" trips Lighthouse label-content-name-mismatch. -#}
+  {%- set is_icon = "<svg" in (page.value | string) -%}
+  <a{% for name, value in (page.attrs or {}).items() %} {{ name }}="{{ value }}"{% endfor %} href="{{ page.href }}"{% if is_icon and page.type in labels %} aria-label="{{ labels[page.type] }}"{% endif %}>{{ page.value }}</a>
+{%- endmacro %}
+<nav class="md-pagination">
+  {{
+    pagination({
+      "link_attr":       { "class": "md-pagination__link" },
+      "curpage_attr":    { "class": "md-pagination__current" },
+      "dotdot_attr":     { "class": "md-pagination__dots" },
+      "symbol_first":    icon_first,
+      "symbol_previous": icon_previous,
+      "symbol_next":     icon_next,
+      "symbol_last":     icon_last,
+      "link_tag":        symbol_link
+    })
+  }}
+</nav>

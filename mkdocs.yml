@@ -11,6 +11,7 @@ site_description: Markdown site generated on github
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/logo.png
   favicon: assets/favicon.png
   font:

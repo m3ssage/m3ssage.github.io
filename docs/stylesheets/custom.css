@@ -34,6 +34,14 @@
   /* Header bar & tabs on mauve */
   --ctp-hdr: var(--ctp-latte-mauve);
   --ctp-hdr-fg: var(--ctp-latte-base);
+
+  /* ---- Accessibility (WCAG AA) — measured with Lighthouse 13.4.1 on /blog/, 2026-09-25 ----
+     Latte green (#40a02b) as the link colour scores 2.96:1 on the base background; body-size
+     text needs 4.5:1. Darkened 20% (same hue) it lands on 4.56:1 and fixes every link at once
+     (meta links, post actions, heading anchors). */
+  --md-typeset-a-color: #2f7d1f;
+  /* Material's default secondary text colour measured 4.45:1 on base — just under AA. */
+  --md-default-fg-color--light: #5f6061;
 }
 
 /* Dark theme — Catppuccin Mocha */
@@ -82,14 +90,32 @@
   color: var(--ctp-hdr-fg) !important;
 }
 
+/* Tabs: full opacity. The former 0.85 dim mixed the tab text into the mauve bar and dropped
+   it to 3.86:1 (AA needs 4.5 for 14px text); at opacity 1 the base text scores 4.79:1 on
+   Latte mauve and 8.07:1 on Mocha mauve. The active tab is marked in the DOM as
+   .md-tabs__item--active (never .md-tabs__link--active), so it keeps a visible cue with
+   weight + underline instead of the lost opacity difference. */
 [data-md-color-scheme="latte"] .md-tabs__link,
 [data-md-color-scheme="mocha"] .md-tabs__link {
-  opacity: 0.85;
+  opacity: 1;
 }
 
-[data-md-color-scheme="latte"] .md-tabs__link--active,
+[data-md-color-scheme="latte"] .md-tabs__item--active .md-tabs__link,
+[data-md-color-scheme="mocha"] .md-tabs__item--active .md-tabs__link {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.4em;
+}
+
 [data-md-color-scheme="latte"] .md-tabs__link:hover,
-[data-md-color-scheme="mocha"] .md-tabs__link--active,
 [data-md-color-scheme="mocha"] .md-tabs__link:hover {
   opacity: 1;
+}
+
+/* Footer copyright: Latte text (#4c4f69) on the dark footer strip (#1852c4) measured 1.16:1.
+   White scores 6.90:1 there and 4.91:1 on the lighter footer blue. */
+[data-md-color-scheme="latte"] .md-copyright,
+[data-md-color-scheme="latte"] .md-copyright a {
+  color: #ffffff;
 }
