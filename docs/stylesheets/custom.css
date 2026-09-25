@@ -63,6 +63,11 @@
   /* Header bar & tabs on mauve */
   --ctp-hdr: var(--ctp-mocha-mauve);
   --ctp-hdr-fg: var(--ctp-mocha-crust);
+
+  /* Post meta / captions: the vendored palette never defines this variable for the custom
+     schemes, so the dark theme inherited Material's rgba(0,0,0,.54) and rendered the post
+     metadata at 1.28:1 (invisible on #1e1e2e). Subtext1 scores ~8.4:1. */
+  --md-default-fg-color--light: var(--ctp-mocha-subtext1);
 }
 
 /* ---- Header & tabs element rules (override catppuccin.css directly) ---- */
