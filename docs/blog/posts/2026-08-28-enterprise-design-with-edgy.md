@@ -17,7 +17,7 @@ tags:
   - Intersection Group
   - Co-Creation
 ---
-![Abstract pixelated architecture, inspired by EDGY's design facets](../../assets/2026-08-28-enterprise-design-with-edgy.jpg){ align=right width="250" loading=lazy }
+![Abstract pixelated architecture, inspired by EDGY's design facets](/assets/2026-08-28-enterprise-design-with-edgy.jpg){ align=right width="250" loading=lazy }
 
 Most organisations are designed in silos. The user experience team and the process architect speak different languages; the executive can't relate to the strategic product roadmap; the organisation designer can't see the impact of that tangled application architecture. The result is a fragmented enterprise with a fragmented design. EDGY is an open-source response to exactly that problem: a simple, graphical language that lets designers, architects and change-makers co-design the enterprise as a coherent whole.
 

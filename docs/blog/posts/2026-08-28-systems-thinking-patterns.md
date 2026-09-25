@@ -17,7 +17,7 @@ tags:
   - Donella Meadows
   - Peter Senge
 ---
-![Abstract pixelated spider web, a metaphor for interwoven patterns](../../assets/2026-08-28-systems-thinking-patterns.jpg){ align=right width="250" loading=lazy }
+![Abstract pixelated spider web, a metaphor for interwoven patterns](/assets/2026-08-28-systems-thinking-patterns.jpg){ align=right width="250" loading=lazy }
 
 Anyone who has tried to fix a stubborly persistent problem has probably felt it: you push on one part, and the whole thing pushes back. You solve a bottleneck, and a worse one appears elsewhere. The pattern you are looking for stays frustratingly out of reach. This is the terrain of systems thinking — yet even when we know the discipline exists, actually spotting the patterns is remarkably difficult. To understand why, it helps to look at both how systems behave and how our own minds are wired.
 

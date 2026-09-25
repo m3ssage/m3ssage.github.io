@@ -17,7 +17,7 @@ tags:
   - HIIT
   - Strength Training
 ---
-![Pixelated photograph of fresh vegetables](../../assets/2026-08-28-metabolism-evidence-based.jpg){ align=right width="250" loading=lazy }
+![Pixelated photograph of fresh vegetables](/assets/2026-08-28-metabolism-evidence-based.jpg){ align=right width="250" loading=lazy }
 
 Your metabolism is the sum of the biochemical processes by which your body turns food into energy. The common belief that slim people automatically have a "faster" burn than people with overweight is a myth: a heavier body needs more energy to function and has an absolutely higher resting calorie expenditure. Weight regulation comes down to total energy balance. So to understand how to influence what you burn, you first need to know what your Total Daily Energy Expenditure (TDEE) is made of.
 

@@ -17,7 +17,7 @@ tags:
   - CLI
   - Workflow Automation
 ---
-![Pixelated photograph of a ship's crew on deck, circa 1904](../../assets/2026-09-16-firstmate-agent-distro.jpg){ align=right width="250" loading=lazy }
+![Pixelated photograph of a ship's crew on deck, circa 1904](/assets/2026-09-16-firstmate-agent-distro.jpg){ align=right width="250" loading=lazy }
 
 An L8 principal engineer at Meta quits his job — and instead of launching a startup or raising a fund, he spends a year building wrappers. He wraps the GitHub CLI, Chrome DevTools, Git worktrees and code validation, and writes a tool called `gnhf` — "goodnight, have fun" — that babysits his coding agents while he sleeps. Stitched together, they became Firstmate, an open-source project that hit 3,000 stars in two months. But in this video, Hal Shin argues that the tool is not the interesting part: the real lesson is what its author understood about building for yourself in the age of AI agents.
 

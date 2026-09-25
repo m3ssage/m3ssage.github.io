@@ -17,7 +17,7 @@ tags:
   - Conservation
   - Scavengers
 ---
-![Pixelated illustration of a vulture in flight](../../assets/2026-08-30-vultures-ecosystem.jpg){ align=right width="250" loading=lazy }
+![Pixelated illustration of a vulture in flight](/assets/2026-08-30-vultures-ecosystem.jpg){ align=right width="250" loading=lazy }
 
 Vultures are among the most misunderstood animals on Earth — and among the most important. They are nature's sanitation service: the birds that turn a carcass into clean ground, removing bacteria and pathogens before they get a chance to spread. Their work is worth billions and, as the collapse of vultures in India showed, losing them can cost human lives. Yet across much of the world, these scavengers are quietly vanishing.
 

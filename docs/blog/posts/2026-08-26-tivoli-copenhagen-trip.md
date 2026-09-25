@@ -16,7 +16,7 @@ tags:
   - Amusement Park
   - Night Train
 ---
-![Historic view of Tivoli Gardens around 1900](../../assets/2026-08-26-tivoli-copenhagen-trip.jpg){ align=right width="250" loading=lazy }
+![Historic view of Tivoli Gardens around 1900](/assets/2026-08-26-tivoli-copenhagen-trip.jpg){ align=right width="250" loading=lazy }
 
 If you are planning a small trip — a long weekend, a city break with a difference — Tivoli Gardens in Copenhagen is hard to beat as a centerpiece. The park opened on 15 August 1843, making it the second-oldest operating amusement park in the world, and with 4.25 million visitors in 2024 it is the most visited amusement park in Scandinavia. It sits right next to Copenhagen Central Station, which makes it a perfect anchor for a short stay: you can be inside one of Europe's most charming historical playgrounds within minutes of stepping off the train.
 

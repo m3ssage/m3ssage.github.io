@@ -17,7 +17,7 @@ tags:
   - Gezelligheid
   - Jazz Festival
 ---
-![Café Terrace at Night by Vincent van Gogh](../../assets/2026-09-05-breda-nightlife-all-ages.jpg){ align=right width="250" loading=lazy }
+![Café Terrace at Night by Vincent van Gogh](/assets/2026-09-05-breda-nightlife-all-ages.jpg){ align=right width="250" loading=lazy }
 
 In most Dutch cities, a night out has a clear demographic: the party streets skew young, the bars skew trendy, and the people over forty tend to stay home. Breda is different. In this compact, historic Brabant city, the nightlife genuinely seems to be for everyone — teenage students, thirty-somethings and pensioners often end up in the same brown café or at the same terrace, and nobody finds it odd. That cross-generational character is Breda's most distinctive social signature.
 

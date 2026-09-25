@@ -17,7 +17,7 @@ tags:
   - Carl Hoefkens
   - Rat Verlegh Stadion
 ---
-![Pixelated photograph of a football stadium](../../assets/2026-09-04-nac-breda-2026-chances.jpg){ align=right width="250" loading=lazy }
+![Pixelated photograph of a football stadium](/assets/2026-09-04-nac-breda-2026-chances.jpg){ align=right width="250" loading=lazy }
 
 NAC Breda — the "Pearl of the South", backed by one of the most passionately loyal fanbases in Dutch football, the Yellow Army — spent the 2025-26 season back in the Eredivisie, only to come straight back down. Now they find themselves in the Keuken Kampioen Divisie for 2026-27, and their chances of an immediate return are among the best in the division. Not because of luck, but because of the budget, the continuity in the dugout and the sheer size of the club. It is a strong position — but not one without risk.
 

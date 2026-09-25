@@ -17,7 +17,7 @@ tags:
   - Avant-Garde
   - Art Basel
 ---
-![A Session of the Painting Jury by Henri Gervex](../../assets/2026-08-26-four-phases-paris-art-ecosystem.jpg){ align=right width="250" loading=lazy }
+![A Session of the Painting Jury by Henri Gervex](/assets/2026-08-26-four-phases-paris-art-ecosystem.jpg){ align=right width="250" loading=lazy }
 
 For the better part of three centuries, Paris was the art capital of the Western world. But the ecosystem that made it so — the network of academies, juries, dealers, critics, collectors and exhibition spaces that decides who gets seen and who gets paid — was never static. It went through four distinct phases, each defined by a different gatekeeper: the royal court, the official Salon jury, the private art dealer, and finally the global market of fairs and mega-galleries. Tracing those phases explains not just how Paris became the home of modern art, but why it lost that crown — and why it is fighting for it again.
 

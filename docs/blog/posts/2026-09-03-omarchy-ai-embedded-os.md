@@ -17,7 +17,7 @@ tags:
   - Quickshell
   - Agentic AI
 ---
-![Pixelated photograph of code on a computer monitor](../../assets/2026-09-03-omarchy-ai-embedded-os.jpg){ align=right width="250" loading=lazy }
+![Pixelated photograph of code on a computer monitor](/assets/2026-09-03-omarchy-ai-embedded-os.jpg){ align=right width="250" loading=lazy }
 
 Most operating systems treat AI as an afterthought: an assistant app bolted onto the desktop, or a chatbot you open when you remember it's there. Omarchy, the Arch Linux-based distribution created by David Heinemeier Hansson, takes the opposite approach—and its 4.0 release, code-named Quattro, is the clearest attempt yet at making an AI agent a genuine part of the operating system itself. That is why so many are calling it a strong candidate for the first truly AI-embedded OS.
 
