@@ -17,7 +17,7 @@ tags:
   - OpenClaw
   - CLI
 ---
-![Pixelated screenshot of a terminal window](/assets/2026-09-13-pi-agent-ronacher-workflow.jpg){ align=right width="250" loading=lazy }
+![A teal π symbol, a nod to the Pi coding agent](/assets/2026-09-13-pi-agent-ronacher-workflow.png){ align=right width="250" loading=lazy }
 
 Pi is one of the smallest coding agents around — a minimalist terminal "harness" with a system prompt under 1,000 tokens and just four built-in tools (read, write, edit, bash) — and yet it keeps beating far heavier rivals like Claude Code and Codex in head-to-head comparisons. In this episode of the David Ondrej podcast, Armin Ronacher (the creator of Flask and Jinja2, who now works on Pi at Earendil together with Mario Zechner) explains why less tooling is winning, and walks through his own agentic engineering workflow.
 
@@ -45,4 +45,4 @@ The full hour goes much deeper than this — specifics on his own engineering se
 - [Armin Ronacher: Building Pi With Pi (lucumr.pocoo.org)](https://lucumr.pocoo.org/2026/5/24/pi-oss/)
 - [Pi Coding Agent: The SDK Is the Real Reason to Care](https://thomas-wiegold.com/blog/pi-coding-agent/)
 - [Syntax #976: Pi — The AI Harness That Powers OpenClaw](https://syntax.fm/show/976/pi-the-ai-harness-that-powers-openclaw-w-armin-ronacher-and-mario-zechner/transcript)
-- [Image: Zoc terminal main window — Wikimedia Commons (CC0), pixelated](https://commons.wikimedia.org/wiki/File:Zoc_Main-Window_Screenshot.png)
+- Image: π symbol of the Pi coding agent — supplied by the author (2026-09-26)
