@@ -1,6 +1,8 @@
 ---
 title: "Privacy Policy"
 weight: 998
+search:
+  exclude: true
 ---
 
 # Privacy Policy
