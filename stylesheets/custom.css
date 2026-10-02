@@ -1,0 +1,126 @@
+/* ========================================
+   Custom overrides — colorful header & footer
+   Loaded AFTER catppuccin.css (see extra_css in mkdocs.yml).
+
+   Header and footer get DISTINCT Catppuccin accent backgrounds in both
+   themes, with high-contrast foregrounds (the stock theme had ~1.4:1
+   header contrast and a footer that was nearly invisible against the page).
+
+   Light (Latte):  header = mauve  (#8839ef), footer = blue (#1e66f5)
+   Dark  (Mocha):  header = mauve  (#cba6f7), footer = teal (#94e2d5)
+
+   NOTE: catppuccin.css sets .md-header/.md-tabs backgrounds directly
+   (mantle/code-bg) and forces header text colors with !important, so we
+   must override those elements directly here too — the variables alone
+   don't reach the header.
+   ======================================== */
+
+/* Light theme — Catppuccin Latte */
+[data-md-color-scheme="latte"] {
+  /* Header: mauve background, near-white text */
+  --md-primary-fg-color: var(--ctp-latte-mauve);
+  --md-primary-fg-color--light: var(--ctp-latte-lavender);
+  --md-primary-fg-color--dark: color-mix(in srgb, var(--ctp-latte-mauve) 78%, black);
+  --md-primary-bg-color: var(--ctp-latte-base);
+  --md-primary-bg-color--light: var(--ctp-latte-crust);
+
+  /* Footer: blue background, near-white text */
+  --md-footer-bg-color: var(--ctp-latte-blue);
+  --md-footer-bg-color--dark: color-mix(in srgb, var(--ctp-latte-blue) 80%, black);
+  --md-footer-fg-color: var(--ctp-latte-base);
+  --md-footer-fg-color--light: var(--ctp-latte-crust);
+  --md-footer-fg-color--lighter: var(--ctp-latte-surface0);
+
+  /* Header bar & tabs on mauve */
+  --ctp-hdr: var(--ctp-latte-mauve);
+  --ctp-hdr-fg: var(--ctp-latte-base);
+
+  /* ---- Accessibility (WCAG AA) — measured with Lighthouse 13.4.1 on /blog/, 2026-09-25 ----
+     Latte green (#40a02b) as the link colour scores 2.96:1 on the base background; body-size
+     text needs 4.5:1. Darkened 20% (same hue) it lands on 4.56:1 and fixes every link at once
+     (meta links, post actions, heading anchors). */
+  --md-typeset-a-color: #2f7d1f;
+  /* Material's default secondary text colour measured 4.45:1 on base — just under AA. */
+  --md-default-fg-color--light: #5f6061;
+}
+
+/* Dark theme — Catppuccin Mocha */
+[data-md-color-scheme="mocha"] {
+  /* Header: light mauve background, dark text */
+  --md-primary-fg-color: var(--ctp-mocha-mauve);
+  --md-primary-fg-color--light: var(--ctp-mocha-lavender);
+  --md-primary-fg-color--dark: color-mix(in srgb, var(--ctp-mocha-mauve) 72%, black);
+  --md-primary-bg-color: var(--ctp-mocha-crust);
+  --md-primary-bg-color--light: var(--ctp-mocha-surface0);
+
+  /* Footer: teal background, dark text */
+  --md-footer-bg-color: var(--ctp-mocha-teal);
+  --md-footer-bg-color--dark: color-mix(in srgb, var(--ctp-mocha-teal) 80%, black);
+  --md-footer-fg-color: var(--ctp-mocha-crust);
+  --md-footer-fg-color--light: var(--ctp-mocha-base);
+  --md-footer-fg-color--lighter: var(--ctp-mocha-surface0);
+
+  /* Header bar & tabs on mauve */
+  --ctp-hdr: var(--ctp-mocha-mauve);
+  --ctp-hdr-fg: var(--ctp-mocha-crust);
+
+  /* Post meta / captions: the vendored palette never defines this variable for the custom
+     schemes, so the dark theme inherited Material's rgba(0,0,0,.54) and rendered the post
+     metadata at 1.28:1 (invisible on #1e1e2e). Subtext1 scores ~8.4:1. */
+  --md-default-fg-color--light: var(--ctp-mocha-subtext1);
+}
+
+/* ---- Header & tabs element rules (override catppuccin.css directly) ---- */
+
+[data-md-color-scheme="latte"] .md-header,
+[data-md-color-scheme="latte"] .md-tabs,
+[data-md-color-scheme="mocha"] .md-header,
+[data-md-color-scheme="mocha"] .md-tabs {
+  background-color: var(--ctp-hdr);
+}
+
+[data-md-color-scheme="latte"] .md-tabs,
+[data-md-color-scheme="mocha"] .md-tabs {
+  border-bottom-color: color-mix(in srgb, var(--ctp-hdr) 55%, black);
+}
+
+[data-md-color-scheme="latte"] .md-header__title,
+[data-md-color-scheme="latte"] .md-header__button,
+[data-md-color-scheme="latte"] .md-header__topic,
+[data-md-color-scheme="latte"] .md-tabs__link,
+[data-md-color-scheme="mocha"] .md-header__title,
+[data-md-color-scheme="mocha"] .md-header__button,
+[data-md-color-scheme="mocha"] .md-header__topic,
+[data-md-color-scheme="mocha"] .md-tabs__link {
+  color: var(--ctp-hdr-fg) !important;
+}
+
+/* Tabs: full opacity. The former 0.85 dim mixed the tab text into the mauve bar and dropped
+   it to 3.86:1 (AA needs 4.5 for 14px text); at opacity 1 the base text scores 4.79:1 on
+   Latte mauve and 8.07:1 on Mocha mauve. The active tab is marked in the DOM as
+   .md-tabs__item--active (never .md-tabs__link--active), so it keeps a visible cue with
+   weight + underline instead of the lost opacity difference. */
+[data-md-color-scheme="latte"] .md-tabs__link,
+[data-md-color-scheme="mocha"] .md-tabs__link {
+  opacity: 1;
+}
+
+[data-md-color-scheme="latte"] .md-tabs__item--active .md-tabs__link,
+[data-md-color-scheme="mocha"] .md-tabs__item--active .md-tabs__link {
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.4em;
+}
+
+[data-md-color-scheme="latte"] .md-tabs__link:hover,
+[data-md-color-scheme="mocha"] .md-tabs__link:hover {
+  opacity: 1;
+}
+
+/* Footer copyright: Latte text (#4c4f69) on the dark footer strip (#1852c4) measured 1.16:1.
+   White scores 6.90:1 there and 4.91:1 on the lighter footer blue. */
+[data-md-color-scheme="latte"] .md-copyright,
+[data-md-color-scheme="latte"] .md-copyright a {
+  color: #ffffff;
+}
