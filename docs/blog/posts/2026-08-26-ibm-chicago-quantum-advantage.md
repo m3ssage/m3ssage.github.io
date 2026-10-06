@@ -14,6 +14,8 @@ tags:
   - Error Correction
   - Logical Qubits
 ---
+![Quantum computing hardware at IBM Research](/assets/2026-08-26-ibm-chicago-quantum-advantage.jpg){ align=right width="250" loading=lazy }
+
 On July 30, 2026, IBM and researchers from the University of Chicago announced a quantum computation that meets the fundamental criteria for quantum advantage: a task beyond the practical reach of the best known classical methods, completed in about fifteen minutes. Just as important, the team found a way to verify how reliable the result actually was — addressing the long-standing problem that has made quantum advantage claims so hard to trust.
 
 <!-- more -->
@@ -47,3 +49,4 @@ Reliable error correction and confidence in the output are prerequisites for sca
 - [SciTechDaily: Quantum Computer Solves a Problem in 15 Minutes That Classical Methods Can't Practically Compute](https://scitechdaily.com/quantum-computer-solves-a-problem-in-15-minutes-that-classical-methods-cant-practically-compute/)
 - [arXiv: Sampling hard circuits with verifiably high fidelity (DOI 2607.25941)](https://arxiv.org/abs/2607.25941)
 - [IBM Quantum Advantage Tracker](https://www.ibm.com/quantum/blog/quantum-advantage)
+- [Image: IBM and The Future of Computing Reporting Tour - 54299246740.jpg — foreignpressctr, Wikimedia Commons (Public domain), painterly](https://commons.wikimedia.org/wiki/File:IBM_and_The_Future_of_Computing_Reporting_Tour_-_54299246740.jpg)

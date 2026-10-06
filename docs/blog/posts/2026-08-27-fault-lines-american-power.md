@@ -13,6 +13,7 @@ tags:
   - ICE
   - Executive Power
 ---
+![Interior of the Supreme Court Building during a session, June 7, 1937](/assets/2026-08-27-fault-lines-american-power.jpg){ align=right width="250" loading=lazy }
 
 The United States is operating in an increasingly decentralized reality, where the divide between state autonomy and federal oversight keeps widening. Where federal institutions once established broad national baselines, it is now localized legislation, political violence, and executive instruments that steer the country's trajectory. Across reproductive rights, partisan violence, electoral restructuring, and federal enforcement, the same pattern repeats: power is dispersing downward and inward, becoming more local, more confrontational, and progressively harder to reverse from a single national center.
 
@@ -83,3 +84,4 @@ Across all four fault lines, the core trend is the same: American political powe
 - [The Guardian: ICE arrested 50,000 people in July — biggest month in Trump's second term](https://www.theguardian.com/us-news/2026/aug/26/record-arrests-deportations-immigrants)
 - [The Marshall Project: 600K people put in immigration detention during Trump's second term](https://www.themarshallproject.org/2026/08/25/immigrant-detention-trump-ice-thousands-length)
 - [Wikipedia: Deportation in the second Trump administration](https://en.wikipedia.org/wiki/Deportation_in_the_second_Trump_administration)
+- [Image: Interior of the Supreme Court Building during a session, June 7, 1937.jpg — Unknown author, Wikimedia Commons (Public domain), painterly](https://commons.wikimedia.org/wiki/File:Interior_of_the_Supreme_Court_Building_during_a_session%2C_June_7%2C_1937.jpg)

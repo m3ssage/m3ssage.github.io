@@ -12,6 +12,8 @@ tags:
 - EU
 - Policy
 ---
+![The hemicycle of the European Parliament](/assets/2025-01-02-chat-control-eu-voorstel.jpg){ align=right width="250" loading=lazy }
+
 
 De Europese Commissie presenteerde op 11 mei 2022 een verordening om kindermisbruikmateriaal online tegen te gaan (COM(2022) 209). Het voorstel verplicht online diensten om risico's in kaart te brengen, geeft autoriteiten de mogelijkheid om materiaal te laten verwijderen of blokkeren en richt een Europees centrum op voor coördinatie en slachtofferhulp. Het meest besproken onderdeel zijn de **detectiebevelen**: verplichte opsporing van misbruikmateriaal in communicatie. Over de vraag of die bevoegdheid er moet komen, en met welke waarborgen, zijn de lidstaten en het Europees Parlement het nog niet eens.
 <!-- more -->
@@ -46,3 +48,4 @@ In hoeverre detectie technisch werkt, is onderdeel van het geschil. Bij automati
 * [Voorstel voor een verordening, COM(2022) 209 final (EUR-Lex)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=COM:2022:209:FIN)
 * [European Commission — Child sexual abuse](https://home-affairs.ec.europa.eu/policies/internal-security/child-sexual-abuse_en)
 * [EDRi — Chat control: what is actually going on?](https://edri.org/our-work/chat-control-what-is-actually-going-on/)
+- [Image: European Parliament Hemicycle - Brussels 2024.jpg — Profpcde, Wikimedia Commons (CC0), painterly](https://commons.wikimedia.org/wiki/File:European_Parliament_Hemicycle_-_Brussels_2024.jpg)

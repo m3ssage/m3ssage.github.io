@@ -7,6 +7,8 @@ tags:
   - History
   - Netherlands
 ---
+![Roman limes heritage in the Netherlands](/assets/2024-10-26-The-Ancient-Netherlands.jpg){ align=right width="250" loading=lazy }
+
 
 ## Unearthing the Rich Tapestry: A Journey Through Dutch History
 
@@ -35,3 +37,6 @@ If there's one period that truly shines in Dutch history, it's the **Dutch Golde
 ### Modern Era (1700 - Present)
 
 The journey didn't end with the Golden Age. The Netherlands continued to be a significant player on the international stage, contributing to the **Enlightenment** and embracing the profound shifts of the **Industrial Revolution**. The country experienced dramatic **social and economic changes**, witnessing the rise of a robust middle class and, crucially, the **abolition of slavery**. Today, the Netherlands stands as a proud, **modern, secular democracy**. It's globally recognized for its **tolerant society, high standard of living, and a rich cultural heritage** that continues to evolve, rooted deeply in the layers of its fascinating past.
+
+
+*Image: [Meinerswijk2-foto Floris Scheplitz-Romeinse Limes Nederland.jpg — Romeinse Limes, Wikimedia Commons (CC BY 2.0), painterly](https://commons.wikimedia.org/wiki/File:Meinerswijk2-foto_Floris_Scheplitz-Romeinse_Limes_Nederland.jpg).*

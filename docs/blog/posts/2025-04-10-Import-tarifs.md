@@ -8,8 +8,7 @@ tags:
   - foreign trading
   - Netherlands
 ---
-
-# Import tariffs
+![Container ship in the Amazonehaven, Port of Rotterdam](/assets/2025-04-10-Import-tarifs.jpg){ align=right width="250" loading=lazy }
 
 An import tariff is a tax levied on goods entering a country. It's essentially an additional cost added to the price of the imported product.
 
@@ -38,3 +37,5 @@ The introduction of an import tariff can have several consequences for the citiz
 - Effects on different income groups: The impact of import tariffs can vary across different income groups. If tariffs are levied on essential goods, this can have a greater impact on lower-income households, who spend a larger portion of their budget on these goods.
 
 In short, import tariffs are a complex tool with both potential benefits (such as protecting domestic industry and government revenue) and drawbacks (such as higher prices and less choice for consumers). The ultimate impact on citizens depends on the specific goods on which the tariffs are levied, the level of the tariffs, and the reaction of other countries.
+
+*Image: [Thalassa Hellas - IMO 9665592 in de Amazonehaven, Port of Rotterdam, pic1.JPG — Alf van Beem, Wikimedia Commons (CC0), painterly](https://commons.wikimedia.org/wiki/File:Thalassa_Hellas_-_IMO_9665592_in_de_Amazonehaven%2C_Port_of_Rotterdam%2C_pic1.JPG).*

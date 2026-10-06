@@ -15,6 +15,8 @@ tags:
   - Social Experiment
   - Design
 ---
+![Stilt walkers in front of Torre Chigi and Palazzo del Podestà, San Gimignano, Italy](/assets/2026-08-26-same-height-party.jpg){ align=right width="250" loading=lazy }
+
 Imagine a party where every single guest is exactly the same height — not because they happened to be born that way, but because the host built them shoes. That is the "same height party": a simple, slightly crazy idea that everyone in the room, no matter their actual height, meets at eye level. CNN brought the concept to a wide audience in May 2026 after an Oakland host turned it into a wearable social experiment with about fifteen guests — and the results were as much about psychology as about engineering.
 
 <!-- more -->
@@ -49,3 +51,4 @@ The same height party turns a source of difference into a shared experience — 
 
 - [CNN: At this party, everyone is the same height (Lily Hautau, May 3, 2026)](https://www.cnn.com/2026/05/03/health/same-height-party-oakland-hans-hemmert-wellness)
 - [RNZ: At this party, everyone is the same height (republication of the CNN story, May 7, 2026)](https://www.rnz.co.nz/life/lifestyle/at-this-party-everyone-is-the-same-height)
+- [Image: Stilt-Walkers in front of Torre Chigi and Palazzo del Podestà, San Gimignano, Italy.jpg — Julian Lupyan, Wikimedia Commons (CC0), painterly](https://commons.wikimedia.org/wiki/File:Stilt-Walkers_in_front_of_Torre_Chigi_and_Palazzo_del_Podest%C3%A0%2C_San_Gimignano%2C_Italy.jpg)

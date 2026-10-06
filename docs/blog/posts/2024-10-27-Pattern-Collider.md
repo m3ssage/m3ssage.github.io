@@ -7,6 +7,8 @@ tags:
   - Math
   - Art
 ---
+![Penrose tiling at the Oxford Mathematical Institute](/assets/2024-10-27-Pattern-Collider.jpg){ align=right width="250" loading=lazy }
+
 
 ## Create Patterns and Explore Symmetries
 
@@ -21,3 +23,6 @@ Learn more about how it works by watching the [Minute Physics video](https://you
 ## Credits & License
 
 Created by [Aatish Bhatia](https://aatishb.com/) in collaboration with [Henry Reich](https://www.minutephysics.com/).
+
+
+*Image: [Penrose tiling at Oxford Mathematical Institute.jpg — Pierre Marshall, Wikimedia Commons (CC0), painterly](https://commons.wikimedia.org/wiki/File:Penrose_tiling_at_Oxford_Mathematical_Institute.jpg).*
