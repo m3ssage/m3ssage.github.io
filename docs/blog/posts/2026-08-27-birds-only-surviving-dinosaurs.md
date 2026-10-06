@@ -5,10 +5,7 @@ authors:
 - eelco
 categories:
   - YouTube
-  - Paleontology
   - Science
-  - Evolution
-  - Biology
 tags:
   - Birds
   - Dinosaurs

@@ -4,10 +4,9 @@ date: 2026-09-13T05:39:57+00:00
 authors:
 - eelco
 categories:
-  - Artificial Intelligence
-  - Developer Tools
+  - AI
+  - Technology
   - Software Development
-  - Open Source
   - YouTube
 tags:
   - Pi Agent

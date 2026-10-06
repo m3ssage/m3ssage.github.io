@@ -5,8 +5,7 @@ authors:
 - eelco
 categories:
   - Technology
-  - Hardware
-  - Information
+  - Society
 tags:
   - DRAM
   - NAND Flash

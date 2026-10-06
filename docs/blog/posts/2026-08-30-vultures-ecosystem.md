@@ -4,10 +4,8 @@ date: 2026-08-30T21:25:53+00:00
 authors:
 - eelco
 categories:
-  - Ecology
-  - Wildlife
-  - Conservation
-  - Health
+  - Nature
+  - Lifestyle
   - Science
 tags:
   - Vultures

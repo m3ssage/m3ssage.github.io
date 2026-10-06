@@ -6,9 +6,7 @@ authors:
 categories:
   - Technology
   - Science
-  - Biotechnology
-  - Data Centers
-  - Sustainability
+  - Nature
 tags:
   - Biological Computing
   - Wetware

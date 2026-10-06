@@ -6,9 +6,7 @@ authors:
 categories:
   - Culture
   - Lifestyle
-  - Art
   - Society
-  - Entertainment
 tags:
   - Same Height Party
   - Art Installation

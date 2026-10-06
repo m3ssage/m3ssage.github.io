@@ -6,9 +6,6 @@ authors:
 categories:
   - Technology
   - Science
-  - Quantum Computing
-  - Research
-  - Innovation
 tags:
   - IBM
   - Quantum Computing

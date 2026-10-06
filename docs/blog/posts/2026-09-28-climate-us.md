@@ -6,8 +6,7 @@ authors:
 categories:
   - Science
   - Society
-  - Information
-  - Climate
+  - Nature
 tags:
   - Climate.gov
   - NOAA

@@ -4,11 +4,8 @@ date: 2026-08-26T08:29:24+00:00
 authors:
 - eelco
 categories:
-  - Music
-  - Festival
   - Culture
-  - Entertainment
-  - Netherlands
+  - Society
 tags:
   - Baroeg Open Air
   - Rotterdam

@@ -6,8 +6,8 @@ authors:
 categories:
   - Technology
   - AI
-  - Fiction
-  - Information
+  - Culture
+  - Society
 tags:
   - TaskDaemon
   - AI Agents

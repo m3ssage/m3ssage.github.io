@@ -5,10 +5,7 @@ authors:
 - eelco
 categories:
   - Technology
-  - Linux
-  - Artificial Intelligence
-  - Developer Tools
-  - Operating Systems
+  - AI
 tags:
   - Omarchy
   - AI Agent

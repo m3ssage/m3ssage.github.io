@@ -4,11 +4,9 @@ date: 2026-08-25T11:36:46+00:00
 authors:
 - eelco
 categories:
-  - History
-  - Heritage
-  - Architecture
   - Culture
-  - Netherlands
+  - Software Development
+  - Society
 tags:
   - Huis Bergh
   - Castle

@@ -4,10 +4,8 @@ date: 2026-08-25T21:22:42+00:00
 authors:
 - eelco
 categories:
-  - Fusion
-  - Energy
-  - Technology
   - Science
+  - Technology
   - YouTube
 tags:
   - Stellarator

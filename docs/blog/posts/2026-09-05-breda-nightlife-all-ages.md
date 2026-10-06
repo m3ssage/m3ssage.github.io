@@ -5,10 +5,9 @@ authors:
 - eelco
 categories:
   - Travel
-  - Nightlife
-  - Culture
-  - Breda
   - Lifestyle
+  - Culture
+  - Society
 tags:
   - Breda
   - Nightlife

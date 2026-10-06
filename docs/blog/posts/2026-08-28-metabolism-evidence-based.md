@@ -4,11 +4,8 @@ date: 2026-08-28T21:11:59+00:00
 authors:
 - eelco
 categories:
-  - Health
-  - Nutrition
-  - Fitness
-  - Science
   - Lifestyle
+  - Science
 tags:
   - Metabolism
   - NEAT

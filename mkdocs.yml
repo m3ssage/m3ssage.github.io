@@ -57,6 +57,95 @@ extra_css:
 plugins:
   - redirects:
       redirect_maps:
+        'blog/2025/01/02/digitale-vrijheid-bedreigd-de-schaduwzijde-van-chat-control.md': 'blog/posts/2025-01-02-chat-control-eu-voorstel.md'
+        'blog/category/tech.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/tooling.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/developer-tools.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/hardware.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/open-source.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/cli.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/linux.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/operating-systems.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/smart-home.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/data-centers.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/saas.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/innovation.md': 'https://pages.bommel.xyz/blog/category/technology/'
+        'blog/category/development.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/software-architecture.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/architecture.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/enterprise-architecture.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/event-driven-architecture.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/engineering.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/systems-thinking.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/complexity.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/problem-solving.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/design.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/collaboration.md': 'https://pages.bommel.xyz/blog/category/software-development/'
+        'blog/category/artificial-intelligence.md': 'https://pages.bommel.xyz/blog/category/ai/'
+        'blog/category/ai-engineering.md': 'https://pages.bommel.xyz/blog/category/ai/'
+        'blog/category/ai-tools.md': 'https://pages.bommel.xyz/blog/category/ai/'
+        'blog/category/ethical-ai.md': 'https://pages.bommel.xyz/blog/category/ai/'
+        'blog/category/machine-learning.md': 'https://pages.bommel.xyz/blog/category/ai/'
+        'blog/category/academic-research.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/literature-review.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/research.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/biology.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/biotechnology.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/paleontology.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/evolution.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/quantum-computing.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/fusion.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/energy.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/learning.md': 'https://pages.bommel.xyz/blog/category/science/'
+        'blog/category/ecology.md': 'https://pages.bommel.xyz/blog/category/nature/'
+        'blog/category/environment.md': 'https://pages.bommel.xyz/blog/category/nature/'
+        'blog/category/rewilding.md': 'https://pages.bommel.xyz/blog/category/nature/'
+        'blog/category/conservation.md': 'https://pages.bommel.xyz/blog/category/nature/'
+        'blog/category/wildlife.md': 'https://pages.bommel.xyz/blog/category/nature/'
+        'blog/category/sustainability.md': 'https://pages.bommel.xyz/blog/category/nature/'
+        'blog/category/climate.md': 'https://pages.bommel.xyz/blog/category/nature/'
+        'blog/category/restoration.md': 'https://pages.bommel.xyz/blog/category/nature/'
+        'blog/category/politics.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/policy.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/law.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/digital-rights.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/netherlands.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/europe.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/united-states.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/saudi-arabia.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/urban-planning.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/future-cities.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/industrial.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/information.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/breda.md': 'https://pages.bommel.xyz/blog/category/society/'
+        'blog/category/economy.md': 'https://pages.bommel.xyz/blog/category/economics/'
+        'blog/category/business.md': 'https://pages.bommel.xyz/blog/category/economics/'
+        'blog/category/strategy.md': 'https://pages.bommel.xyz/blog/category/economics/'
+        'blog/category/art.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/music.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/festival.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/entertainment.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/media.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/history.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/heritage.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/fiction.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/literature.md': 'https://pages.bommel.xyz/blog/category/culture/'
+        'blog/category/iceland.md': 'https://pages.bommel.xyz/blog/category/travel/'
+        'blog/category/paris.md': 'https://pages.bommel.xyz/blog/category/travel/'
+        'blog/category/copenhagen.md': 'https://pages.bommel.xyz/blog/category/travel/'
+        'blog/category/denmark.md': 'https://pages.bommel.xyz/blog/category/travel/'
+        'blog/category/sailing.md': 'https://pages.bommel.xyz/blog/category/travel/'
+        'blog/category/productivity.md': 'https://pages.bommel.xyz/blog/category/lifestyle/'
+        'blog/category/health.md': 'https://pages.bommel.xyz/blog/category/lifestyle/'
+        'blog/category/nutrition.md': 'https://pages.bommel.xyz/blog/category/lifestyle/'
+        'blog/category/fitness.md': 'https://pages.bommel.xyz/blog/category/lifestyle/'
+        'blog/category/cleaning.md': 'https://pages.bommel.xyz/blog/category/lifestyle/'
+        'blog/category/detailing.md': 'https://pages.bommel.xyz/blog/category/lifestyle/'
+        'blog/category/automotive.md': 'https://pages.bommel.xyz/blog/category/lifestyle/'
+        'blog/category/nightlife.md': 'https://pages.bommel.xyz/blog/category/lifestyle/'
+        'blog/category/football.md': 'https://pages.bommel.xyz/blog/category/sport/'
+        'blog/category/sports.md': 'https://pages.bommel.xyz/blog/category/sport/'
+        'blog/category/eerste-divisie.md': 'https://pages.bommel.xyz/blog/category/sport/'
         'index.md': 'blog/index.md'
   - social
   - search
@@ -64,7 +153,21 @@ plugins:
   - tags
   - glightbox
   - blog:
+      authors_profiles: true
       authors_file: "{blog}/.authors.yml"
+      categories_allowed:
+        - AI
+        - Culture
+        - Economics
+        - Lifestyle
+        - Nature
+        - Science
+        - Society
+        - Software Development
+        - Sport
+        - Technology
+        - Travel
+        - YouTube
       blog_toc: true
       post_date_format: full
       archive_toc: true

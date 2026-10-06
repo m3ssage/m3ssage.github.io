@@ -4,11 +4,8 @@ date: 2026-08-28T20:17:59+00:00
 authors:
 - eelco
 categories:
-  - Enterprise Architecture
-  - Design
-  - Strategy
+  - Software Development
   - Technology
-  - Collaboration
 tags:
   - EDGY
   - Enterprise Design

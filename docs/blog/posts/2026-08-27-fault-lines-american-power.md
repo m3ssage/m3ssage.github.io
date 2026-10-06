@@ -4,10 +4,6 @@ date: 2026-08-27T15:23:17+00:00
 authors:
 - eelco
 categories:
-  - Politics
-  - United States
-  - Law
-  - Policy
   - Society
 tags:
   - Dobbs

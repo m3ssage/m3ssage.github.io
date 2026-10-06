@@ -4,11 +4,8 @@ date: 2026-09-04T18:10:46+00:00
 authors:
 - eelco
 categories:
-  - Football
-  - Sports
-  - Netherlands
-  - Breda
-  - Eerste Divisie
+  - Sport
+  - Society
 tags:
   - NAC Breda
   - Keuken Kampioen Divisie

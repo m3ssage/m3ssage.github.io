@@ -4,11 +4,9 @@ date: 2026-08-28T20:30:00+00:00
 authors:
 - eelco
 categories:
-  - Systems Thinking
-  - Strategy
-  - Complexity
-  - Learning
-  - Problem Solving
+  - Software Development
+  - Economics
+  - Science
 tags:
   - Systems Thinking
   - Feedback Loops

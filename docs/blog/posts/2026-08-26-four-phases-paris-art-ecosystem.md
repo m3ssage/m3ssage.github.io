@@ -4,11 +4,9 @@ date: 2026-08-26T17:00:13+00:00
 authors:
 - eelco
 categories:
-  - Art
-  - History
   - Culture
   - Economics
-  - Paris
+  - Travel
 tags:
   - Paris
   - Art Market

@@ -5,10 +5,7 @@ authors:
 - eelco
 categories:
   - Travel
-  - Copenhagen
-  - Denmark
   - Culture
-  - Entertainment
 tags:
   - Tivoli Gardens
   - Copenhagen
