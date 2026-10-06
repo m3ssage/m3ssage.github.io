@@ -1,8 +1,8 @@
 ---
 title: "Omarchy 4.0: Could This Be the First Truly AI-Embedded Operating System?"
 date: 2026-09-03T20:02:42+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Technology
   - Linux

@@ -1,8 +1,8 @@
 ---
 title: "Fault Lines in American Power: From Reproductive Battles to Institutional Leverage"
 date: 2026-08-27T15:23:17+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Politics
   - United States

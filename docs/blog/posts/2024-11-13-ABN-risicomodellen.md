@@ -1,7 +1,8 @@
 ---
 title: ABN Riskmodel updates delayed
 date: 2024-11-13
-author: eelco
+authors:
+- eelco
 categories:
   - Tech
 tags: 

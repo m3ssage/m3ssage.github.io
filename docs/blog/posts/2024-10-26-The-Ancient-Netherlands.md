@@ -1,7 +1,8 @@
 ---
 title: The Ancient Netherlands
 date: 2024-10-26
-author: eelco
+authors:
+- eelco
 tags:
   - History
   - Netherlands

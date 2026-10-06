@@ -1,8 +1,8 @@
 ---
 title: "Pi Agent's Developer on Why Minimal Beats Maximal in AI Coding"
 date: 2026-09-13T05:39:57+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Artificial Intelligence
   - Developer Tools

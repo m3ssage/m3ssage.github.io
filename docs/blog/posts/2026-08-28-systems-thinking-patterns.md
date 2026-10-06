@@ -1,8 +1,8 @@
 ---
 title: "Systems Thinking: Why Patterns Are So Hard to See — and What to Do About It"
 date: 2026-08-28T20:30:00+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Systems Thinking
   - Strategy

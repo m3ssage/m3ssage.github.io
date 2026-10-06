@@ -1,8 +1,8 @@
 ---
 title: "Baroeg Open Air 2026: Two Days of Punk, Metal and Rave in Rotterdam"
 date: 2026-08-26T08:29:24+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Music
   - Festival

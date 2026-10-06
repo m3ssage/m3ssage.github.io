@@ -1,8 +1,8 @@
 ---
 title: "IBM and the University of Chicago Show Quantum Advantage — With Proof"
 date: 2026-08-26T05:16:41+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Technology
   - Science

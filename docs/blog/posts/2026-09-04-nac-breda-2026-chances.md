@@ -1,8 +1,8 @@
 ---
 title: "NAC Breda in 2026: The Big-Budget Favourite for an Immediate Comeback"
 date: 2026-09-04T18:10:46+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Football
   - Sports

@@ -1,8 +1,8 @@
 ---
 title: "Four Phases of the Parisian Art Ecosystem: From Royal Academy to Global Art Fair"
 date: 2026-08-26T17:00:13+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Art
   - History

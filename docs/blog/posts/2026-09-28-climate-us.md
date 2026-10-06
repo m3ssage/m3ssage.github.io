@@ -1,8 +1,8 @@
 ---
 title: "Climate.us: Rebuilding Climate.gov Outside the Government"
 date: 2026-09-28T13:57:47+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Science
   - Society

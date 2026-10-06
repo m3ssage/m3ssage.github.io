@@ -1,8 +1,8 @@
 ---
 title: "It's Happening: Europe Is Building an Impossible Fusion Reactor"
 date: 2026-08-25T21:22:42+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Fusion
   - Energy

@@ -1,7 +1,8 @@
 ---
 title: Import tariffs
 date: 2025-04-10
-author: eelco
+authors:
+- eelco
 tags:
   - US
   - foreign trading

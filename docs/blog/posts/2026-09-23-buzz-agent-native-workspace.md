@@ -1,8 +1,8 @@
 ---
 title: "Buzz: Block's Agent-Native Workspace, Explained"
 date: 2026-09-23T12:51:52+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - YouTube
   - Technology

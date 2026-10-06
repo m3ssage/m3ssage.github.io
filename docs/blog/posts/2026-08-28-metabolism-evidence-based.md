@@ -1,8 +1,8 @@
 ---
 title: "8 Evidence-Based Ways to Influence Your Metabolism"
 date: 2026-08-28T21:11:59+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Health
   - Nutrition

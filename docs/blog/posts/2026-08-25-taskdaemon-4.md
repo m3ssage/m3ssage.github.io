@@ -1,8 +1,8 @@
 ---
 title: "TaskDaemon-4 and the Impossible Appointment"
 date: 2026-08-25T06:59:23+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Technology
   - AI

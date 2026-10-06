@@ -1,8 +1,8 @@
 ---
 title: "Birds Are the Only Surviving Dinosaurs: Steve Brusatte's 'The Story of Birds'"
 date: 2026-08-27T16:11:17+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - YouTube
   - Paleontology

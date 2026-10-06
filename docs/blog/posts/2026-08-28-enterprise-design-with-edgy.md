@@ -1,8 +1,8 @@
 ---
 title: "Enterprise Design with EDGY: A Common Language for the Whole Organisation"
 date: 2026-08-28T20:17:59+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Enterprise Architecture
   - Design

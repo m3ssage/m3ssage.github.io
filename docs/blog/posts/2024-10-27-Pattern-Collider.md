@@ -1,7 +1,8 @@
 ---
 title: Pattern Collider
 date: 2024-10-27
-author: eelco
+authors:
+- eelco
 tags: 
   - Math
   - Art

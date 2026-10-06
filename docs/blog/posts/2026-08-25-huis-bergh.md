@@ -1,8 +1,8 @@
 ---
 title: "Huis Bergh: Reopening of the Netherlands' Largest Water Castle"
 date: 2026-08-25T11:36:46+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - History
   - Heritage

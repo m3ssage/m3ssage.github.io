@@ -64,6 +64,7 @@ plugins:
   - tags
   - glightbox
   - blog:
+      authors_file: "{blog}/.authors.yml"
       blog_toc: true
       post_date_format: full
       archive_toc: true

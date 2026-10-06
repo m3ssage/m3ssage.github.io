@@ -1,8 +1,8 @@
 ---
 title: "The Same Height Party: Where Everyone Meets at Eye Level"
 date: 2026-08-26T09:36:18+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Culture
   - Lifestyle

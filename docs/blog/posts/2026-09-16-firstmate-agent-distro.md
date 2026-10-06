@@ -1,8 +1,8 @@
 ---
 title: "The Real Lesson of Firstmate: In the Age of Agents, Build the Tools That Fit You"
 date: 2026-09-16T06:00:43+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Artificial Intelligence
   - Developer Tools

@@ -1,8 +1,8 @@
 ---
 title: "Breda's Nightlife: A Night Out for Young and Old Alike"
 date: 2026-09-05T17:07:09+00:00
-author:
-  - eelco
+authors:
+- eelco
 categories:
   - Travel
   - Nightlife
