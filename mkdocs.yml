@@ -57,6 +57,7 @@ extra_css:
 plugins:
   - redirects:
       redirect_maps:
+        'blog/2025/10/06/life-inside-the-line---why-saudi-arabias-glass-megacity-will-fail-an-architectural-analysis.md': 'blog/posts/2025-10-06-427.md'
         'blog/2025/01/02/digitale-vrijheid-bedreigd-de-schaduwzijde-van-chat-control.md': 'blog/posts/2025-01-02-chat-control-eu-voorstel.md'
         'blog/category/tech.md': 'https://pages.bommel.xyz/blog/category/technology/'
         'blog/category/tooling.md': 'https://pages.bommel.xyz/blog/category/technology/'
