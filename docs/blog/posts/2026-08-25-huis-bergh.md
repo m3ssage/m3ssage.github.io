@@ -5,7 +5,6 @@ authors:
 - eelco
 categories:
   - Culture
-  - Software Development
   - Society
 tags:
   - Huis Bergh
