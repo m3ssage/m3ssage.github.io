@@ -7,7 +7,7 @@ tags:
   - History
   - Netherlands
 ---
-![Roman limes heritage in the Netherlands](/assets/2024-10-26-The-Ancient-Netherlands.jpg){ align=right width="250" loading=lazy }
+![Roman limes heritage in the Netherlands](/assets/2024-10-26-the-ancient-netherlands.jpg){ align=right width="250" loading=lazy }
 
 
 ## Unearthing the Rich Tapestry: A Journey Through Dutch History

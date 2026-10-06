@@ -7,7 +7,7 @@ tags:
   - Math
   - Art
 ---
-![Penrose tiling at the Oxford Mathematical Institute](/assets/2024-10-27-Pattern-Collider.jpg){ align=right width="250" loading=lazy }
+![Penrose tiling at the Oxford Mathematical Institute](/assets/2024-10-27-pattern-collider.jpg){ align=right width="250" loading=lazy }
 
 
 ## Create Patterns and Explore Symmetries

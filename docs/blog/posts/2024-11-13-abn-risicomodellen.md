@@ -9,7 +9,7 @@ tags:
   - Risk
   - Finance
 ---
-![The ABN AMRO headquarters in the Zuidas, Amsterdam](/assets/2024-11-13-ABN-risicomodellen.jpg){ align=right width="250" loading=lazy }
+![The ABN AMRO headquarters in the Zuidas, Amsterdam](/assets/2024-11-13-abn-risicomodellen.jpg){ align=right width="250" loading=lazy }
 
 **ABN Amro** heeft de verbetering van zijn **risicomodellen uitgesteld**, wat ertoe leidt dat de bank momenteel meer kapitaal aanhoudt dan noodzakelijk is. Dit uitstel heeft ook de beslissing over de **inkoop van eigen aandelen** vertraagd tot halverwege 2025. De bank kampt al langer met de kwaliteit van zijn risicomodellen en data, die niet volledig voldoen aan de eisen van de toezichthouder.
 <!-- more -->

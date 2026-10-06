@@ -8,7 +8,7 @@ tags:
   - foreign trading
   - Netherlands
 ---
-![Container ship in the Amazonehaven, Port of Rotterdam](/assets/2025-04-10-Import-tarifs.jpg){ align=right width="250" loading=lazy }
+![Container ship in the Amazonehaven, Port of Rotterdam](/assets/2025-04-10-import-tarifs.jpg){ align=right width="250" loading=lazy }
 
 An import tariff is a tax levied on goods entering a country. It's essentially an additional cost added to the price of the imported product.
 
