@@ -3,6 +3,8 @@ title: The Ancient Netherlands
 date: 2024-10-26
 authors:
 - eelco
+categories:
+  - Culture
 tags:
   - History
   - Netherlands

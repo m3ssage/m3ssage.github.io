@@ -5,7 +5,6 @@ authors:
 - eelco
 categories:
   - Sport
-  - Society
 tags:
   - NAC Breda
   - Keuken Kampioen Divisie

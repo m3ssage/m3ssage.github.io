@@ -7,7 +7,6 @@ categories:
   - YouTube
   - Technology
   - AI
-  - Lifestyle
 tags:
   - Buzz
   - Block

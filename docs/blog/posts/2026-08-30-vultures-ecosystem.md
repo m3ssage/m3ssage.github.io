@@ -5,7 +5,6 @@ authors:
 - eelco
 categories:
   - Nature
-  - Lifestyle
   - Science
 tags:
   - Vultures

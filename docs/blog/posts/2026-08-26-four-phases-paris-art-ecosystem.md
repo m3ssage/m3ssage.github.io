@@ -6,7 +6,6 @@ authors:
 categories:
   - Culture
   - Economics
-  - Travel
 tags:
   - Paris
   - Art Market

@@ -6,7 +6,6 @@ authors:
 categories:
   - Technology
   - AI
-  - Culture
   - Society
 tags:
   - TaskDaemon

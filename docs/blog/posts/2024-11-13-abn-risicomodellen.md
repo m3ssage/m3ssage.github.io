@@ -4,7 +4,7 @@ date: 2024-11-13
 authors:
 - eelco
 categories:
-  - Technology
+  - Economics
 tags: 
   - Risk
   - Finance

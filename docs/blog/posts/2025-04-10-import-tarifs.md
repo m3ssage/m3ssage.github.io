@@ -3,6 +3,8 @@ title: Import tariffs
 date: 2025-04-10
 authors:
 - eelco
+categories:
+  - Economics
 tags:
   - US
   - foreign trading
