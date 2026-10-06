@@ -4,9 +4,7 @@ date: 2026-08-28T20:30:00+00:00
 authors:
 - eelco
 categories:
-  - Software Development
-  - Economics
-  - Science
+  - Society
 tags:
   - Systems Thinking
   - Feedback Loops
