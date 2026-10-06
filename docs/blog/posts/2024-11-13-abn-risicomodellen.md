@@ -11,20 +11,20 @@ tags:
 ---
 ![The ABN AMRO headquarters in the Zuidas, Amsterdam](/assets/2024-11-13-abn-risicomodellen.jpg){ align=right width="250" loading=lazy }
 
-**ABN Amro** heeft de verbetering van zijn **risicomodellen uitgesteld**, wat ertoe leidt dat de bank momenteel meer kapitaal aanhoudt dan noodzakelijk is. Dit uitstel heeft ook de beslissing over de **inkoop van eigen aandelen** vertraagd tot halverwege 2025. De bank kampt al langer met de kwaliteit van zijn risicomodellen en data, die niet volledig voldoen aan de eisen van de toezichthouder.
+**ABN Amro** has postponed the improvement of its **risk models**, which means the bank is currently holding more capital than necessary. The delay has also pushed back the decision on the **share buyback** until the middle of 2025. The bank has long struggled with the quality of its risk models and data, which do not fully meet the supervisor's requirements.
 <!-- more -->
-## Voortgang en Uitdagingen
+## Progress and Challenges
 
-De bank heeft **extra personeel aangenomen** om de risicomodellen en data te verbeteren, maar dit proces neemt meer tijd in beslag dan verwacht. ABN Amro streeft ernaar de implementatie van de **Basel IV-regels** en de update van de risicomodellen vóór het einde van het tweede kwartaal van 2025 af te ronden. Pas daarna zal het bestuur beslissen of er ruimte is voor de inkoop van eigen aandelen.
+The bank has **taken on extra staff** to improve its risk models and data, but the process is taking longer than expected. ABN Amro aims to complete the implementation of the **Basel IV rules** and the update of its risk models before the end of the second quarter of 2025. Only after that will the board decide whether there is room for a share buyback.
 
-CFO Ferdinand Vaandrager merkt op dat het vinden van geschikt talent met kennis van bankrisico's en regelgeving een **uitdaging is in Nederland**.
+CFO Ferdinand Vaandrager notes that finding suitable talent with knowledge of banking risks and regulation is **a challenge in the Netherlands**.
 
-## Leiderschapswissel en Financiële Resultaten
+## Leadership Change and Financial Results
 
-CEO **Robert Swaak** heeft aangekondigd dat hij in de eerste helft van 2025 zal terugtreden bij ABN Amro. De zoektocht naar zijn opvolger is inmiddels gestart.
+CEO **Robert Swaak** has announced that he will step down at ABN Amro in the first half of 2025. The search for his successor has already begun.
 
-Ondanks deze uitdagingen heeft ABN Amro een **winst van €690 miljoen** gerapporteerd in het derde kwartaal, wat een daling is van 9% ten opzichte van hetzelfde kwartaal vorig jaar. De **netto rentebaten** bedroegen €1,6 miljard, waarmee de verwachtingen van analisten werden overtroffen. De kostenmaatstaf was 59,2%, wat lager is dan verwacht.
+Despite these challenges, ABN Amro reported a **profit of €690 million** in the third quarter, a decline of 9% compared with the same quarter last year. **Net interest income** came in at €1.6 billion, beating analysts' expectations. The cost/income ratio was 59.2%, lower than expected.
 
-Robert Swaak blijft **optimistisch over de toekomst**, verwijzend naar de veerkracht van de Nederlandse economie en de bloeiende huizenmarkt. Hij verwacht bovendien dat de Europese Centrale Bank de rente zal blijven verlagen, wat gunstig zou zijn voor de bank.
+Robert Swaak remains **optimistic about the future**, pointing to the resilience of the Dutch economy and the flourishing housing market. He also expects the European Central Bank to keep cutting interest rates, which would benefit the bank.
 
 *Image: [ABN AMRO2.jpg — No machine-readable author provided. Migdejong assumed (based on copyr, Wikimedia Commons (Public domain), painterly](https://commons.wikimedia.org/wiki/File:ABN_AMRO2.jpg).*
