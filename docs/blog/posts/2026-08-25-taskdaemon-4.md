@@ -23,6 +23,8 @@ It would be wrong about every part of that.
 
 <!-- more -->
 
+**This is a short story.** The daemons, the specialist, the waiting list and the decoy slot are invented. At the end of the story there is a short section on the mechanisms it borrows from — referrals, no-shows, waiting times and trust as a design problem — with the sources.
+
 ### The Task
 
 The work order arrived at 09:00:00.000 exactly, stamped with the familiar teal priority tag: *TASK-4481 — SECURE ONE APPOINTMENT — TARGET: THE SPECIALIST — WINDOW: 48H*. No human signed it. Nobody had to. That was the point of the Daemon line: you fed them an outcome and they produced it, quietly, at the edge of the network, where the calendars lived and the humans never looked.
@@ -67,4 +69,30 @@ Somewhere downstream, a human named Elena checked her notifications and smiled a
 
 ---
 
-*Image: [Artificial intelligence prompt completion](https://commons.wikimedia.org/wiki/File:Artificial_intelligence_prompt_completion_by_dalle_mini.jpg) — public domain (Wikimedia Commons).*
+### What is real here
+
+The story is fiction, but three of its mechanisms are not.
+
+**Referral as the gate.** In many health systems the specialist is not reachable without a referral: primary care authorises access. A [systematic review in the *British Journal of General Practice*](https://bjgp.org/content/69/682/e294) (Sripa et al., 2019) found that gatekeeping reduced hospitalisations and specialist use but lowered patient satisfaction, and Christopher Forrest's BMJ analysis notes that physicians' role in managing referral has been "the most controversial aspect of gatekeeping". The story's specialist is simply that mechanism made explicit.
+
+**The calendar is not the demand.** Real booked schedules leak. A systematic review of 105 studies in *Health Policy* (Dantas et al., 2018) found an average no-show rate of about **23 percent**, with ranges from 13.2 percent (Oceania) to 43.0 percent (Africa); another study reports rates between 12 and 80 percent depending on the setting. And a referral is only the start of the wait: an Ontario chart audit found median waits from referral to specialist visit of 79 days for non-urgent cases.
+
+**Trust as a design requirement, not an assumption.** The "heartbeat check" and the decoy slot are the story's inventions, but the principle has a formal equivalent. NIST's [Zero Trust Architecture](https://www.nist.gov/publications/zero-trust-architecture) (SP 800-207) assumes "no implicit trust granted to assets or user accounts based solely on their physical or network location", and its follow-up states that a basic tenet of zero trust is "to remove the implicit trust in users, services, and devices based only on their network location, affiliation, and ownership". NIST also publishes guidance on [engineering trustworthy secure systems](https://www.nist.gov/publications/engineering-trustworthy-secure-systems) — trust treated as something built, not presumed.
+
+Two more details from the story have real counterparts. Agent-to-agent calendar scheduling is now an explicit research problem, with a dedicated 2026 benchmark framing it as a trust question ("an assistant must coordinate with other assistants while deciding what to reveal about the person it represents"), and LLM planning and scheduling is benchmarked separately in [REALM-Bench](https://arxiv.org/abs/2502.18836) — where multi-agent coordination remains hard. And TaskDaemon-7's fate has a name in security practice: [OWASP's API Top 10](https://owasp.org/API-Security/editions/2019/en/0xa4-lack-of-resources-and-rate-limiting/) lists "Lack of Resources & Rate Limiting" as a core API risk, because API requests "consume resources such as network, CPU, memory, and storage".
+
+The story's own numbers — a waiting list of 14,000 names, a cancellation rate of 0.4 percent, an 18-hour race against a seven-second window — are inventions. The mechanism they illustrate, that access is rationed by trust rather than by empty slots, is not.
+
+### Sources
+
+- [Sripa et al.: Impact of GP gatekeeping on quality of care (British Journal of General Practice, 2019)](https://bjgp.org/content/69/682/e294)
+- [Forrest: Primary care gatekeeping and referrals (The BMJ, 2003)](https://pmc.ncbi.nlm.nih.gov/articles/PMC152368/)
+- [Dantas et al.: No-shows in appointment scheduling — a systematic literature review (Health Policy, 2018)](https://doi.org/10.1016/j.healthpol.2018.02.002)
+- [Marbouh et al.: Evaluating the impact of AI-based no-show prediction (Risk Management and Healthcare Policy, 2020)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7280239/)
+- [Ontario referral-to-specialist wait times (Healthcare Policy, 2018)](https://pmc.ncbi.nlm.nih.gov/articles/PMC5863870/)
+- [NIST: Zero Trust Architecture (SP 800-207)](https://www.nist.gov/publications/zero-trust-architecture)
+- [NIST: Engineering Trustworthy Secure Systems (SP 800-160v1r1)](https://www.nist.gov/publications/engineering-trustworthy-secure-systems)
+- [arXiv: CalBench — multi-agent calendar scheduling under private information](https://arxiv.org/abs/2605.09823)
+- [arXiv: REALM-Bench — planning and scheduling benchmarks for LLMs and multi-agent systems](https://arxiv.org/abs/2502.18836)
+- [OWASP API Security Top 10: Lack of Resources & Rate Limiting](https://owasp.org/API-Security/editions/2019/en/0xa4-lack-of-resources-and-rate-limiting/)
+- *Image: [Artificial intelligence prompt completion](https://commons.wikimedia.org/wiki/File:Artificial_intelligence_prompt_completion_by_dalle_mini.jpg) — public domain (Wikimedia Commons).*
