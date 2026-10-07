@@ -124,3 +124,41 @@
 [data-md-color-scheme="latte"] .md-copyright a {
   color: #ffffff;
 }
+
+/* ---- Cookie-consent buttons (only place .md-button is used on this site) ----
+   catppuccin.css styles .md-button as a solid button with --md-default-bg-color as text colour,
+   but Material's own `.md-typeset .md-button` (specificity 0,3,0 against 0,1,0) keeps the TEXT at
+   --md-primary-fg-color. The "Manage settings" label therefore rendered mauve-on-mauve (1.00:1)
+   in both schemes: an apparently empty button next to an identical-looking solid "Accept".
+   The same clash made the hover of BOTH buttons accent-green with --md-accent-bg-color text
+   (2.39:1 Latte, 1.03:1 Mocha — invisible in dark mode). Both states are restated here with the
+   scheme-aware tokens, so the pair is unambiguous and readable either way:
+     idle : Accept = solid primary, Manage = outlined primary (stock Material's secondary look)
+     hover: the states swap (invert), which keeps the text readable on either background.
+   Measured WCAG ratios, Latte / Mocha — idle 4.79 / 9.23, Manage idle 4.79 / 8.07 (text on the
+   banner's --md-default-bg-color), hover 4.79 / 9.23: all ≥ AA (4.5:1). */
+.md-typeset .md-consent__controls .md-button--primary {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.md-typeset .md-consent__controls .md-button--primary:focus,
+.md-typeset .md-consent__controls .md-button--primary:hover {
+  background-color: var(--md-primary-bg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset .md-consent__controls .md-button:not(.md-button--primary) {
+  background-color: transparent;
+  border: 0.1rem solid var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset .md-consent__controls .md-button:not(.md-button--primary):focus,
+.md-typeset .md-consent__controls .md-button:not(.md-button--primary):hover {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
