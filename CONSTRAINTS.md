@@ -42,6 +42,8 @@ blokkerende checks op deze host.
 | Duur strict build | 8 s (6,5 s build) | mag niet boven ~60 s komen |
 | Hygiëne-waarschuwingen (dash-stijl) | 48 over 67 bestanden | stijl, geen drempel |
 | Categorie-audit (`blog-axi categorie`) | 0 fouten, 21 geaccepteerde let-op-signalen | 0 fouten mag niet stijgen |
+| SEO/GEO-crawl (loop 006, `seo_geo_check.py`) | 0 site-fails, 50 pagina-fails (posts delen de site-description), benchmark 27/28 — 2026-10-10, ronde 1 | pagina-fails → 0 (elke post een eigen description), benchmark → 28/28 |
+| SEO/GEO-crawl, nulmeting vóór ronde 1 | 1 site-fail (robots.txt 404), 85 pagina-fails (generator-default), benchmark 27/28 — 2026-10-10 | — |
 
 ## Uitzonderingen
 
