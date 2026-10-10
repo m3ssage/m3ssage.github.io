@@ -41,9 +41,11 @@ blokkerende checks op deze host.
 | Aantal posts | 50 | mag groeien, niet krimpen |
 | Duur strict build | 8 s (6,5 s build) | mag niet boven ~60 s komen |
 | Hygiëne-waarschuwingen (dash-stijl) | 48 over 67 bestanden | stijl, geen drempel |
-| Categorie-audit (`blog-axi categorie`) | 0 fouten, 21 geaccepteerde let-op-signalen | 0 fouten mag niet stijgen |
-| SEO/GEO-crawl (loop 006, `seo_geo_check.py`) | 0 site-fails, 50 pagina-fails (posts delen de site-description), benchmark 27/28 — 2026-10-10, ronde 1 | pagina-fails → 0 (elke post een eigen description), benchmark → 28/28 |
-| SEO/GEO-crawl, nulmeting vóór ronde 1 | 1 site-fail (robots.txt 404), 85 pagina-fails (generator-default), benchmark 27/28 — 2026-10-10 | — |
+| Categorie-audit (`blog-axi categorie`) | 0 fouten, 22 let-op-signalen (gemeten over alle 50 posts, 2026-10-10) | 0 fouten mag niet stijgen |
+| SEO/GEO-crawl (loop 006, `seo_geo_check.py`) | 0 fails (0 site, 0 pagina), benchmark 27/28 — 2026-10-10, ronde 2 (50 post-descriptions + `llms.txt`) | 0 fails houden; volgende notes: JSON-LD, `og:type=article`, de "Index"-titels van lijstpagina's |
+| SEO/GEO-crawl, ronde 1 | 0 site-fails, 50 pagina-fails (posts deelden de site-description), benchmark 27/28 — 2026-10-10 (`6fd6a0e`) | — |
+| SEO/GEO-crawl, nulmeting | 1 site-fail (`robots.txt` 404), 85 pagina-fails (generator-default), benchmark 27/28 — 2026-10-10 | — |
+| Neutraliteitspoort | 2× let-op, 0 fouten (`2025-07-19-184.md`, `2025-07-28-276.md`) — 2026-10-10, gemeten over alle 50 posts | keuze van de gebruiker: `blog-axi keur-goed <post> --reden "..."` of de post aanpassen |
 
 ## Uitzonderingen
 
