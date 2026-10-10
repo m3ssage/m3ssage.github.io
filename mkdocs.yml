@@ -1,7 +1,7 @@
 site_name: bommel.xyz
 site_url: https://pages.bommel.xyz/
 #edit_uri: edit/main/docs/
-site_description: Markdown site generated on github
+site_description: "Long-form articles on AI, technology, science, culture and society: the personal site of Eelco van Bommel."
 #nav:
 #  - Blog: blog/index.md
 #  - Archive: blog/archive/index.md
