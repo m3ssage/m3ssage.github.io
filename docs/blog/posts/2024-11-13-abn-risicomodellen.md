@@ -1,6 +1,7 @@
 ---
 title: ABN Riskmodel updates delayed
 date: 2024-11-13
+description: "ABN Amro delayed improvements to its risk models, so the bank holds more capital than needed and the share buyback moved back."
 authors:
 - eelco
 categories:

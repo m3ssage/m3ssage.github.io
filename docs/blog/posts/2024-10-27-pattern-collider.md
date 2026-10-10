@@ -1,6 +1,7 @@
 ---
 title: Pattern Collider
 date: 2024-10-27
+description: "Pattern Collider is a small web tool for generating and exploring quasiperiodic tilings, and a playful way into symmetry."
 authors:
 - eelco
 categories:

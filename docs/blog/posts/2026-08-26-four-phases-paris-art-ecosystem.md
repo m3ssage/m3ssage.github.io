@@ -1,6 +1,7 @@
 ---
 title: "Four Phases of the Parisian Art Ecosystem: From Royal Academy to Global Art Fair"
 date: 2026-08-26T17:00:13+00:00
+description: "How Paris became the art capital of the West, and how that ecosystem moved from royal academy and Salon to global art fair."
 authors:
 - eelco
 categories:

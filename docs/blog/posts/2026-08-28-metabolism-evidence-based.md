@@ -1,6 +1,7 @@
 ---
 title: "8 Evidence-Based Ways to Influence Your Metabolism"
 date: 2026-08-28T21:11:59+00:00
+description: "How your daily energy use is built up, what determines resting metabolism, and eight evidence-based ways to influence it."
 authors:
 - eelco
 categories:

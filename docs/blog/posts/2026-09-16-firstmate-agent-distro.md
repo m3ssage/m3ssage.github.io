@@ -1,6 +1,7 @@
 ---
 title: "The Real Lesson of Firstmate: In the Age of Agents, Build the Tools That Fit You"
 date: 2026-09-16T06:00:43+00:00
+description: "The real lesson of Firstmate: wrappers around existing tools, worktrees and validation, and four principles worth stealing."
 authors:
 - eelco
 categories:

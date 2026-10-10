@@ -1,6 +1,7 @@
 ---
 title: "Tivoli Gardens: The Perfect Centerpiece for a Small Copenhagen Trip"
 date: 2026-08-26T09:05:56+00:00
+description: "Tivoli Gardens as the centerpiece of a short Copenhagen trip: what you will find inside, when to go and what it costs."
 authors:
 - eelco
 categories:

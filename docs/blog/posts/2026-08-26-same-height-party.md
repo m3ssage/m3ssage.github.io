@@ -1,6 +1,7 @@
 ---
 title: "The Same Height Party: Where Everyone Meets at Eye Level"
 date: 2026-08-26T09:36:18+00:00
+description: "The same height party: a social experiment where every guest wears the same shoes, from a 1997 art installation to Oakland."
 authors:
 - eelco
 categories:

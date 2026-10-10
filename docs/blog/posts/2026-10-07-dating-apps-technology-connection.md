@@ -1,6 +1,7 @@
 ---
 title: "Technology and connection: what the evidence says about dating apps, dancing and children"
 date: 2026-10-07T00:29:06+02:00
+description: "What the evidence says about four circulating claims on dating apps, dancing and children, from a Nexus Conference clip."
 authors:
 - eelco
 categories:

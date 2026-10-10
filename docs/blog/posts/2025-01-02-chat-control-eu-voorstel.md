@@ -1,6 +1,7 @@
 ---
 title: "Chat control: the EU proposal to scan messages for abuse material"
 date: 2025-01-02T08:50:48.338+02:00
+description: "The EU proposal to scan messages for child abuse material: what it covers, what is already in force, and where opinions diverge."
 authors:
 - eelco
 categories:

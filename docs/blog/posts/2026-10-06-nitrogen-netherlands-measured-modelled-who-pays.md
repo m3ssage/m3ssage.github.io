@@ -1,6 +1,7 @@
 ---
 title: "Nitrogen in the Netherlands: what nature measures, what the models calculate, and who pays"
 date: 2026-10-06T18:17:51+02:00
+description: "The Dutch nitrogen dossier in three languages: what monitoring measures, what the models calculate, and who pays for permits."
 authors:
 - eelco
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "Birds Are the Only Surviving Dinosaurs: Steve Brusatte's 'The Story of Birds'"
 date: 2026-08-27T16:11:17+00:00
+description: "Steve Brusatte on why birds are literally surviving dinosaurs, how flight happened by accident, and what feathered fossils show."
 authors:
 - eelco
 categories:

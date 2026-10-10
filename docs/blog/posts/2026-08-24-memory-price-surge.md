@@ -1,6 +1,7 @@
 ---
 title: "The Memory Price Surge: Why RAM and Storage Got So Expensive"
 date: 2026-08-24T22:57:26+00:00
+description: "Why RAM and SSDs suddenly got more expensive: the AI memory boom, the numbers behind it, and who feels the pain."
 authors:
 - eelco
 categories:

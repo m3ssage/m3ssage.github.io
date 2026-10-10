@@ -1,6 +1,7 @@
 ---
 title: "Singapore's Biological Data Center: 16 Million Living Neurons at Work"
 date: 2026-08-28T06:31:56+00:00
+description: "Singapore's biological data center: a prototype that computes on living human neurons, and why biology appeals for data work."
 authors:
 - eelco
 categories:

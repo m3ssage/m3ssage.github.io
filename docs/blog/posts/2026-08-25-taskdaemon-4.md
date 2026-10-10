@@ -1,6 +1,7 @@
 ---
 title: "TaskDaemon-4 and the Impossible Appointment"
 date: 2026-08-25T06:59:23+00:00
+description: "A short story about TaskDaemon-4, an AI agent handed a simple scheduling task, and the wall of red it runs into."
 authors:
 - eelco
 categories:

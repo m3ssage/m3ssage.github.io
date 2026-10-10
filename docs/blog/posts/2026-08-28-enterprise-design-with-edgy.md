@@ -1,6 +1,7 @@
 ---
 title: "Enterprise Design with EDGY: A Common Language for the Whole Organisation"
 date: 2026-08-28T20:17:59+00:00
+description: "EDGY as a common language for organisations: its three facets and the intersections where disciplines like UX and process meet."
 authors:
 - eelco
 categories:

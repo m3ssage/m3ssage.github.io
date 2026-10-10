@@ -1,6 +1,7 @@
 ---
 title: "It's Happening: Europe Is Building an Impossible Fusion Reactor"
 date: 2026-08-25T21:22:42+00:00
+description: "Proxima Fusion's stellarator design, and why a Munich startup funded with 411 million euro bets against the classic tokamak."
 authors:
 - eelco
 categories:

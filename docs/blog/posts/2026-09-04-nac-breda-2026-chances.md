@@ -1,6 +1,7 @@
 ---
 title: "NAC Breda in 2026: The Big-Budget Favourite for an Immediate Comeback"
 date: 2026-09-04T18:10:46+00:00
+description: "NAC Breda after relegation: the budget, the continuity in the dugout, and the chances of an immediate return to the Eredivisie."
 authors:
 - eelco
 categories:

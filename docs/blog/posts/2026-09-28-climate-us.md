@@ -1,6 +1,7 @@
 ---
 title: "Climate.us: Rebuilding Climate.gov Outside the Government"
 date: 2026-09-28T13:57:47+00:00
+description: "Climate.us rebuilds Climate.gov outside government: what Americans used the site for, when the updates stopped, and the plan."
 authors:
 - eelco
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "Tipping in America: How a Voluntary Custom Reached the Checkout Screen"
 date: 2026-10-08T20:58:22+00:00
+description: "How tipping in America grew from a voluntary custom into a checkout screen prompt, including the $2.13 subminimum wage."
 author:
   - eelco
 categories:

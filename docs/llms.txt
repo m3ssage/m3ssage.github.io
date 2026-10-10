@@ -1,0 +1,14 @@
+# bommel.xyz
+
+> Personal site and blog of Eelco van Bommel: long-form articles on AI, technology, science, culture and society.
+
+## Main pages
+
+- [Blog](https://pages.bommel.xyz/blog/): all posts, newest first
+- [About](https://pages.bommel.xyz/about/): how this site is built
+- [Sitemap](https://pages.bommel.xyz/sitemap.xml): every URL with a lastmod date
+
+## Notes
+
+- Posts are written in English and each post ends with a Sources list of linked pages.
+- Categories: AI, Culture, Economics, Lifestyle, Nature, Science, Society, Software Development, Sport, Technology, Travel, YouTube.

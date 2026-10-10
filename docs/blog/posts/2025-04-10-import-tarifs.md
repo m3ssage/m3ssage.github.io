@@ -1,6 +1,7 @@
 ---
 title: Import tariffs
 date: 2025-04-10
+description: "What an import tariff is, how it works in practice for importers and consumers, and what it does to prices at the till."
 authors:
 - eelco
 categories:

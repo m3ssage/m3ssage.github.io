@@ -1,6 +1,7 @@
 ---
 title: "Fault Lines in American Power: From Reproductive Battles to Institutional Leverage"
 date: 2026-08-27T15:23:17+00:00
+description: "Fault lines in American power: reproductive rights as a postcode lottery, targeted political violence, and institutional manoeuvring."
 authors:
 - eelco
 categories:

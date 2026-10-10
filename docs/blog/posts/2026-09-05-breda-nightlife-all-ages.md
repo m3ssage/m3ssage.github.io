@@ -1,6 +1,7 @@
 ---
 title: "Breda's Nightlife: A Night Out for Young and Old Alike"
 date: 2026-09-05T17:07:09+00:00
+description: "Breda's nightlife mixes generations: the brown cafe, the party streets, and why young and old share the same night out."
 authors:
 - eelco
 categories:

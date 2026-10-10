@@ -1,6 +1,7 @@
 ---
 title: "Pi Agent's Developer on Why Minimal Beats Maximal in AI Coding"
 date: 2026-09-13T05:39:57+00:00
+description: "Pi Agent's developer on why a minimal coding harness with four tools can beat heavier rivals, and the workflow behind it."
 authors:
 - eelco
 categories:

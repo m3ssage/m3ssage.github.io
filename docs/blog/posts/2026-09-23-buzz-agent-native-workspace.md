@@ -1,6 +1,7 @@
 ---
 title: "Buzz: Block's Agent-Native Workspace, Explained"
 date: 2026-09-23T12:51:52+00:00
+description: "Block's Buzz treats agents as teammates with identities and channels, and bets on open protocols: where it works, where it is rough."
 authors:
 - eelco
 categories:

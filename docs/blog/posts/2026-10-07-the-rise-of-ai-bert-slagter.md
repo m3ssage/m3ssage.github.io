@@ -1,6 +1,7 @@
 ---
 title: "The rise of AI: from chatbot to agent | Bert Slagter and Jelle van Baardewijk #2376"
 date: 2026-10-07T09:24:48+02:00
+description: "Bert Slagter on how a language model is made, where the episode's numbers drift from the record, and the move to agents."
 authors:
 - eelco
 categories:

@@ -1,6 +1,7 @@
 ---
 title: "Why Vultures Matter: Nature's Overlooked Sanitation Service"
 date: 2026-08-30T21:25:53+00:00
+description: "Why vultures matter: nature's sanitation service, the ecosystem benefits they provide, and the Indian vulture crisis."
 authors:
 - eelco
 categories:

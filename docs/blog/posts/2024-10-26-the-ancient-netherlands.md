@@ -1,6 +1,7 @@
 ---
 title: The Ancient Netherlands
 date: 2024-10-26
+description: "A tour through Dutch prehistory, the Roman era and the early Middle Ages, and how each shaped the country's identity."
 authors:
 - eelco
 categories:

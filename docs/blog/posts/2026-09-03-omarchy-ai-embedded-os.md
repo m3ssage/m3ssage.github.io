@@ -1,6 +1,7 @@
 ---
 title: "Omarchy 4.0: Could This Be the First Truly AI-Embedded Operating System?"
 date: 2026-09-03T20:02:42+00:00
+description: "Omarchy 4.0 treats the AI agent as a first-class citizen of the desktop, unlike systems that bolt an assistant onto the side."
 authors:
 - eelco
 categories:

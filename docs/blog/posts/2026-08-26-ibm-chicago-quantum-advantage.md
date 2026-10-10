@@ -1,6 +1,7 @@
 ---
 title: "IBM and the University of Chicago Show Quantum Advantage — With Proof"
 date: 2026-08-26T05:16:41+00:00
+description: "IBM and the University of Chicago report quantum advantage with proof: 70 logical qubits and a verifiable sampling problem."
 authors:
 - eelco
 categories:

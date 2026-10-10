@@ -1,6 +1,7 @@
 ---
 title: "Systems Thinking: Why Patterns Are So Hard to See — and What to Do About It"
 date: 2026-08-28T20:30:00+00:00
+description: "What systems thinking actually is, why the patterns behind stubborn problems are so hard to see, and what can be done about it."
 authors:
 - eelco
 categories:

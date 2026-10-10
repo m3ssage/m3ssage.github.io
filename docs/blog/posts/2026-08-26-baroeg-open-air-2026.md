@@ -1,6 +1,7 @@
 ---
 title: "Baroeg Open Air 2026: Two Days of Punk, Metal and Rave in Rotterdam"
 date: 2026-08-26T08:29:24+00:00
+description: "Baroeg Open Air 2026: two days of punk, metal and rave in Rotterdam's Zuiderpark, with around forty acts across a full weekend."
 authors:
 - eelco
 categories:
