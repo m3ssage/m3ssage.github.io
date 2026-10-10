@@ -27,4 +27,6 @@ jobs:
             mkdocs-material-
       - run: sudo apt-get update && sudo apt-get install -y pngquant
       - run: pip install -r requirements.txt
+      - name: Strict build (quality gate)
+        run: mkdocs build --strict --site-dir /tmp/strict-build
       - run: mkdocs gh-deploy --force 
