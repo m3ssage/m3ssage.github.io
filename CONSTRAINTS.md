@@ -45,7 +45,7 @@ blokkerende checks op deze host.
 | SEO/GEO-crawl (loop 006, `seo_geo_check.py`) | 0 fails (0 site, 0 pagina), benchmark 27/28 — 2026-10-10, ronde 2 (50 post-descriptions + `llms.txt`) | 0 fails houden; volgende notes: JSON-LD, `og:type=article`, de "Index"-titels van lijstpagina's |
 | SEO/GEO-crawl, ronde 1 | 0 site-fails, 50 pagina-fails (posts deelden de site-description), benchmark 27/28 — 2026-10-10 (`6fd6a0e`) | — |
 | SEO/GEO-crawl, nulmeting | 1 site-fail (`robots.txt` 404), 85 pagina-fails (generator-default), benchmark 27/28 — 2026-10-10 | — |
-| Neutraliteitspoort | 2× let-op, 0 fouten (`2025-07-19-184.md`, `2025-07-28-276.md`) — 2026-10-10, gemeten over alle 50 posts | keuze van de gebruiker: `blog-axi keur-goed <post> --reden "..."` of de post aanpassen |
+| Neutraliteitspoort | 2× let-op, 0 fouten (`2025-07-19-184.md`, `2025-07-28-276.md`), beide **goedgekeurd door de gebruiker op 2026-10-10** (`.blog-poort.yaml`) — gemeten over alle 50 posts | nieuwe let-op-signalen blijven een keuze van de gebruiker: `blog-axi keur-goed <post> --reden "..."` of de post aanpassen |
 
 ## Uitzonderingen
 
