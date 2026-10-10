@@ -162,3 +162,24 @@
   border-color: var(--md-primary-fg-color);
   color: var(--md-primary-bg-color);
 }
+
+/* ---- Image outlines ----
+   Content images get a 1px outline: pure black at 10% in light (Latte), pure white at 10% in
+   dark (Mocha). Never a tinted near-black (slate, zinc) or an accent colour: the tint picks up
+   the surface underneath and reads as a coloured fringe on the image edge. outline-offset: -1px
+   draws the line inside the image box, so adding it cannot shift a single pixel of layout.
+   The rgba() line is the sRGB fallback for engines without oklch(). */
+[data-md-color-scheme="latte"] .md-typeset img:not(.twemoji),
+[data-md-color-scheme="mocha"] .md-typeset img:not(.twemoji) {
+  outline-offset: -1px;
+}
+
+[data-md-color-scheme="latte"] .md-typeset img:not(.twemoji) {
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  outline: 1px solid oklch(0 0 0 / 0.1);
+}
+
+[data-md-color-scheme="mocha"] .md-typeset img:not(.twemoji) {
+  outline: 1px solid rgba(255, 255, 255, 0.1);
+  outline: 1px solid oklch(1 0 0 / 0.1);
+}
