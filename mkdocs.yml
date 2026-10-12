@@ -161,6 +161,7 @@ plugins:
       categories_allowed:
         - AI
         - Culture
+        - Dutch
         - Economics
         - Lifestyle
         - Nature

@@ -1,5 +1,6 @@
 ---
-title: "The Netherlands Overhauls Its Zoo Permit System: What the Documents Say"
+title: "Nederland herziet het vergunningenstelsel voor dierentuinen: wat de stukken zeggen"
+slug: the-netherlands-overhauls-its-zoo-permit-system-what-the-documents-say
 date: 2026-10-12T12:37:12+00:00
 description: "What the documents say about the Dutch zoo permit overhaul: periodic reassessment, open norms and the Dolfinarium enforcement cases."
 author:
@@ -8,6 +9,7 @@ categories:
   - Society
   - Nature
   - Economics
+  - Dutch
 tags:
   - Zoos
   - Netherlands
