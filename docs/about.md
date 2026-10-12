@@ -6,9 +6,9 @@ icon: material/ab-testing
 
 ## Language of this site
 
-This site is written in English, with one exception: posts that are primarily about the Netherlands are published in Dutch. The reason is practical rather than principled. An English text about Dutch policy, Dutch regulators or Dutch institutions fills up with Dutch names, terms and document titles that have no natural English equivalent, and it ends up reading worse than the original would have. So when the subject is Dutch, the post is in Dutch. Everything else stays in English.
+This site is written in English. Some posts are in Dutch, because they are about the Netherlands: Dutch policy, Dutch regulators, Dutch institutions and Dutch places. The reason is practical rather than principled. An English text on such a subject fills up with Dutch names, terms and document titles that have no natural English equivalent, and then it reads worse than the original would have. Everything that is not about the Netherlands stays in English.
 
-Die uitzondering staat er bewust: berichten die primair over Nederland gaan (Nederlands beleid, Nederlandse instellingen, plaatsen of samenleving) staan in het Nederlands, alle andere berichten zijn Engelstalig.
+Die uitzondering staat er bewust: berichten die primair over Nederland gaan kunnen in het Nederlands staan, alle andere berichten zijn Engelstalig.
 
 ## Building a Markdown-Powered Website with MkDocs
 
