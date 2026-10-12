@@ -16,35 +16,35 @@ tags:
 ---
 ![Illustration: a woman sits on a chair in an outpatient waiting area with a stack of medical records and scan printouts on her lap, looking down a corridor of closed doors](/assets/2026-10-11-guilty-until-proven-sick.png){ align=right width="250" }
 
-On 15 September 2026, Amanda Rose Berk posted a 101-second Instagram reel built around one phrase: "guilty until proven sick". She says a woman who called her used it to describe what it feels like to be a patient — you are treated as if you have to prove you are ill before anyone takes the symptoms seriously.
+Amanda Rose Berk posted a 101-second Instagram reel on 15 September 2026. One phrase does the work: guilty until proven sick. She credits it to a woman who called her, and she uses it for the feeling of being treated as if you have to prove you are ill before anyone takes the symptoms seriously.
 
-The reel is patient advocacy wrapped around a product: its caption says this problem is "a huge part of why we're building LIORA", and points to a waitlist. This article summarises what the reel claims, and sets it next to what the published record says about diagnostic delay.
+The reel is patient advocacy with a product attached. Its caption calls the problem "a huge part of why we're building LIORA" and points to a waitlist. What follows is what the reel claims, set next to what the published record says about diagnostic delay.
 
 <!-- more -->
 
-### What the reel says
+### What the reel claims
 
-The speaker credits the phrase to a caller, a former marathon runner who became "super active" and then started blacking out while sitting at her desk. She went from doctor to doctor and was told it was "probably anxiety, depression, maybe it's your cycle". She replied that she knew what anxiety felt like and that "this feels different".
+The speaker credits the phrase to a caller: a former marathon runner who was "super active" and then started blacking out while sitting at her desk. She went from doctor to doctor, and heard that it was "probably anxiety, depression, maybe it's your cycle". Her answer was that she knew what anxiety felt like, and that "this feels different".
 
-According to the account in the reel, she was misdiagnosed and mismedicated for a year before eventually needing a pacemaker. By the time the two spoke she had just turned 30 and had undergone five heart surgeries, for what her doctor said could have been prevented if it had been caught sooner. The reel also lists the labour that falls to the patient: tracking every symptom, doing the research, finding the right doctors, collecting referrals, retelling the story — while trying not to seem "too informed, too anxious", or as though you Googled too much.
+According to the account in the reel, a year of misdiagnosis and mismedication followed. She ended up needing a pacemaker. By the time the two spoke she had just turned 30 and had undergone five heart surgeries, for what her doctor said could have been prevented if it had been caught sooner. The reel also lists what the patient has to do: track every symptom, do the research, find the right doctors, collect referrals, retell the story, and try not to seem "too informed, too anxious", or like someone who Googled too much.
 
-No name, hospital, diagnosis or medical record is given, so the individual case cannot be verified from the post. It is the creator's account of a conversation.
+No name, no hospital, no diagnosis, no record. The individual case cannot be checked from the post. It is the creator's account of a conversation.
 
-### What the published record shows
+### What the record shows
 
-Diagnostic error is a measured public-health problem. An analysis by the Johns Hopkins Armstrong Institute Center for Diagnostic Excellence and the Risk Management Foundation of the Harvard Medical Institutions, published in BMJ Quality & Safety in July 2023, estimated that about 795,000 Americans die or are permanently disabled by diagnostic error each year — 371,000 deaths and 424,000 permanent disabilities across hospital and clinic settings.
+Diagnostic error is measured. An analysis by the Johns Hopkins Armstrong Institute Center for Diagnostic Excellence, with the Risk Management Foundation of the Harvard Medical Institutions, appeared in BMJ Quality & Safety in July 2023. It estimated that about 795,000 Americans die or are permanently disabled by diagnostic error each year: 371,000 deaths and 424,000 permanent disabilities, across hospital and clinic settings.
 
-Heart attacks are a documented case of that gap. A UK analysis of 564,412 patients ultimately diagnosed with a heart attack over nine years found that around a third had received an initial diagnosis different from the final one. Women finally diagnosed with the more severe STEMI type had a 59% greater chance of an initial misdiagnosis than men; for NSTEMI the figure was 41%. The British Heart Foundation, which published the summary in August 2016, describes the finding as women being roughly 50% more likely than men to get an incorrect initial diagnosis after a heart attack.
+Heart attacks are a documented case of that gap. Researchers looked at 564,412 patients, over nine years, who were ultimately diagnosed with a heart attack. Around a third had received an initial diagnosis that differed from the final one. Women who ended up with the more severe STEMI type had a 59% greater chance of an initial misdiagnosis than men. For NSTEMI the figure was 41%. The British Heart Foundation, which published the summary in August 2016, describes the finding as women being roughly 50% more likely than men to get an incorrect initial diagnosis after a heart attack.
 
-Context for why that matters: the US Centers for Disease Control and Prevention states that heart disease is the leading cause of death for women in the United States, and that over 60 million women — 44% — are living with some form of heart disease.
+Why that matters: the US Centers for Disease Control and Prevention states that heart disease is the leading cause of death for women in the United States, and that over 60 million women, 44%, live with some form of it.
 
-The specific mechanism the reel describes, symptoms attributed to mental health, appears in patient-facing material. The Canadian Heart & Stroke Foundation writes that "one study showed that women who mention stress along with physical symptoms of cardiac disease are much more likely to be diagnosed with anxiety than men reporting exactly the same thing." That article does not name the study, so the underlying research is not identified there.
+The mechanism the reel describes, symptoms filed under mental health, shows up in patient-facing material too. The Canadian Heart & Stroke Foundation writes that "one study showed that women who mention stress along with physical symptoms of cardiac disease are much more likely to be diagnosed with anxiety than men reporting exactly the same thing." The article does not name the study, so the research behind that sentence is not identified there.
 
-### What is not established
+### What the reel cannot establish
 
-The reel offers no numbers and cites no research; the national estimates above are aggregates across all patients and all conditions, and they do not measure the experience of any one person. Whether the caller's outcome was in fact preventable, and whether her symptoms were dismissed specifically because she is a woman, is not something a published source here can confirm. What the record does support is narrower and still uncomfortable: diagnostic error harms hundreds of thousands of Americans a year, and in one large UK dataset women were more likely than men to be told something else first.
+The reel offers no numbers and cites no research. The national estimates above are aggregates across all patients and all conditions, and they say nothing about one person's experience. Whether the caller's outcome was in fact preventable, and whether her symptoms were dismissed because she is a woman, is not something a published source here can confirm. The record supports something narrower, and still uncomfortable: diagnostic error harms hundreds of thousands of Americans a year, and in one large UK dataset women were more likely than men to be told something else first.
 
-The post is also promotional, which is worth noting when a health claim travels with a waitlist link.
+One more thing worth noting. The reel is promotional, and a health claim travels with a waitlist link.
 
 ### Sources
 
