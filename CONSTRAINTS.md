@@ -11,6 +11,8 @@ Last reviewed: 2026-10-12 by @eelco
 - Geen suppressie-comments die een check in CI of in een poort uitzetten
 - Geen Nederlandstalige post zonder Nederlands onderwerp: de site is Engelstalig, Nederlands mag
   alleen als de post primair over Nederland gaat (poort `taal`, rubriek `blog-taal`)
+- Categorieën komen uit `categories_allowed` in `mkdocs.yml`, en categorieën en tags blijven Engels
+  ook als de post Nederlands is (de `frontmatter`-poort controleert de categorielijst)
 - Geen gegenereerde of grote bestanden in git (`/site` en `.cache` staan in `.gitignore`)
 - Dit bestand wordt niet verzwakt om een wijziging groen te krijgen
 
