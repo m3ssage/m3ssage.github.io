@@ -13,6 +13,8 @@ Last reviewed: 2026-10-12 by @eelco
   alleen als de post primair over Nederland gaat (poort `taal`, rubriek `blog-taal`)
 - Categorieën komen uit `categories_allowed` in `mkdocs.yml`, en categorieën en tags blijven Engels
   ook als de post Nederlands is (de `frontmatter`-poort controleert de categorielijst)
+- De hele frontmatter blijft Engels (titel, `description`, categorieën, tags); alleen de body en de
+  alt-tekst van de afbeelding volgen de taal van het onderwerp, ook bij een Nederlandse post
 - Geen gegenereerde of grote bestanden in git (`/site` en `.cache` staan in `.gitignore`)
 - Dit bestand wordt niet verzwakt om een wijziging groen te krijgen
 
