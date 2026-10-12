@@ -1,7 +1,7 @@
 ---
 title: "The Netherlands Overhauls Its Zoo Permit System: What the Documents Say"
 date: 2026-10-12T12:37:12+00:00
-description: "Wat de stukken zeggen over de herziening van het Nederlandse dierentuinvergunningstelsel, periodieke toetsing en de handhaving bij het Dolfinarium."
+description: "What the documents say about the Dutch zoo permit overhaul: periodic reassessment, open norms and the Dolfinarium enforcement cases."
 author:
   - eelco
 categories:
