@@ -16,9 +16,9 @@ Last reviewed: 2026-10-12 by @eelco
 - Een post in het Nederlands draagt de categorie `Dutch`, een Engelse post niet: `Dutch` is een
   taallabel naast de onderwerpscategorieën, deterministisch getoetst op de taal van de body in de
   `categorie`-poort (`blog-axi`, net als het bronlabel `YouTube` bij de videolink)
-- De frontmatter is Engels (bestandsnaam, `description`, categorieën, tags), behalve de titel: die
-  volgt de taal van de post. Een Nederlandse titel gaat samen met een expliciete Engelse `slug:`
-  in de frontmatter, zodat de URL niet verandert
+- Van een Nederlandse post volgen **titel** en **description** de taal van de post; een Nederlandse
+  titel gaat samen met een expliciete Engelse `slug:` in de frontmatter, zodat de URL niet verandert
+  (gebruikersbesluit 2026-10-12). Bestandsnaam, categorieën en tags blijven Engels
 - Geen gegenereerde of grote bestanden in git (`/site` en `.cache` staan in `.gitignore`)
 - Dit bestand wordt niet verzwakt om een wijziging groen te krijgen
 
@@ -51,12 +51,12 @@ blokkerende checks op deze host.
 | Aantal posts | 52 | mag groeien, niet krimpen |
 | Duur strict build | 8 s (6,5 s build) | mag niet boven ~60 s komen |
 | Hygiëne-waarschuwingen (dash-stijl) | 48 over 67 bestanden | stijl, geen drempel |
-| Categorie-audit (`blog-axi categorie`) | 1 fout, 20 let-op-signalen over 52 posts (gemeten 2026-10-12, met het 13e label `Dutch`): `2026-08-28-biological-data-center-singapore.md` z'n `Nature` meet 0,05–0,06 over drie runs (drempel 0,05) — een A/B zonder het label geeft hetzelfde, dus ruis op de drempel en geen gevolg van de nieuwe categorie | 0 fouten, en de drempelruis niet laten groeien; het `Nature`-label van die post is een keuze van de gebruiker |
+| Categorie-audit (`blog-axi categorie`) | 0 fouten, 24 let-op-signalen over 52 posts (gemeten 2026-10-12, met het 13e label `Dutch` en de fail-drempel op **0,049**) | 0 fouten houden; de 0,05–0,30-band en de twee `bronlabel_ontbreekt`-gevallen blijven geaccepteerde keuzes |
 | SEO/GEO-crawl (loop 006, `seo_geo_check.py`) | 0 fails (0 site, 0 pagina), benchmark 27/28 — 2026-10-10, ronde 2 (50 post-descriptions + `llms.txt`) | 0 fails houden; volgende notes: JSON-LD, `og:type=article`, de "Index"-titels van lijstpagina's |
 | SEO/GEO-crawl, ronde 1 | 0 site-fails, 50 pagina-fails (posts deelden de site-description), benchmark 27/28 — 2026-10-10 (`6fd6a0e`) | — |
 | SEO/GEO-crawl, nulmeting | 1 site-fail (`robots.txt` 404), 85 pagina-fails (generator-default), benchmark 27/28 — 2026-10-10 | — |
 | Neutraliteitspoort | 2× let-op, 0 fouten (`2025-07-19-184.md`, `2025-07-28-276.md`), beide **goedgekeurd door de gebruiker op 2026-10-10** (`.blog-poort.yaml`) — gemeten over alle 50 posts | nieuwe let-op-signalen blijven een keuze van de gebruiker: `blog-axi keur-goed <post> --reden "..."` of de post aanpassen |
-| Taalregel (`blog-axi taal`) | 0 fouten, 11 let-op-signalen, 10 van de 52 posts gaan over Nederland, 2 posts zijn Nederlands (het dierentuin- en het stikstofartikel) (gemeten 2026-10-12, ≈$0,005) | 0 fouten houden; een post over Nederland mag in het Engels blijven, maar dan staat er bewust een let-op-signaal |
+| Taalregel (`blog-axi taal`) | 0 fouten, 3 let-op-signalen; 10 van de 52 posts gaan over Nederland en die 10 staan in het Nederlands (gemeten 2026-10-12 na de vertaalronde, ≈$0,005) | 0 fouten houden; een post over Nederland mag in het Engels blijven, maar dan staat er bewust een let-op-signaal |
 
 ## Uitzonderingen
 

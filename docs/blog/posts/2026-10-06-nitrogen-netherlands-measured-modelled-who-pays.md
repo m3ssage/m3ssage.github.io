@@ -2,7 +2,7 @@
 title: "Stikstof in Nederland: wat de natuur meet, wat de modellen berekenen en wie betaalt"
 slug: nitrogen-in-the-netherlands-what-nature-measures-what-the-models-calculate-and-who-pays
 date: 2026-10-06T18:17:51+02:00
-description: "The Dutch nitrogen dossier in three languages: what monitoring measures, what the models calculate, and who pays for permits."
+description: "Het Nederlandse stikstofdossier in drie talen: wat de metingen laten zien, wat de modellen berekenen en wie de vergunningen betaalt."
 authors:
 - eelco
 categories:

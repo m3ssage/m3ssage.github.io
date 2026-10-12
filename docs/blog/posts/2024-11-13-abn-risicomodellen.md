@@ -1,31 +1,33 @@
 ---
-title: ABN Riskmodel updates delayed
+title: "Updates van ABN-risicomodellen vertraagd"
+slug: abn-riskmodel-updates-delayed
 date: 2024-11-13
-description: "ABN Amro delayed improvements to its risk models, so the bank holds more capital than needed and the share buyback moved back."
+description: "ABN Amro stelde de verbetering van zijn risicomodellen uit, waardoor de bank meer kapitaal aanhoudt dan nodig is en de aandeleninkoop opschuift."
 authors:
 - eelco
 categories:
   - Economics
+  - Dutch
 tags: 
   - Risk
   - Finance
 ---
-![The ABN AMRO headquarters in the Zuidas, Amsterdam](/assets/2024-11-13-abn-risicomodellen.jpg){ align=right width="250" loading=lazy }
+![Het hoofdkantoor van ABN AMRO in de Zuidas, Amsterdam](/assets/2024-11-13-abn-risicomodellen.jpg){ align=right width="250" loading=lazy }
 
-**ABN Amro** has postponed the improvement of its **risk models**, which means the bank is currently holding more capital than necessary. The delay has also pushed back the decision on the **share buyback** until the middle of 2025. The bank has long struggled with the quality of its risk models and data, which do not fully meet the supervisor's requirements.
+**ABN Amro** heeft de verbetering van zijn **risicomodellen** uitgesteld. Daardoor houdt de bank op dit moment meer kapitaal aan dan nodig is. De vertraging schuift ook de beslissing over de **aandeleninkoop** op tot halverwege 2025. De bank worstelt al langer met de kwaliteit van haar risicomodellen en data, die niet volledig voldoen aan de eisen van de toezichthouder.
 <!-- more -->
-## Progress and Challenges
+## Voortgang en uitdagingen
 
-The bank has **taken on extra staff** to improve its risk models and data, but the process is taking longer than expected. ABN Amro aims to complete the implementation of the **Basel IV rules** and the update of its risk models before the end of the second quarter of 2025. Only after that will the board decide whether there is room for a share buyback.
+De bank heeft **extra personeel aangenomen** om haar risicomodellen en data te verbeteren, maar dat traject duurt langer dan verwacht. ABN Amro wil de invoering van de **Basel IV-regels** en de update van haar risicomodellen voor het einde van het tweede kwartaal van 2025 afronden. Pas daarna beslist de raad van bestuur of er ruimte is voor een aandeleninkoop.
 
-CFO Ferdinand Vaandrager notes that finding suitable talent with knowledge of banking risks and regulation is **a challenge in the Netherlands**.
+CFO Ferdinand Vaandrager merkt op dat het vinden van geschikt talent met kennis van bankrisico's en regelgeving **in Nederland een uitdaging is**.
 
-## Leadership Change and Financial Results
+## Wisseling van de leiding en financiële resultaten
 
-CEO **Robert Swaak** has announced that he will step down at ABN Amro in the first half of 2025. The search for his successor has already begun.
+CEO **Robert Swaak** heeft aangekondigd dat hij in de eerste helft van 2025 vertrekt bij ABN Amro. De zoektocht naar zijn opvolger is al begonnen.
 
-Despite these challenges, ABN Amro reported a **profit of €690 million** in the third quarter, a decline of 9% compared with the same quarter last year. **Net interest income** came in at €1.6 billion, beating analysts' expectations. The cost/income ratio was 59.2%, lower than expected.
+Ondanks deze uitdagingen boekte ABN Amro in het derde kwartaal een **winst van 690 miljoen euro**, een daling van 9% vergeleken met hetzelfde kwartaal een jaar eerder. De **nettorente-inkomsten** kwamen uit op 1,6 miljard euro en overtroffen de verwachtingen van analisten. De kosten-inkomstenratio was 59,2%, lager dan verwacht.
 
-Robert Swaak remains **optimistic about the future**, pointing to the resilience of the Dutch economy and the flourishing housing market. He also expects the European Central Bank to keep cutting interest rates, which would benefit the bank.
+Robert Swaak blijft **optimistisch over de toekomst**. Hij wijst op de veerkracht van de Nederlandse economie en de bloeiende woningmarkt. Ook verwacht hij dat de Europese Centrale Bank de rente blijft verlagen, wat de bank ten goede zou komen.
 
-*Image: [ABN AMRO2.jpg — No machine-readable author provided. Migdejong assumed (based on copyr, Wikimedia Commons (Public domain), painterly](https://commons.wikimedia.org/wiki/File:ABN_AMRO2.jpg).*
+*Kop-afbeelding: [ABN AMRO2.jpg: geen machineleesbare auteur opgegeven. Migdejong verondersteld (op basis van auteursrechtelijke claims), Wikimedia Commons (publiek domein), met schildersfilter](https://commons.wikimedia.org/wiki/File:ABN_AMRO2.jpg).*

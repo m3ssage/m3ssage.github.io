@@ -1,11 +1,13 @@
 ---
-title: "NAC Breda in 2026: The Big-Budget Favourite for an Immediate Comeback"
+title: "NAC Breda in 2026: de grote favoriet met het grootste budget voor een directe terugkeer"
+slug: nac-breda-in-2026-the-big-budget-favourite-for-an-immediate-comeback
 date: 2026-09-04T18:10:46+00:00
-description: "NAC Breda after relegation: the budget, the continuity in the dugout, and the chances of an immediate return to the Eredivisie."
+description: "NAC Breda na degradatie: het budget, de continuïteit op de bank en de kansen op een directe terugkeer naar de Eredivisie."
 authors:
 - eelco
 categories:
   - Sport
+  - Dutch
 tags:
   - NAC Breda
   - Keuken Kampioen Divisie
@@ -14,40 +16,40 @@ tags:
   - Carl Hoefkens
   - Rat Verlegh Stadion
 ---
-![Pixelated photograph of a football stadium](/assets/2026-09-04-nac-breda-2026-chances.jpg){ align=right width="250" loading=lazy }
+![Gepixelde foto van een voetbalstadion](/assets/2026-09-04-nac-breda-2026-chances.jpg){ align=right width="250" loading=lazy }
 
-NAC Breda — the "Pearl of the South", backed by one of the most passionately loyal fanbases in Dutch football, the Yellow Army — spent the 2025-26 season back in the Eredivisie, only to come straight back down. Now they find themselves in the Keuken Kampioen Divisie for 2026-27, and their chances of an immediate return are among the best in the division. Not because of luck, but because of the budget, the continuity in the dugout and the sheer size of the club. It is a strong position — but not one without risk.
+NAC Breda, de Parel van het Zuiden, gesteund door een van de trouwste en meest bevlogen supportersgroepen van het Nederlandse voetbal, het Yellow Army, speelde in 2025-26 weer in de Eredivisie, maar degradeerde meteen. Nu staat de club in het seizoen 2026-27 in de Keuken Kampioen Divisie, en de kansen op een directe terugkeer behoren tot de beste van de divisie. Niet door geluk, maar door het budget, de continuïteit op de bank en de omvang van de club. Een sterke positie, maar niet zonder risico.
 
 <!-- more -->
 
-### The Road Back Down
+### De weg terug omlaag
 
-NAC had fought their way back to the top flight in the summer of 2025, winning promotion via the play-offs to end a spell away from the Eredivisie. It turned out to be a short-stay visit. Through the 2025-26 campaign the club struggled, finishing in the bottom two and being relegated directly — dropped alongside Heracles Almelo, with FC Volendam coming down through the play-offs. A season that had begun with hope ended in the familiar, bitter return to the second tier.
+NAC had zich in de zomer van 2025 teruggeknokt naar de hoogste divisie, met promotie via de play-offs, en beëindigde daarmee een periode buiten de Eredivisie. Het bleek een kort uitstapje. Door het seizoen 2025-26 heen worstelde de club, eindigde in de onderste twee en degradeerde rechtstreeks. Samen met Heracles Almelo zakte NAC af, terwijl FC Volendam via de play-offs degradeerde. Een seizoen dat met hoop begon, eindigde in de vertrouwde, bittere terugkeer naar de tweede divisie.
 
-### The Budget Is the Story
+### Het budget is het verhaal
 
-What makes NAC's 2026-27 prospects different from those of most Eerste Divisie clubs is money. According to the published budgets for the Keuken Kampioen Divisie, NAC Breda fields the **largest budget in the entire division** — reportedly the only club with more to spend than Heracles Almelo, whose budget alone stands at €15.5 million. That gives the Breda club a resource advantage over almost every rival, underpinned by a stadium (the Rat Verlegh Stadion, around 20,500 and expanding), an enormous and devoted home crowd, and ownership under the fan-owned association NAC=Breda, which took over the club in August 2022.
+Wat de vooruitzichten van NAC voor 2026-27 anders maakt dan die van de meeste clubs in de Eerste Divisie, is geld. Volgens de gepubliceerde begrotingen voor de Keuken Kampioen Divisie heeft NAC Breda **het grootste budget van de hele divisie**. De club is naar verluidt de enige met meer te besteden dan Heracles Almelo, waarvan de begroting alleen al €15,5 miljoen bedraagt. Dat geeft de Bredase club een voorsprong in middelen op bijna elke concurrent, onderbouwd door een stadion (het Rat Verlegh Stadion, rond 20.500 plaatsen en nog in uitbreiding), een enorm en toegewijd thuispubliek en eigendom bij de supportersvereniging NAC=Breda, die de club in augustus 2022 overnam.
 
-Yet the money cuts both ways. NAC Breda have repeatedly pointed out that in the Eerste Divisie it is near-impossible to sustain a balanced budget while chasing promotion, and finishing the season with heavy fixed costs can hurt the club's score on the KNVB Financial Rating System. Spring 2026 saw alarming reporting about a potential financial "time-bomb" once the television millions from the Eredivisie disappeared. The biggest budget in the division is an advantage — but it is also a load to carry.
+Toch snijdt het geld aan twee kanten. NAC Breda heeft herhaaldelijk benadrukt dat het in de Eerste Divisie bijna onmogelijk is om een sluitende begroting te handhaven terwijl de club promotie nastreeft, en dat het afsluiten van het seizoen met hoge vaste lasten de score op het Financieel Beoordelingssysteem van de KNVB kan schaden. In het voorjaar van 2026 verschenen alarmerende berichten over een mogelijke financiële 'tijdbom' zodra de televisiemiljoenen uit de Eredivisie wegvielen. Het grootste budget van de divisie is een voordeel, maar het is ook een last om te dragen.
 
-### Continuity in the Dugout
+### Continuïteit op de bank
 
-A key piece of the puzzle was settled in May 2026, when NAC confirmed that head coach Carl Hoefkens would stay on for the 2026-27 season. "Ik ben nog niet klaar bij NAC" ("I'm not done at NAC yet"), the Belgian said, with promotion named as the explicit target. Keeping the manager through a relegation is a statement of intent: the club is betting on stability and a group that knows the players, rather than starting over. For a club chasing instant redemption, that continuity can be worth more than a rebuild.
+Een belangrijk puzzelstuk viel in mei 2026 op zijn plaats, toen NAC bevestigde dat hoofdtrainer Carl Hoefkens ook in het seizoen 2026-27 aanblijft. "Ik ben nog niet klaar bij NAC", zei de Belg, die promotie als expliciet doel benoemde. Een trainer aanhouden na een degradatie is een statement: de club zet in op stabiliteit en op een groep die de spelers kent, in plaats van op een nieuwe start. Voor een club die directe rehabilitatie nastreeft, kan die continuïteit meer waard zijn dan een wederopbouw.
 
-### The Squad Puzzle and the Risks
+### De selectiepuzzel en de risico's
 
-Relegation always brings departures, and NAC is no exception. Talent is inevitably a target for Eredivisie clubs, and names like Mohamed Nassoh were being linked away as early as spring. The squad has to be reshaped around a promotion push with a league in which margins are razor-thin. The Keuken Kampioen Divisie is a grinding, unforgiving marathon: anyone can beat anyone on a given day, and the teams at the bottom are far less predictable than in the top flight. A big budget and a big stadium count for little if the team cannot handle the smaller sides or the pressure of front-runner status.
+Een degradatie brengt altijd vertrekken met zich mee, en NAC is daarop geen uitzondering. Talent is onvermijdelijk doelwit voor Eredivisieclubs, en namen als Mohamed Nassoh werden al in het voorjaar aan een vertrek gelinkt. De selectie moet worden omgebouwd rond een promotieoffensief in een competitie waarin de marges piepklein zijn. De Keuken Kampioen Divisie is een slopende, meedogenloze marathon: op een goede dag kan iedereen van iedereen winnen, en de ploegen onderin zijn veel minder voorspelbaar dan in de hoogste divisie. Een groot budget en een groot stadion tellen nauwelijks mee als de ploeg niet om kan gaan met de kleinere tegenstanders of met de druk van de rol van favoriet.
 
-### What Their 2026 Chances Look Like
+### Hoe hun kansen in 2026 eruitzien
 
-Taken together, NAC Breda enter 2026-27 as one of the clear favourites for automatic promotion. They have the strongest financial base in the division, a manager in place with the explicit goal of bouncing straight back, and a fanbase whose famous "Avondje NAC" atmosphere — the home games that turn into a wall of yellow and black — can genuinely swing matches at the Rat Verlegh. The realistic target is a top-two finish for direct promotion, with the play-offs as a safety net. The main risks are financial sustainability, a squad rebuilding on the fly, and the pressure that comes with being the team everyone wants to beat. If they can translate budget into points and handle the favourites' burden, the Pearl of the South should be back in the Eredivisie very soon.
+Alles bij elkaar begint NAC Breda aan 2026-27 als een van de duidelijke favorieten voor rechtstreekse promotie. De club heeft de sterkste financiële basis van de divisie, een trainer die er zit met het expliciete doel om direct terug te keren, en een aanhang waarvan de beroemde sfeer van het 'Avondje NAC' (de thuiswedstrijden die veranderen in een muur van geel en zwart) wedstrijden in het Rat Verlegh echt kan kantelen. Het realistische doel is een plek bij de eerste twee voor rechtstreekse promotie, met de play-offs als vangnet. De grootste risico's zijn financiële houdbaarheid, een selectie die gaandeweg wordt opgebouwd en de druk van een ploeg die iedereen wil verslaan. Als NAC het budget kan omzetten in punten en de last van het favorietenschap aankan, is de Parel van het Zuiden binnenkort terug in de Eredivisie.
 
-### Sources
+### Bronnen
 
 - [Wikipedia: Eerste divisie 2026/27](https://nl.wikipedia.org/wiki/Eerste_divisie_2026/27)
 - [Wikipedia: NAC Breda](https://en.wikipedia.org/wiki/NAC_Breda)
 - [BetCity: Begrotingen KKD-clubs 2026/27](https://club.betcity.nl/eerste-divisie/begrotingen)
 - [BredaNu: Carl Hoefkens ook volgend seizoen hoofdtrainer NAC Breda](https://bredanu.nl/sport/carl-hoefkens-ook-volgend-seizoen-hoofdtrainer-nac-breda-ik-ben-nog-niet-klaar-bij-nac/)
 - [Voetbalzone: Carl Hoefkens blijft aan als hoofdtrainer van NAC Breda](https://www.voetbalzone.nl/nieuws/carl-hoefkens-hakt-knoop-door-over-toekomst-bij-nac-breda/blt539a85483f3d4bc0)
-- [FootballTransfers: NAC Breda — financiële situatie bij degradatie](https://www.footballtransfers.com/nl/transfernieuws/nl-eredivisie/2026/04/nac-breda-tikkende-tijdbom-financiele-ramp-bij-degradatie)
-- [Image: Stadium — Wikimedia Commons (CC0), pixelated](https://commons.wikimedia.org/wiki/File:Stadium-931975.jpg)
+- [FootballTransfers: NAC Breda: financiële situatie bij degradatie](https://www.footballtransfers.com/nl/transfernieuws/nl-eredivisie/2026/04/nac-breda-tikkende-tijdbom-financiele-ramp-bij-degradatie)
+- [Kop-afbeelding: Stadion — Wikimedia Commons (CC0), gepixeld](https://commons.wikimedia.org/wiki/File:Stadium-931975.jpg)
