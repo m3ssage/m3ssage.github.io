@@ -1,6 +1,6 @@
 # Constraints
 
-Last reviewed: 2026-10-10 by @eelco
+Last reviewed: 2026-10-12 by @eelco
 
 ## Floor (altijd, blokkerend, draait al)
 
@@ -9,6 +9,8 @@ Last reviewed: 2026-10-10 by @eelco
 - Geen post zonder header-afbeelding, `<!-- more -->`-marker of geldige frontmatter
 - Geen `date` met `+HHMM` in plaats van `+HH:MM` (harde buildfout in de blog-plugin)
 - Geen suppressie-comments die een check in CI of in een poort uitzetten
+- Geen Nederlandstalige post zonder Nederlands onderwerp: de site is Engelstalig, Nederlands mag
+  alleen als de post primair over Nederland gaat (poort `taal`, rubriek `blog-taal`)
 - Geen gegenereerde of grote bestanden in git (`/site` en `.cache` staan in `.gitignore`)
 - Dit bestand wordt niet verzwakt om een wijziging groen te krijgen
 
@@ -16,7 +18,7 @@ Deze floor wordt al afgedwongen door twee poorten die vóór de push draaien:
 
 | Poort | Commando | Dekt |
 |-------|----------|------|
-| Inhoud | `blog-axi --changed` (exit 1 = fouten, 3 = beslissing van de gebruiker nodig) | asset-paden, frontmatter/datum, bestandsnaam, header-afbeelding, more-marker, de semantische neutraliteitspoort en de categorie-audit |
+| Inhoud | `blog-axi --changed` (exit 1 = fouten, 3 = beslissing van de gebruiker nodig) | asset-paden, frontmatter/datum, bestandsnaam, header-afbeelding, more-marker, de semantische neutraliteitspoort, de categorie-audit en de taalregel |
 | Hygiëne | `.git/hooks/pre-push` → `python3 ~/.hermes/scripts/publicatie_hygiene.py --quiet --dashes=off` | secrets en lokale home-paden |
 
 Em/en-dashes zijn schrijfstijl, geen fout: daarom `--dashes=off` (gemeten 2026-10-07: 349 in `docs/`).
@@ -38,7 +40,7 @@ blokkerende checks op deze host.
 
 | Metriek | Vandaag | Richting |
 |---------|---------|----------|
-| Aantal posts | 50 | mag groeien, niet krimpen |
+| Aantal posts | 52 | mag groeien, niet krimpen |
 | Duur strict build | 8 s (6,5 s build) | mag niet boven ~60 s komen |
 | Hygiëne-waarschuwingen (dash-stijl) | 48 over 67 bestanden | stijl, geen drempel |
 | Categorie-audit (`blog-axi categorie`) | 0 fouten, 22 let-op-signalen (gemeten over alle 50 posts, 2026-10-10) | 0 fouten mag niet stijgen |
@@ -46,6 +48,7 @@ blokkerende checks op deze host.
 | SEO/GEO-crawl, ronde 1 | 0 site-fails, 50 pagina-fails (posts deelden de site-description), benchmark 27/28 — 2026-10-10 (`6fd6a0e`) | — |
 | SEO/GEO-crawl, nulmeting | 1 site-fail (`robots.txt` 404), 85 pagina-fails (generator-default), benchmark 27/28 — 2026-10-10 | — |
 | Neutraliteitspoort | 2× let-op, 0 fouten (`2025-07-19-184.md`, `2025-07-28-276.md`), beide **goedgekeurd door de gebruiker op 2026-10-10** (`.blog-poort.yaml`) — gemeten over alle 50 posts | nieuwe let-op-signalen blijven een keuze van de gebruiker: `blog-axi keur-goed <post> --reden "..."` of de post aanpassen |
+| Taalregel (`blog-axi taal`) | 0 fouten, 13 let-op-signalen, 11 van de 52 posts gaan over Nederland (gemeten 2026-10-12, ≈$0,005) | 0 fouten houden; een post over Nederland mag in het Engels blijven, maar dan staat er bewust een let-op-signaal |
 
 ## Uitzonderingen
 
