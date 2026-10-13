@@ -3,7 +3,7 @@ title: "Nederland herziet het vergunningenstelsel voor dierentuinen: wat de stuk
 slug: the-netherlands-overhauls-its-zoo-permit-system-what-the-documents-say
 date: 2026-10-12T12:37:12+00:00
 description: "Wat de stukken zeggen over de herziening van het dierentuinvergunningenstelsel: periodieke toetsing, open normen en de Dolfinariumzaken."
-author:
+authors:
   - eelco
 categories:
   - Society

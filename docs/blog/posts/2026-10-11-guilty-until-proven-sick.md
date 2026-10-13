@@ -1,7 +1,7 @@
 ---
 title: "Guilty Until Proven Sick: A Patient-Advocacy Reel and the Data on Diagnostic Delay"
 date: 2026-10-11T08:39:58+00:00
-author:
+authors:
   - eelco
 categories:
   - Society
