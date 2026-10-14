@@ -17,7 +17,7 @@ tags:
   - Tax Avoidance
 ---
 
-![Illustration: three groups of goods on the left, shipping boxes, medicine boxes and food crates, sending glowing amber arrows across a map of Europe to a single safe on a small island.](/assets/2026-10-13-profit-shifting-big-tech-pharma-food.png)
+![Illustration: three groups of goods on the left, shipping boxes, medicine boxes and food crates, sending glowing amber arrows across a map of Europe to a single safe on a small island.](/assets/2026-10-13-profit-shifting-big-tech-pharma-food.png){ align=right width="250" loading=lazy }
 
 In [a clip from the VPRO programme Tegenlicht](https://www.youtube.com/shorts/bz2DIRmzZs0), economist Yanis Varoufakis describes what he calls technofeudalism and makes a specific claim about Amazon: the company booked around 54 to 55 billion euros in European revenue and, in his words, paid exactly zero tax on it. He then argues that money which never enters a national treasury also never returns to households, and that European demand collapses by 30 to 40 percent as a result.
 
