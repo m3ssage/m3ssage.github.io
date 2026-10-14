@@ -1,12 +1,14 @@
 # Constraints
 
-Last reviewed: 2026-10-12 by @eelco
+Last reviewed: 2026-10-15 by @eelco
 
 ## Floor (altijd, blokkerend, draait al)
 
 - Geen secrets in de source (tokens, API-keys, wachtwoorden, private keys)
 - Geen lokale home-paden in tekst, config of frontmatter
 - Geen post zonder header-afbeelding, `<!-- more -->`-marker of geldige frontmatter
+- Kop-afbeelding altijd met breedte-attribuut (`{ align=right width="250" loading=lazy }`): een
+  vierkant 1024px-beeld zonder attribuut rendert paginabreed (poort `header_image`, sinds v0.7.1)
 - Geen `date` met `+HHMM` in plaats van `+HH:MM` (harde buildfout in de blog-plugin)
 - Geen suppressie-comments die een check in CI of in een poort uitzetten
 - Geen Nederlandstalige post zonder Nederlands onderwerp: de site is Engelstalig, Nederlands mag
