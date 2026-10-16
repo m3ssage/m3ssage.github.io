@@ -16,33 +16,41 @@ tags:
 ---
 ![Illustration: a woman sits on a chair in an outpatient waiting area with a stack of medical records and scan printouts on her lap, looking down a corridor of closed doors](/assets/2026-10-11-guilty-until-proven-sick.png){ align=right width="250" }
 
-Amanda Rose Berk posted a 101-second Instagram reel on 15 September 2026. One phrase does the work: guilty until proven sick. She credits it to a woman who called her, and she uses it for the feeling of being treated as if you have to prove you are ill before anyone takes the symptoms seriously.
+She was a former marathon runner, "super active", and then she started blacking out while sitting at her desk. She went from doctor to doctor. What she heard was that it was "probably anxiety, depression, maybe it's your cycle". Her answer was that she knew what anxiety felt like, and that "this feels different".
 
-The reel is patient advocacy with a product attached. Its caption calls the problem "a huge part of why we're building LIORA" and points to a waitlist. What follows is what the reel claims, set next to what the published record says about diagnostic delay.
+A year of misdiagnosis and mismedication followed. She ended up needing a pacemaker. By the time a woman she had never met spoke with her, she had just turned 30 and had undergone five heart surgeries, for what her doctor said could have been prevented if it had been caught sooner.
+
+We know this because Amanda Rose Berk repeated it in a 101-second Instagram reel on 15 September 2026. The phrase she credits to that caller is the one doing the work: guilty until proven sick. That is what it feels like when your symptoms have to be proven before anyone takes them seriously.
+
+There is no name, no hospital, no diagnosis, no record in the post. The case cannot be checked from it. It is one person's account of a conversation.
+
+The reel is also patient advocacy with a product attached. Its caption calls the problem "a huge part of why we're building LIORA" and points to a waitlist. So here is what the reel claims, next to what the published record says about diagnostic delay.
 
 <!-- more -->
 
-### What the reel claims
-
-The speaker credits the phrase to a caller: a former marathon runner who was "super active" and then started blacking out while sitting at her desk. She went from doctor to doctor, and heard that it was "probably anxiety, depression, maybe it's your cycle". Her answer was that she knew what anxiety felt like, and that "this feels different".
-
-According to the account in the reel, a year of misdiagnosis and mismedication followed. She ended up needing a pacemaker. By the time the two spoke she had just turned 30 and had undergone five heart surgeries, for what her doctor said could have been prevented if it had been caught sooner. The reel also lists what the patient has to do: track every symptom, do the research, find the right doctors, collect referrals, retell the story, and try not to seem "too informed, too anxious", or like someone who Googled too much.
-
-No name, no hospital, no diagnosis, no record. The individual case cannot be checked from the post. It is the creator's account of a conversation.
-
 ### What the record shows
 
-Diagnostic error is measured. An analysis by the Johns Hopkins Armstrong Institute Center for Diagnostic Excellence, with the Risk Management Foundation of the Harvard Medical Institutions, appeared in BMJ Quality & Safety in July 2023. It estimated that about 795,000 Americans die or are permanently disabled by diagnostic error each year: 371,000 deaths and 424,000 permanent disabilities, across hospital and clinic settings.
+Diagnostic error is measured, and its size is that of a disease. An analysis by the Johns Hopkins Armstrong Institute Center for Diagnostic Excellence, with the Risk Management Foundation of the Harvard Medical Institutions, appeared in BMJ Quality & Safety in July 2023. It estimated that about 795,000 Americans die or are permanently disabled by diagnostic error each year: 371,000 deaths and 424,000 permanent disabilities, across hospital and clinic settings.
 
-Heart attacks are a documented case of that gap. Researchers looked at 564,412 patients, over nine years, who were ultimately diagnosed with a heart attack. Around a third had received an initial diagnosis that differed from the final one. Women who ended up with the more severe STEMI type had a 59% greater chance of an initial misdiagnosis than men. For NSTEMI the figure was 41%. The British Heart Foundation, which published the summary in August 2016, describes the finding as women being roughly 50% more likely than men to get an incorrect initial diagnosis after a heart attack.
+Heart attacks are the documented case of that gap. Researchers looked at 564,412 patients, over nine years, who were ultimately diagnosed with a heart attack. Around a third had received an initial diagnosis that differed from the final one. Women who ended up with the more severe STEMI type had a 59% greater chance of an initial misdiagnosis than men. For NSTEMI the figure was 41%.
 
-Why that matters: the US Centers for Disease Control and Prevention states that heart disease is the leading cause of death for women in the United States, and that over 60 million women, 44%, live with some form of it.
+The British Heart Foundation, which published the summary in August 2016, describes the same finding: women are roughly 50% more likely than men to get an incorrect initial diagnosis after a heart attack. Put plainly, a woman's first answer is wrong more often than a man's, for the same event.
+
+That is not a niche condition. The US Centers for Disease Control and Prevention states that heart disease is the leading cause of death for women in the United States, and that over 60 million women, 44%, live with some form of it. If you are a woman reading this, those are your odds, and the first guess is a guess.
 
 The mechanism the reel describes, symptoms filed under mental health, shows up in patient-facing material too. The Canadian Heart & Stroke Foundation writes that "one study showed that women who mention stress along with physical symptoms of cardiac disease are much more likely to be diagnosed with anxiety than men reporting exactly the same thing." The article does not name the study, so the research behind that sentence is not identified there.
 
+### What the patient has to do about it
+
+The reel also lists the labour the patient takes on. Track every symptom. Do the research. Find the right doctors. Collect referrals. Retell the story. And try not to seem "too informed, too anxious", or like someone who Googled too much.
+
+That list is the quiet companion of the statistics. A system that gets the first answer wrong in a third of cases does not take the problem back from the patient. It hands the problem to the person in the waiting room, and asks her to be credible while she does it.
+
 ### What the reel cannot establish
 
-The reel offers no numbers and cites no research. The national estimates above are aggregates across all patients and all conditions, and they say nothing about one person's experience. Whether the caller's outcome was in fact preventable, and whether her symptoms were dismissed because she is a woman, is not something a published source here can confirm. The record supports something narrower, and still uncomfortable: diagnostic error harms hundreds of thousands of Americans a year, and in one large UK dataset women were more likely than men to be told something else first.
+The reel offers no numbers and cites no research. The national estimates above are aggregates across all patients and all conditions, and they say nothing about one person's experience. Whether the caller's outcome was in fact preventable, and whether her symptoms were dismissed because she is a woman, is not something a published source here can confirm.
+
+The record supports something narrower, and still uncomfortable. Diagnostic error harms hundreds of thousands of Americans a year. In one large UK dataset, women were more likely than men to be told something else first. And the story that carries the phrase cannot be checked at all.
 
 One more thing worth noting. The reel is promotional, and a health claim travels with a waitlist link.
 
