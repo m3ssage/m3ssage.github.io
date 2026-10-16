@@ -36,7 +36,7 @@ Heart attacks are the documented case of that gap. Researchers looked at 564,412
 
 The British Heart Foundation, which published the summary in August 2016, describes the same finding: women are roughly 50% more likely than men to get an incorrect initial diagnosis after a heart attack. Put plainly, a woman's first answer is wrong more often than a man's, for the same event.
 
-That is not a niche condition. The US Centers for Disease Control and Prevention states that heart disease is the leading cause of death for women in the United States, and that over 60 million women, 44%, live with some form of it. If you are a woman reading this, those are your odds, and the first guess is a guess.
+That is not a niche condition. The US Centers for Disease Control and Prevention states that heart disease is the leading cause of death for women in the United States, and that over 60 million women, 44%, live with some form of it. So if you are a woman, the misdiagnosis figures above are not an edge case. They are the odds you would meet if you arrived at a hospital with a heart attack.
 
 The mechanism the reel describes, symptoms filed under mental health, shows up in patient-facing material too. The Canadian Heart & Stroke Foundation writes that "one study showed that women who mention stress along with physical symptoms of cardiac disease are much more likely to be diagnosed with anxiety than men reporting exactly the same thing." The article does not name the study, so the research behind that sentence is not identified there.
 
