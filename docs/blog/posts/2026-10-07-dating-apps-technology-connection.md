@@ -8,6 +8,7 @@ categories:
   - Society
   - Technology
   - Culture
+  - YouTube
 tags:
   - Dating Apps
   - Algorithms
@@ -15,73 +16,110 @@ tags:
   - Surveillance
   - Social Media
 ---
+
 ![People dancing in front of a brass band at the French Quarter Festival in New Orleans](/assets/2026-10-07-dating-apps-technology-connection.jpg){ align=right width="250" loading=lazy }
 
-A clip from the Nexus Conference 2025 in Amsterdam is circulating again, and it makes four claims: nobody in the speaker's generation has children, young people have stopped dancing because everything gets filmed, dating apps are optimised for you to come back rather than to find someone, and the promise of the internet — democracy, freedom, happiness, economic growth — was never kept. Three of those four can be checked against data. This post does that, with the arguments attributed to the speaker rather than repeated as facts.
+"No one my age has children." That is the first of four claims in a clip from the Nexus Conference 2025 in Amsterdam that keeps circulating. The speaker is AI researcher Connor Leahy, co-founder of EleutherAI and founder of the AI-safety company Conjecture. He was speaking at the institute's conference *Apocalypse Now* on 22 November 2025, which the Nexus Institute published as ["Connor Leahy on Gen Z dating norms"](https://www.youtube.com/watch?v=dfwbSVLpVBU).
+
+The other three claims are about dancing, dating and the internet. Young people stopped dancing because everything gets filmed. Dating apps are built to bring you back rather than to find you someone. And the internet never delivered the democracy, freedom, happiness and economic growth it promised.
+
+Three of the four claims can be checked against data. The third one has documents attached: the company that owns Tinder has described, in its own words, what its recommendation engine optimises for. What the numbers say turns out to be stranger than the claims in some places, and duller in others.
 
 <!-- more -->
 
-### The clip
+## Who pays for the explanation
 
-The speaker is **Connor Leahy**, a German-American AI researcher who co-founded EleutherAI and founded the AI-safety company Conjecture, speaking at the Nexus Institute's conference *Apocalypse Now* on 22 November 2025. The Nexus Institute published the segment itself as ["Connor Leahy on Gen Z dating norms"](https://www.youtube.com/watch?v=dfwbSVLpVBU). The Instagram repost that is circulating adds a caption about choice overload — a different argument from what is said in the clip, so they are treated separately here.
+Two of these claims carry more weight than the others, and that is why they are worth the trouble.
 
-### Claim 1: "No one my age has children"
+If the apps and the cameras really are why a generation stays single and still, then this is a story about design and power, and the fix sits with a handful of companies. If they are not, the same generation is being handed an explanation that hides the price of housing and the odds of a temporary contract. Either way, someone ends up paying for the answer.
 
-**What the data supports.** Childlessness around age 30 is common and rising in rich countries. Among Dutch women born in 1981, half had not had a child by age 30 (CBS); for cohorts born around 1995 the projected share who remain childless is about a quarter. The Dutch fertility rate fell from 1.71 children per woman in 2014 to 1.43 in 2024 and 1.418 in 2025, with 166,588 live births in 2025 and an average age of 30.5 at first birth. Across the EU the rate hit a historic low of 1.34 in 2024, ranging from 1.01 in Malta to 1.72 in Bulgaria (Eurostat). Among women born in 1975, permanent childlessness reached 28 percent in Japan, 24 percent in Spain, 22.5 percent in Italy and 20 percent in Germany (OECD); in East Asia, women born in 1983 in Japan, South Korea and Taiwan were 37 to 39 percent childless at 35 (INED).
+The Instagram repost that circulates adds a caption about choice overload. Nothing in the clip says that, so it gets its own section at the end.
 
-**What it does not support.** "Worldwide" is contradicted by the same sources: the global fertility rate was 2.2 children per woman in 2024, down from about 3.3 in 1990, and 55 percent of countries — home to two-thirds of the world's population — are below the 2.1 replacement level (UN DESA). In 16 low- and middle-income countries surveyed by the DHS programme, childlessness among married women aged 20-49 runs from 0.7 percent (Malawi) to 3.9 percent (Senegal), with first births typically before age 24. Much of the childlessness at 30 in Europe is also a timing effect: the mean age of childbearing rose above 30 in two-thirds of below-replacement countries, and UN DESA notes that in low-fertility countries people commonly end up with fewer children than they wanted.
+## The children: a list of prices
 
-**What the research blames.** Housing and housing costs are the best-documented factor in the Dutch decline: CBS and NIDI found that a 100,000 euro rise in regional house prices is associated with a 3.1 percent lower annual probability of a birth, that women in a 450,000 euro region were 10.4 percent less likely to have a child than in a 200,000 euro region, and that rising house prices explain between 15 and 27 percent of the fall in the Dutch birth rate since 2010. The OECD adds childcare and the cost of raising children, economic uncertainty, and the higher opportunity cost of children as women's education and earnings rose. NIDI documents labour-market insecurity (a temporary contract lowers the odds of a first child by about 20 percent for women) and income. Later or less stable partnering is a factor as well. Technology and algorithms are not on that list.
+Childlessness at 30 is common in rich countries, and rising. Half of Dutch women born in 1981 had no child by that age, according to CBS. For cohorts born around 1995, about a quarter are expected to stay childless for good.
 
-### Claim 2: "They stopped dancing because everything is filmed"
+The Dutch fertility rate fell from 1.71 children per woman in 2014 to 1.43 in 2024 and 1.418 in 2025. Women now have their first child at an average age of 30.5.
 
-The mechanism the speaker describes — behaving differently because you might be recorded — is well documented, though not for dancing.
+Across the EU the rate hit a historic low of 1.34 in 2024, according to Eurostat, with Malta at 1.01 and Bulgaria at 1.72. In East Asia, women born in 1983 in Japan, South Korea and Taiwan were 37 to 39 percent childless at 35 (INED).
 
-- A pre-registered six-week field experiment with 827 participants found that exposure to accounts of dataveillance measurably reduced people's comfort with sharing opinions, seeking information and disclosing information (Festic et al., *Journal of Communication*, 2026).
-- After the 2013 surveillance revelations, traffic to privacy-sensitive Wikipedia articles fell significantly, both immediately and in trend (Penney, 2016), and people who know they are under surveillance are less willing to voice minority opinions (Stoycheff, 2016).
-- Pew's 2014 study found that the average Facebook user was half as likely as others to say they would voice an opinion among friends in a restaurant.
+So far the claim holds for rich countries. Read it as a claim about the world, and it breaks.
 
-Specifically about clubs, the reporting is more recent than the peer-reviewed evidence: the BBC reported in July 2026 on young people who are "hyper aware" of cameras, avoiding promoters' cameras and strangers filming, and worrying about videos affecting future employment. A 2026 survey found 74 percent of Gen Z respondents say concerns about being recorded affect their ability to enjoy the present moment, and 72 percent their desire to go out (LifeStance, via PR Newswire) — a company survey, so an indication rather than a measurement.
+The global fertility rate was 2.2 children per woman in 2024, down from about 3.3 in 1990. Some 55 percent of countries are below the 2.1 replacement level, and those hold two-thirds of the world's population (UN DESA).
 
-What is missing is any measurement of dancing itself. The claim is an inference from a documented reluctance to be seen, not a dataset on how much people dance.
+The DHS programme surveyed 16 low- and middle-income countries. There, childlessness among married women aged 20-49 runs from 0.7 percent in Malawi to 3.9 percent in Senegal, and first births typically come before age 24.
 
-### Claim 3: "Dating apps optimise for you to come back"
+One sentence in the underlying data deserves more attention than the clip gives it. UN DESA notes that in low-fertility countries people commonly end up with fewer children than they wanted. The mean age of childbearing rose above 30 in two-thirds of below-replacement countries, which makes much of the trend above a delay rather than a decision.
 
-**What is on the record.** Match Group's own annual report says it relies on "proprietary algorithms" for its "recommendation process systems" and lists the ability to retain users among its principal risks. At an investor update in September 2026, the company described Tinder's previous architecture as around fifteen separate recommendation "stacks", each optimised for a different objective — including revenue and payer retention — and said these had been consolidated into one stack optimised for "Sparks" (six-way conversations), supported by a 60 million dollar "user giveback" budget. On a 2025 earnings call, the chief executive said that an AI tuned primarily for revenue "might suggest someone who could churn; by showing that individual, we might maintain their revenue" — an acknowledgement that the optimisation target is a design choice.
+The generation in the clip is ending up with fewer children than it wanted. That is a different story from choosing not to have them.
 
-**What is not on the record.** No leaked internal document proves that these apps optimise for keeping users single or searching. The company's own descriptions and the architecture change are the strongest public evidence; the dating-app design literature argues the same point about gamified rewards and algorithmic opacity (Tilburg University, *Manipulative Matchmaking*), but that is analysis, not proof.
+What drives that gap is not the phone in your hand.
 
-**What regulators have established.** The US Federal Trade Commission sued Match in 2019 over "You caught his eye" notifications sent from accounts the company had itself flagged as fraudulent; Match's own analysis, cited by the FTC, found 499,691 subscriptions were bought within 24 hours of such an advertisement, and the case ended in a 14 million dollar settlement in 2025 with commitments on cancellation and billing. The Dutch consumer authority ACM reached agreements with the operators of 17 dating sites about fake profiles, and its investigators raided companies behind dating sites over pay-per-message chats with fake profiles. Bumble paid 22.5 million dollars in 2020 over automatic renewal of subscriptions. The Dutch Consumers' Association tested eight dating services in 2025 and found 70 percent of about 450 panel members had at least one negative experience — mainly fake profiles — while an AI-generated profile photo passed verification on all eight services.
+Housing and housing costs are the best-documented factor in the Dutch decline. CBS and NIDI found that a 100,000 euro rise in regional house prices goes with a 3.1 percent lower annual probability of a birth. Women in a region where houses cost 450,000 euro were 10.4 percent less likely to have a child than women in a 200,000 euro region. Rising house prices explain between 15 and 27 percent of the fall in the Dutch birth rate since 2010.
 
-**What complicates the claim.** The commercial numbers point the other way. Match Group's payers fell 5 percent in 2025 to 14.2 million, and Tinder's fell 8 percent to 8.8 million; Bumble's paying users fell 11.5 percent to 3.7 million, and in the fourth quarter of 2025 by 20.5 percent. Match's 2025 annual report attributes softening demand among younger generations, "particularly among women in those generations". An app that brings people back but cannot convert them is not a working business — and the trend suggests users are leaving rather than being trapped.
+The OECD adds childcare, the cost of raising children and economic uncertainty. It also points to the rising opportunity cost of children. NIDI documents labour-market insecurity, income, and later or less stable partnering. A temporary contract lowers the odds of a first child by about 20 percent for women.
 
-### Claim 4: "The promise of the internet was not kept"
+If you are 30 and childless in the Netherlands, the best-documented reasons are the price of a house and the kind of contract you have. The list of causes is a list of prices and contracts, and technology is not on it. The claim is right about rich countries, wrong about the world, and silent about what the evidence actually blames.
 
-This is the claim with the least measurable content, but research does address it:
+## The dancing: nobody counts dance floors
 
-- A systematic review of 496 articles (Lorenz-Spreen et al., *Nature Human Behaviour*, 2023) found both directions: associations such as rising political participation and information consumption, mostly seen in autocracies and emerging democracies, and detrimental ones such as declining political trust, rising populism and growing polarisation, more pronounced in established democracies.
-- The simple causal story is contested: Boxell, Gentzkow and Shapiro found that US political polarisation grew fastest among the demographic groups least likely to use the internet and social media.
-- Part of the economic promise did arrive, though the number comes from the industry itself: the GSMA estimates that mobile technologies generate around 5.8 percent of global GDP, about 6.5 trillion dollars of value added. Treat that as an industry estimate.
-- The most concrete documentation is not about outcomes but about knowledge: the Wall Street Journal's "Facebook Files" and Frances Haugen's 2021 Senate testimony showed that the company's own research had identified harms from engagement-based ranking, including effects on teenage girls' mental health.
+Here the mechanism is real and the claim is still unproven. Behaving differently because you might be recorded is well documented, if not for dancing.
 
-"Happiness" and "freedom" are not measured in a way that can settle this claim. What can be said is that the internet delivered unevenly, and that the platforms themselves had internal evidence about the costs.
+A pre-registered field experiment with 827 participants ran for six weeks. It found that exposure to accounts of dataveillance measurably reduced comfort with sharing opinions, seeking information and disclosing information (Festic et al., *Journal of Communication*, 2026).
 
-### What the choice research actually shows
+After the 2013 surveillance revelations, traffic to privacy-sensitive Wikipedia articles fell, both immediately and in trend (Penney, 2016). Pew found in 2014 that the average Facebook user was half as likely as others to say they would voice an opinion among friends in a restaurant.
 
-The caption's argument — more choice makes choosing harder — has a mixed record:
+About clubs specifically, the reporting is newer than the peer-reviewed evidence. In July 2026 the BBC described young people who are "hyper aware" of cameras. They avoid promoters' cameras and strangers filming, and worry that videos could affect their future employment.
 
-- The original "paradox of choice" experiments (Iyengar & Lepper, 2000) found that people bought jam more often and wrote better essays when offered 6 options rather than 24 or 30.
-- The meta-analysis of 63 conditions (Scheibehenne, Greifeneder & Todd, 2010; N = 5,036) found the average effect was essentially zero (D = 0.02, 95% CI −0.09 to 0.12) and highly variable: choice overload appears under specific conditions, not as a general law.
-- In online dating specifically, the effects do show up: people who chose from 24 profiles were less satisfied with their choice a week later than those choosing from 6, and more likely to switch (D'Angelo & Toma, 2017). Across three studies, participants rejected proportionally more partners the further they scrolled — a 27 percent drop in the chance of acceptance from the first to the last option (Pronk & Denissen, 2020). And a 2026 meta-analysis of 27 studies (N = 21,263) found small-to-moderate associations with behavioural dysregulation (g = 0.44) and body-related outcomes (g = 0.32), while effects on general wellbeing were small and not statistically significant (Cela & Wood, *Communications Psychology*).
+A 2026 survey found that 74 percent of Gen Z respondents say concerns about being recorded affect their ability to enjoy the present moment. Some 72 percent say the same about their desire to go out. LifeStance is a company, so treat this as an indication rather than a measurement.
 
-The other side of the ledger is usually left out of these clips. Among US heterosexual couples who met in 2017, 39 percent met online, up from 2 percent for couples who met in 1995, and 65 percent for same-sex couples (Rosenfeld, Thomas & Hausen, *PNAS*, 2019). In a survey of 437 app users, 40.4 percent reported a positive effect on self-esteem against 28.7 percent reporting a negative one, and 39.1 percent had formed a serious relationship with someone they met through an app (Holtzhausen et al., *BMC Psychology*, 2020). For queer users, and for people whose offline network is small, apps are often the main route to meeting others at all.
+What is missing is any measurement of dancing itself. Nobody counts dance floors. The claim is an inference from a documented reluctance to be seen, and an inference can be reasonable without being evidence.
 
-### What is not settled
+## The apps: what the company says about itself
 
-- **Cause and effect.** No study isolates the effect of dating apps on partnership and childbearing from the documented drivers — housing costs, labour-market insecurity, later partnering. Apps may be a cause, a symptom, or neither.
-- **The optimisation target.** The company's own architecture description and one earnings-call remark are public; the internal documentation is not. The claim is plausible and partly on the record, but not proven.
-- **Filming and dancing.** The self-censorship research is solid; nobody measures dance floors.
-- **Scale.** The rich-country childlessness trend is real and large. The word "worldwide" is not: the global fertility rate is 2.2 and married women in most low- and middle-income countries still have children before 24. Much of the childlessness at 30 in the Netherlands is delay, not permanence — which makes it a policy problem as much as a cultural one.
+This is the claim with the most documentation behind it, and much of that documentation is the company's own words.
+
+Match Group's annual report says it relies on "proprietary algorithms" for its "recommendation process systems". It lists the ability to retain users among its principal risks. The word "retain" is doing a lot of work in a business that is supposed to end with two people leaving.
+
+At an investor update in September 2026, the company described Tinder's previous architecture as around fifteen separate recommendation "stacks", each optimised for a different objective, including revenue and payer retention. The company said these were consolidated into one stack optimised for "Sparks", six-way conversations, backed by a 60 million dollar "user giveback" budget.
+
+Then there is the earnings call. On a 2025 call, the chief executive said that an AI tuned primarily for revenue "might suggest someone who could churn; by showing that individual, we might maintain their revenue". That is an admission that the optimisation target is a choice, made by people, with a number attached.
+
+What is not on the record is more interesting. No leaked internal document proves that these apps optimise for keeping users single or searching. The dating-app design literature argues the same point about gamified rewards and algorithmic opacity (Tilburg University, *Manipulative Matchmaking*). That is analysis rather than proof.
+
+The regulators have documented more than the annual report does. The US Federal Trade Commission sued Match in 2019 over "You caught his eye" notifications. Those were sent from accounts the company had itself flagged as fraudulent. Match's own analysis, cited by the FTC, found that 499,691 subscriptions were bought within 24 hours of such an advertisement. The case ended in a 14 million dollar settlement in 2025, with commitments on cancellation and billing.
+
+In the Netherlands, the consumer authority ACM reached agreements with the operators of 17 dating sites about fake profiles. The Dutch Consumers' Association tested eight dating services in 2025. Some 70 percent of about 450 panel members reported at least one negative experience, mainly fake profiles. An AI-generated profile photo passed verification on all eight.
+
+The commercial numbers then point the other way. Match Group's payers fell 5 percent in 2025 to 14.2 million, and Tinder's fell 8 percent to 8.8 million. Bumble's paying users fell 11.5 percent to 3.7 million, and in the fourth quarter of 2025 by 20.5 percent. Match's annual report blames younger generations, "particularly among women in those generations".
+
+An app that brings people back but cannot convert them is not a working business, and the trend suggests users are leaving rather than trapped.
+
+None of that settles the biggest question. No study isolates the effect of dating apps on partnership and childbearing from the documented drivers: housing costs, labour-market insecurity, later partnering. Apps may be a cause, a symptom, or neither.
+
+## The internet: what the platforms knew
+
+The most concrete record is about knowledge. The Wall Street Journal's "Facebook Files" and Frances Haugen's 2021 Senate testimony showed the same thing: the company's own slides had identified harms from engagement-based ranking, including effects on teenage girls' mental health.
+
+On the promise itself, the research answers in both directions. A systematic review of 496 articles (Lorenz-Spreen et al., *Nature Human Behaviour*, 2023) found associations such as rising political participation and information consumption, mostly in autocracies and emerging democracies. It also found declining political trust, rising populism and growing polarisation, more pronounced in established democracies.
+
+The simple causal story is contested. Boxell, Gentzkow and Shapiro found that US political polarisation grew fastest among the groups least likely to use the internet and social media.
+
+"Happiness" and "freedom" are not measured in a way that can settle this claim. What can be said is that the promise was made to the people who use these platforms, that it arrived unevenly, and that the platforms had their own file on why.
+
+## The caption: more choice, less satisfaction
+
+The repost's argument is that more choice makes choosing harder. The record on it is mixed, and the most surprising part is where the argument does hold.
+
+It holds in dating, not in jam. People who chose from 24 profiles were less satisfied with their choice a week later than those who chose from 6, and more likely to switch (D'Angelo & Toma, 2017). Across three studies, participants rejected proportionally more partners the further they scrolled: the chance of acceptance dropped 27 percent from the first option to the last (Pronk & Denissen, 2020).
+
+As a general law, choice overload does not exist. The original "paradox of choice" experiments (Iyengar & Lepper, 2000) found that people bought jam more often when offered 6 options rather than 24 or 30. The meta-analysis of 63 conditions (Scheibehenne, Greifeneder & Todd, 2010) found the average effect was essentially zero (D = 0.02, 95% CI −0.09 to 0.12), and highly variable: the overload appears under specific conditions.
+
+A 2026 meta-analysis of 27 studies (N = 21,263) found small-to-moderate associations with behavioural dysregulation (g = 0.44) and body-related outcomes (g = 0.32). Effects on general wellbeing were small and not statistically significant (Cela & Wood, *Communications Psychology*).
+
+The other side of the ledger is usually left out. Among US heterosexual couples who met in 2017, 39 percent met online, up from 2 percent for couples who met in 1995. For same-sex couples the figure was 65 percent (Rosenfeld, Thomas & Hausen, *PNAS*, 2019). The way couples meet changed in one generation, and a handful of companies now sit in the middle of it.
+
+In a survey of 437 app users, 40.4 percent reported a positive effect on self-esteem against 28.7 percent reporting a negative one. Some 39.1 percent had formed a serious relationship with someone they met through an app (Holtzhausen et al., *BMC Psychology*, 2020). For queer users, and for anyone whose offline network is small, apps are often the only practical route to meeting people at all.
 
 ### Sources
 
