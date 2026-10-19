@@ -22,6 +22,9 @@ Last reviewed: 2026-10-15 by @eelco
   titel gaat samen met een expliciete Engelse `slug:` in de frontmatter, zodat de URL niet verandert
   (gebruikersbesluit 2026-10-12). Bestandsnaam, categorieën en tags blijven Engels
 - Geen gegenereerde of grote bestanden in git (`/site` en `.cache` staan in `.gitignore`)
+- Een postpagina toont zijn kop-afbeelding: de dependencies in `requirements.txt` zijn gepind op
+  versies die dat doen (`selectolax==1.0.0`; 1.0.1 laat het `<img>` op elke postpagina verdwijnen en
+  levert een lege `<p></p>`). Bewijs na een deploy: `curl -s <post-url> | grep -c glightbox` ≥ 1
 - Dit bestand wordt niet verzwakt om een wijziging groen te krijgen
 
 Deze floor wordt al afgedwongen door twee poorten die vóór de push draaien:
