@@ -43,6 +43,10 @@ afspraken gelden voor allemaal, ook voor een agent die hier over drie maanden vo
   suppressie-comment uit te zetten. `CONSTRAINTS.md` verzwakken om iets groen te krijgen is verboden.
 - **Alleen de eigenaar** beslist over merges, force-push, het verwijderen van pagina's, het aanpassen van
   `CONSTRAINTS.md` en het goedkeuren van een let-op-signaal.
+- `CONSTRAINTS.md` en `tests/acceptance/*.py` zijn beschermd door de Hermes-hook `spec-guard`: een agent
+  kan er geen bestaand bestand in wijzigen, ook niet om een rode check groen te krijgen. Een nieuw
+  scenario toevoegen mag wel. Wil je een verwachting aanpassen, dan doe je dat zelf of met een expliciet
+  akkoord per pad (`~/.hermes/state/spec-goedkeuring.txt`).
 
 ## Overdracht
 
