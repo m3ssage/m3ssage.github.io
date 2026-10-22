@@ -20,10 +20,12 @@ afspraken gelden voor allemaal, ook voor een agent die hier over drie maanden vo
 
 ## Klaar
 
-- **"Klaar" is een bewezen eindstand**: gepusht, CI groen, en de gerenderde pagina gecontroleerd — niet
-  "de build zou moeten slagen".
-- Een groene build bewijst de build, niet de post. Lees het artefact: frontmatter, kop-afbeelding,
-  leesbaarheid op de pagina zelf.
+- **"Klaar" is een bewezen eindstand**: gepusht, CI groen, en de acceptatiespec groen — niet
+  "de build zou moeten slagen". Dat laatste is een commando, geen indruk:
+  `python3 tests/acceptance/publicatie.py --post docs/blog/posts/<post>.md` → exit 0.
+- Een groene build bewijst de build, niet de post. De acceptatiespec beoordeelt het artefact dat de lezer
+  krijgt: de pagina is deze post, de kop-afbeelding rendert op 250px in de lightbox, en elk beeld in de
+  postinhoud laadt. Zie `tests/acceptance/README.md`.
 - Een post is pas af als `blog-axi --changed` **exit 0** gaf. Exit 3 betekent een beslissing voor de
   eigenaar: leg hem voor, werk hem niet weg.
 - Een halve wijziging laat je niet achter. Of je maakt het af en pusht, of je parkeert het met een
@@ -69,5 +71,8 @@ Vóór de push, in deze volgorde — een rode poort betekent: niet pushen, eerst
    categorie-audit, taalregel en de neutraliteitspoort.
 2. **Hygiëne** (`.git/hooks/pre-push`): secrets en lokale home-paden.
 3. **CI** (`mkdocs build --strict` → `gh-deploy`): een waarschuwing publiceert niets.
+4. **Publicatie** (`tests/acceptance/publicatie.py`, ná de deploy): de pagina die de lezer krijgt is deze
+   post. Deze poort kan niet vóór de push, want hij leest de live site; hij bepaalt of je "klaar" mag
+   zeggen. Rood = de post is niet (goed) gepubliceerd, dus eerst oplossen en opnieuw deployen.
 
 Een poort die te streng lijkt, is een gesprek met de eigenaar — geen wijziging in de poort.
