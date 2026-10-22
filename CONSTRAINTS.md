@@ -24,7 +24,10 @@ Last reviewed: 2026-10-15 by @eelco
 - Geen gegenereerde of grote bestanden in git (`/site` en `.cache` staan in `.gitignore`)
 - Een postpagina toont zijn kop-afbeelding: de dependencies in `requirements.txt` zijn gepind op
   versies die dat doen (`selectolax==1.0.0`; 1.0.1 laat het `<img>` op elke postpagina verdwijnen en
-  levert een lege `<p></p>`). Bewijs na een deploy: `curl -s <post-url> | grep -c glightbox` ≥ 1
+  levert een lege `<p></p>`). Bewijs na een deploy: `python3 tests/acceptance/publicatie.py --post
+  docs/blog/posts/<post>.md` → exit 0, met de afbeelding zelf in de gerenderde pagina. (Het oude bewijs,
+  `curl -s <post-url> | grep -c glightbox` ≥ 1, kon niet falen: `glightbox.min.css` staat in de `<head>`
+  van elke pagina, dus die regel gaf altijd ≥ 1. Vervangen op 2026-10-22.)
 - Dit bestand wordt niet verzwakt om een wijziging groen te krijgen
 
 Deze floor wordt al afgedwongen door twee poorten die vóór de push draaien:
@@ -42,6 +45,7 @@ Em/en-dashes zijn schrijfstijl, geen fout: daarom `--dashes=off` (gemeten 2026-1
 |----------|-------|--------------------|-----------|
 | Build | 0 warnings en een geslaagde build | `mkdocs build --strict` | CI, vóór de deploy (blokkerend) |
 | Publiceren | Alleen een groene build komt op de site | `mkdocs gh-deploy --force` na de strict-stap | CI |
+| Publicatie | De pagina die de lezer krijgt is deze post: titel in de `<h1>`, kop-afbeelding op `width="250"` in de lightbox, en elk beeld in de postinhoud laadt (200, `image/*`) | `python3 tests/acceptance/publicatie.py` (exit 0/1/2) | ná de deploy, en bij site-onderhoud (blokkeert de "klaar"-claim) |
 
 Faalt de strict-stap, dan stopt de CI-job en draait `gh-deploy` niet meer: een gewaarschuwde build
 publiceert dus niets. Lokaal is diezelfde build een waarschuwing en geen poort:
