@@ -30,12 +30,13 @@ Last reviewed: 2026-10-15 by @eelco
   van elke pagina, dus die regel gaf altijd ≥ 1. Vervangen op 2026-10-22.)
 - Dit bestand wordt niet verzwakt om een wijziging groen te krijgen
 
-Deze floor wordt al afgedwongen door twee poorten die vóór de push draaien:
+Deze floor wordt al afgedwongen door twee poorten die vóór de push draaien, plus één metrics-poort in CI:
 
 | Poort | Commando | Dekt |
 |-------|----------|------|
 | Inhoud | `blog-axi --changed` (exit 1 = fouten, 3 = beslissing van de gebruiker nodig) | asset-paden, frontmatter/datum, bestandsnaam, header-afbeelding, more-marker, de semantische neutraliteitspoort, de categorie-audit en de taalregel |
 | Hygiëne | `.git/hooks/pre-push` → `python3 ~/.hermes/scripts/publicatie_hygiene.py --quiet --dashes=off` | secrets en lokale home-paden |
+| Complexiteit | CI-stap `Complexity scoreboard` → `python3 scripts/scoreboard.py --baseline scripts/complexity-baseline.json` | cyclomatic complexity per blok (radon): boven 10 faalt, tenzij de uitzondering met reden en gemeten waarde in `scripts/complexity-baseline.json` staat — een bekend blok mag niet boven zijn eigen waarde groeien |
 
 Em/en-dashes zijn schrijfstijl, geen fout: daarom `--dashes=off` (gemeten 2026-10-07: 349 in `docs/`).
 
@@ -46,12 +47,13 @@ Em/en-dashes zijn schrijfstijl, geen fout: daarom `--dashes=off` (gemeten 2026-1
 | Build | 0 warnings en een geslaagde build | `mkdocs build --strict` | CI, vóór de deploy (blokkerend) |
 | Publiceren | Alleen een groene build komt op de site | `mkdocs gh-deploy --force` na de strict-stap | CI |
 | Publicatie | De pagina die de lezer krijgt is deze post: titel in de `<h1>`, kop-afbeelding op `width="250"` in de lightbox, en elk beeld in de postinhoud laadt (200, `image/*`) | `python3 tests/acceptance/publicatie.py` (exit 0/1/2) | ná de deploy, en bij site-onderhoud (blokkeert de "klaar"-claim) |
+| Complexiteit | Elk blok onder cyclomatic complexity 10, behalve de twee bekende blokken in `scripts/complexity-baseline.json` (`publicatie.py` `run` 12 en `scenario_images_load` 11, met reden); een bekend blok dat groeit faalt ook | `python3 scripts/scoreboard.py --baseline scripts/complexity-baseline.json` (radon; exit 0/1/2) | CI, vóór de strict build (blokkerend) |
 
 Faalt de strict-stap, dan stopt de CI-job en draait `gh-deploy` niet meer: een gewaarschuwde build
 publiceert dus niets. Lokaal is diezelfde build een waarschuwing en geen poort:
 `~/.venvs/blog/bin/mkdocs build --strict --site-dir ~/.hermes/cache/scratch/site-strict-$(date +%H%M%S)`
-(bouw buiten de repo, of naar de gitignorde `site/`). De twee poorten hierboven blijven de enige
-blokkerende checks op deze host.
+(bouw buiten de repo, of naar de gitignorde `site/`). De drie poorten hierboven (twee vóór de push, de
+complexiteitspoort in CI) blijven de enige blokkerende checks op deze host.
 
 ## Gemeten, nog niet afgedwongen
 
