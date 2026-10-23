@@ -13,8 +13,8 @@ schrijft: Hermes, het blog-profiel met zijn workers en de eigenaar.
 - **Stage per bestand**, na `git status` en `git diff` — nooit `git add .`.
 - **Verzwak de lat niet.** `CONSTRAINTS.md` en `tests/acceptance/*.py` zijn van de eigenaar en met
   `spec-guard` beschermd; een te strenge poort is een gesprek, geen wijziging.
-- **Klaar is bewezen**: gepusht, CI groen, `python3 tests/acceptance/publicatie.py --post <pad>` exit 0
-  en `blog-axi --changed` exit 0. Exit 3 is een beslissing voor de eigenaar, geen hindernis.
+- **Klaar is bewezen**: `blog-axi klaar` → exit 0 (CI van deze commit, hygiëne, poorten en de
+  acceptatiespec in één oordeel). Exit 2 = onbeslist, exit 3 = beslissing voor de eigenaar.
 - **Laat de repo schoon achter**: geen `site/`, geen `.cache`, geen probeerbestanden.
 
 ## Waar de rest staat
@@ -24,7 +24,7 @@ schrijft: Hermes, het blog-profiel met zijn workers en de eigenaar.
 | Een post schrijven, aanpassen of vertalen | skill `mkdocs-blog-publishing` (schrijven, humanizer-pass, taalregel) |
 | Een drempel, poort of uitzondering bekijken | `CONSTRAINTS.md`; een nieuwe uitzondering hoort met reden in `scripts/complexity-baseline.json` |
 | Bulk-, onbeheerd of meerstaps werk | skill `hermes-kanban-project-setup` (kaart in een worktree, push na jouw akkoord) |
-| Na een push: staat het live? | skill `mkdocs-blog-publishing` §4 (`blog-axi deploy`, sitemap, acceptatiespec) |
+| Na een push: is het klaar en staat het live? | `blog-axi klaar` (één oordeel, exit 0/1/2/3); details in skill `mkdocs-blog-publishing` |
 
 De poortvolgorde en wat elke poort dekt staan in `CONSTRAINTS.md`; herhaal ze hier niet, dan lopen er
 twee versies uiteen.
