@@ -1,0 +1,19 @@
+{
+  "gemeten": "2026-10-23",
+  "drempel": 10,
+  "waarom": "Ratel: deze twee blokken bestaan al en zijn eigendom van de eigenaar (tests/acceptance is de spec, niet de code van de agent). Ze mogen niet groeien, en elk nieuw blok boven de drempel faalt. Een regel die niet meer nodig is, meldt de scoreboard zelf; haal hem er dan uit.",
+  "getolereerd": [
+    {
+      "path": "tests/acceptance/publicatie.py",
+      "name": "run",
+      "complexity": 12,
+      "reden": "CLI-orchestrator van de acceptatiespec: argv-parsing, --post/--json/--site, exitcodes 0/1/2. Splitsen is een wijziging aan de spec zelf en die doet de eigenaar."
+    },
+    {
+      "path": "tests/acceptance/publicatie.py",
+      "name": "scenario_images_load",
+      "complexity": 11,
+      "reden": "Scenariofunctie met drie aflopende takken (status 200, content-type, niet-lege body) die elk een eigen faalreden opleveren. Splitsen verandert de formulering van de verwachtingen in de spec."
+    }
+  ]
+}

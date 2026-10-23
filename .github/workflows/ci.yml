@@ -27,6 +27,10 @@ jobs:
             mkdocs-material-
       - run: sudo apt-get update && sudo apt-get install -y pngquant
       - run: pip install -r requirements.txt
+      - name: Complexity scoreboard (metrics gate)
+        run: |
+          pip install radon==6.0.1
+          python3 scripts/scoreboard.py --baseline scripts/complexity-baseline.json
       - name: Strict build (quality gate)
         run: mkdocs build --strict --site-dir /tmp/strict-build
       - run: mkdocs gh-deploy --force 
