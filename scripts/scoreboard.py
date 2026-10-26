@@ -30,7 +30,6 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
-import os
 import shutil
 import subprocess
 import sys
@@ -61,6 +60,7 @@ def measure(cmd: list[str], paths: list[str]) -> tuple[dict, str]:
         [*cmd, "cc", "-s", "-j", *paths],
         cwd=REPO,
         capture_output=True,
+        check=False,
         text=True,
         timeout=600,
     )

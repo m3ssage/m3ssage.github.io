@@ -1,8 +1,9 @@
+---
 site_name: bommel.xyz
 site_url: https://pages.bommel.xyz/
-#edit_uri: edit/main/docs/
+# edit_uri: edit/main/docs/
 site_description: "Long-form articles on AI, technology, science, culture and society: the personal site of Eelco van Bommel."
-#nav:
+# nav:
 #  - Blog: blog/index.md
 #  - Archive: blog/archive/index.md
 #  - Categories: blog/categories/index.md
@@ -21,16 +22,16 @@ theme:
     code: Roboto Mono
   icon:
     previous: fontawesome/solid/angle-left
-    next: fontawesome/solid/angle-right  
+    next: fontawesome/solid/angle-right
   features:
     - announce.dismiss
     - navigation.tabs
     - navigation.tabs.sticky
-  #  - navigation.sections #use when you do not want the tree menu
-  #  - toc.integrate
+    #  - navigation.sections #use when you do not want the tree menu
+    #  - toc.integrate
     - navigation.path
     - navigation.top
-  #  - navigation.footer
+    #  - navigation.footer
     - navigation.indexes
     - navigation.expand
     - search.suggest
@@ -152,7 +153,7 @@ plugins:
         'index.md': 'blog/index.md'
   - social
   - search
-  - mkdocs-nav-weight  
+  - mkdocs-nav-weight
   - tags
   - glightbox
   - blog:
@@ -194,7 +195,7 @@ extra:
       link: https://www.linkedin.com/in/eelcovb/
   consent:
     title: Cookie consent
-    description: >- 
+    description: >-
       We use cookies to recognize your repeated visits and preferences, as well
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
@@ -227,4 +228,4 @@ markdown_extensions:
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg      
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
