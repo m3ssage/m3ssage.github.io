@@ -1,68 +1,68 @@
-# Acceptatiespec: de post staat live en rendert
+# Acceptance spec: the post is live and renders
 
-Eén artefact dat specificatie én validatie is. De scenario's staan in de taal van het probleem (een lezer
-opent een post), niet in de taal van de oplossing — geen plugin, geen MkDocs-internals, geen bestandsnamen
-van de implementatie. Daarom kan de site anders gebouwd worden zonder dat deze spec verandert, en kan een
-scenario alleen rood worden als de lezer iets mist.
+One artifact that is both specification and validation. The scenarios are written in the language of the
+problem (a reader opens a post), not in the language of the solution — no plugin, no MkDocs internals, no
+implementation filenames. This means the site can be built differently without changing this spec, and a
+scenario can only turn red if the reader is missing something.
 
-## Draaien
+## Running
 
 ```bash
-python3 tests/acceptance/publicatie.py                    # de nieuwste post
+python3 tests/acceptance/publicatie.py                    # the newest post
 python3 tests/acceptance/publicatie.py --post docs/blog/posts/<post>.md
-python3 tests/acceptance/publicatie.py --json             # machineleesbaar
-python3 tests/acceptance/publicatie.py --site file:///tmp/kopie   # offline tegen een kopie
-python3 tests/acceptance/rood_bewijs.py                   # bewijst dat de spec kán falen
+python3 tests/acceptance/publicatie.py --json             # machine-readable
+python3 tests/acceptance/publicatie.py --site file:///tmp/kopie   # offline against a copy
+python3 tests/acceptance/rood_bewijs.py                   # proves the spec can fail
 ```
 
-Exit **0** = groen, **1** = minstens één scenario rood, **2** = kon niet lopen (geen sitemap, geen posts).
-Een scenario dat zijn eigen onvermogen niet kan meten (pagina onbereikbaar) telt **rood**, niet grijs.
+Exit **0** = green, **1** = at least one scenario red, **2** = could not run (no sitemap, no posts).
+A scenario that cannot assess itself (page unreachable) counts as **red**, not gray.
 
-## De vier lagen
+## The four layers
 
-| Laag | In dit bestand | Wat het doet |
+| Layer | In this file | What it does |
 |---|---|---|
-| testcases | `scenario_*` | Given/When/Then, één eigenschap per scenario |
-| DSL | `resolve`, `header_image`, `rendered_header`, `article_images` | domeinoperaties: "de pagina is deze post", "de kop-afbeelding rendert" |
-| protocol-drivers | `fetch`, `sitemap_paths`, `frontmatter` | praten met de echte site en de echte repo |
-| systeem onder test | `https://pages.bommel.xyz` | MkDocs + GitHub Pages |
+| testcases | `scenario_*` | Given/When/Then, one property per scenario |
+| DSL | `resolve`, `header_image`, `rendered_header`, `article_images` | domain operations: "the page is this post", "the header image renders" |
+| protocol-drivers | `fetch`, `sitemap_paths`, `frontmatter` | talk to the real site and the real repo |
+| system under test | `https://pages.bommel.xyz` | MkDocs + GitHub Pages |
 
-De URL komt uit `sitemap.xml`, niet uit de bestandsnaam: de slug is een eigenschap van de plugin, en een
-spec die de plugin nabouwt breekt zodra de plugin verandert.
+The URL comes from `sitemap.xml`, not from the filename: the slug is a property of the plugin, and a spec
+that reimplements the plugin breaks as soon as the plugin changes.
 
-## De drie scenario's, en wat elk als enige vangt
+## The three scenarios, and what each uniquely catches
 
-1. **De pagina is deze post** — de sitemap heeft een pagina onder de datum van de post en de `<h1>` is de
-   titelfrontmatter. Vangt: niet gedeployd, een mislukte build, een verkeerde slug, een pagina die een
-   andere post toont.
-2. **De kop-afbeelding rendert** — direct onder de `<h1>`, met het pad uit de markdown, `width="250"` en in
-   de lightbox-wrapper. Vangt: de dependency-regressie uit `CONSTRAINTS.md` (`selectolax` 1.0.1 liet het
-   `<img>` verdwijnen), een ontbrekend breedte-attribuut (beeld rendert paginabreed), een omgezet pad.
-3. **Elke afbeelding in de postinhoud laadt** — per `src` in het artikelgebied een echte GET: status 200,
-   content-type `image/*` en niet leeg. Vangt: een hernoemd of niet-geüpload asset, een afgekapt bestand.
-   Scenario 2 kan hier niet bij: de `<img>`-tag kan perfect zijn terwijl het bestand 404 geeft.
+1. **The page is this post** — the sitemap has a page under the post's date and the `<h1>` is the title
+   frontmatter. Catches: not deployed, a failed build, a wrong slug, a page showing a different post.
+2. **The header image renders** — directly under the `<h1>`, with the path from the markdown, `width="250"`
+   and in the lightbox wrapper. Catches: the dependency regression from `CONSTRAINTS.md` (`selectolax`
+   1.0.1 made the `<img>` disappear), a missing width attribute (image renders page-wide), a converted
+   path.
+3. **Every image in the post content loads** — per `src` in the article area an actual GET: status 200,
+   content-type `image/*` and not empty. Catches: a renamed or not-uploaded asset, a truncated file.
+   Scenario 2 cannot reach this: the `<img>` tag can be perfect while the file returns 404.
 
-Wat de spec **niet** dekt: of de tekst klopt (dat is `blog-axi` plus de leesbaarheidspas), of de index de
-post toont (die toont 10 posts per pagina, dus een index-check wordt om de verkeerde reden rood), en of de
-post inhoudelijk neutraal is (Jev-poort in `blog-axi`).
+What the spec **does not** cover: whether the text is correct (that's `blog-axi` plus the readability
+pass), whether the index shows the post (it shows 10 posts per page, so an index check would turn red
+for the wrong reason), and whether the post is politically neutral (Jev gate in `blog-axi`).
 
-## Het rood-bewijs
+## The red proof
 
-`rood_bewijs.py` haalt de nieuwste pagina op, plant drie echte fouten in een wegwerpkopie en eist dat de
-spec precies het juiste scenario laat vallen:
+`rood_bewijs.py` fetches the latest page, plants three real faults in a throwaway copy and demands that the
+spec fails exactly the right scenario:
 
-| geval | mutatie | verwacht |
+| case | mutation | expected |
 |---|---|---|
-| groen | geen | exit 0, 3× PASS |
-| a | lightbox-wrapper en `width` weg | exit 1, scenario 2 rood |
-| b | asset-bestand weg | exit 1, scenario 3 rood |
-| c | post niet in de sitemap | exit 1, scenario 1 rood (2 en 3 kunnen niets beoordelen) |
+| green | none | exit 0, 3× PASS |
+| a | lightbox wrapper and `width` removed | exit 1, scenario 2 red |
+| b | asset file removed | exit 1, scenario 3 red |
+| c | post not in the sitemap | exit 1, scenario 1 red (2 and 3 cannot assess anything) |
 
-Exit 0 betekent: de spec is in staat een fout antwoord te vangen. Zonder die stap is een groene spec een
-wens. Draai hem na elke wijziging aan de spec zelf.
+Exit 0 means: the spec is able to catch a wrong answer. Without this step, a green spec is a wish. Run it
+after every change to the spec itself.
 
-## Contractwijziging
+## Contract change
 
-De scenario's en hun drempels zijn het contract. Wie ze aanpast omdat een post ze niet haalt, verzwakt de
-spec om groen te worden — precies wat `CONSTRAINTS.md` verbiedt. Een verwachting aanpassen (een extra
-scenario, een strengere drempel) is een beslissing van de eigenaar, met de reden in de commit.
+The scenarios and their thresholds are the contract. Anyone who changes them because a post does not pass
+them weakens the spec to turn green — exactly what `CONSTRAINTS.md` forbids. Adjusting an expectation
+(an extra scenario, a stricter threshold) is a decision for the owner, with the reason in the commit.
