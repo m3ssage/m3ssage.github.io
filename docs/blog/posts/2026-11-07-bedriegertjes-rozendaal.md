@@ -1,6 +1,6 @@
 ---
 title: "De bedriegertjes van Rozendaal: water dat je verrast, al drie eeuwen"
-slug: trick-fountains-rozendaal
+slug: bedriegertjes-rozendaal
 date: 2026-11-07T18:06:15+01:00
 description: "Hoe de bedriegertjes in het park van kasteel Rosendael al eeuwen bezoekers natspuiten, waar het water vandaan komt en wie ze liet aanleggen."
 author:
