@@ -1,7 +1,7 @@
 ---
 title: "Tachtig jaar hervormen zonder de leraar"
 slug: tachtig-jaar-hervormen-zonder-de-leraar
-date: 2026-11-08T04:30:00+01:00
+date: 2026-11-08T04:17:34+01:00
 description: "Minder autonomie voor de leraar, meer bestuurlijke lagen en een leesvaardigheid die sinds 2003 met 72 punten daalde: wat tachtig jaar hervormen opleverde."
 author:
   - eelco
