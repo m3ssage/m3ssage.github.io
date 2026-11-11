@@ -17,9 +17,9 @@ tags:
 ---
 ![Euromunten en biljetten van 5 tot 200 euro door elkaar op een lichte ondergrond, met een schildereffect](/assets/2026-11-11-vermogensstaffel-grens-tien-miljoen.jpg){ align=right width="250" loading=lazy }
 
-In Den Haag ligt een voorstel om 1,5 miljard euro aan lasten te verschuiven van arbeid naar vermogen. Pro en Volt dienden het in, de VVD wijst het af en D66 wil erover praten, zo bleek tijdens het debat over het belastingplan in de eerste week van november. In diezelfde weken ging een gesprek rond van De Nieuwe Wereld. Daarin bepleit Jean-Paul Fonteijn dat niemand meer dan 10 miljoen euro vermogen zou mogen hebben, met een heffing van 30 procent op alles daarboven.
+In Den Haag ligt een wetsvoorstel om 1,5 miljard euro aan lasten te verschuiven van arbeid naar vermogen. Pro en Volt dienden het in, de VVD wijst het af en D66 wil erover praten, zo bleek tijdens het debat over het belastingplan in de eerste week van november. In diezelfde weken ging een gesprek rond van De Nieuwe Wereld. Daarin bepleit Jean-Paul Fonteijn dat niemand meer dan 10 miljoen euro vermogen zou mogen hebben, met een heffing van 30 procent op alles daarboven.
 
-Beide debatten draaien om dezelfde vraag: hoeveel vermogen kan zich bij één huishouden ophopen, en wat vraagt de samenleving daarvan terug? Het antwoord is tot nu toe een bedrag en een percentage. Daaronder ligt een rekenkundige vraag.
+Beide debatten draaien om dezelfde vraag: hoeveel vermogen kan zich bij één huishouden ophopen, en wat vraagt de samenleving daarvan terug? Het antwoord is tot nu toe een bedrag en een percentage. Daaronder ligt een rekenkundige vraag. De cijfers in dit artikel komen uit één uitgewerkte variant van zo'n heffing, hier verder het voorstel genoemd: een staffel met vier schijven, een exitheffing bij emigratie en zeven regels die de lobby beperken, doorgerekend op Nederlandse cijfers.
 
 Het eerste punt is rekenkundig. Een bedrag van 10 miljoen valt samen met een statistisch snijpunt: het is ongeveer de lijn waarboven de rijkste 0,1 procent van de Nederlandse huishoudens begint. Het getal 10 is daarmee te herleiden tot een verdeling. Het tweede punt is politiek. Over een heffing op vermogen wordt onderhandeld met een Kamer, en rond de groep die betaalt staan professionele belangenbehartigers.
 
@@ -37,7 +37,7 @@ Een alternatief dat in de literatuur terugkomt, is de grens als formule te behan
 
 ## De staffel, en wat hij oplevert
 
-Een grens alleen doet niets; het tarief bepaalt wat er gebeurt. De doorgerekende variant kent vier schijven. Vrij tot 50 keer de mediaan, daarna 0,5 procent, 2 procent en 5 procent. Boven duizend keer de mediaan geldt 8 procent. Altijd marginaal op het overschot, nooit op het hele vermogen.
+Een grens alleen doet niets; het tarief bepaalt wat er gebeurt. Het voorstel kent vier schijven. Vrij tot 50 keer de mediaan, daarna 0,5 procent, 2 procent en 5 procent. Boven duizend keer de mediaan geldt 8 procent. Altijd marginaal op het overschot, nooit op het hele vermogen.
 
 In Nederland raakt die staffel ongeveer 20.850 huishoudens, een kwart procent van het totaal. De opbrengst in het eerste jaar komt op 8,93 miljard euro, 0,78 procent van het bruto binnenlands product. Het effectieve tarief over het overschot boven de eerste drempel blijft steken op 3,67 procent. Een staffel pakt in de praktijk dus veel vlakker uit dan de bovenste schijf suggereert.
 
@@ -63,7 +63,7 @@ Fonteijn noemt zelf het bezwaar dat een land dat alleen begint zijn eigen vermog
 
 De machinerie is dus aanwezig, alleen smal. Nederland kent de fictieve vervreemding bij emigratie voor houders van een aanmerkelijk belang (artikel 4.16, eerste lid, onderdeel h, Wet IB 2001), met een conserverende aanslag. Duitsland heft op grond van paragraaf 6 AStG bij emigratie van houders van een belang van 1 procent of meer, en er ligt een wijzigingsvoorstel open. Frankrijk kent artikel 167 bis van de Code général des impôts, Spanje de Solidariteitstaks Grote Vermogens sinds 2023 op vermogen boven 3 miljoen euro.
 
-Voor bedrijven bestaat er zelfs al een Europese exitheffing, in artikel 5 van de ATAD-richtlijn uit 2016. De vraag aan een land wordt daarmee kleiner: het bestaande instrument breder trekken in plaats van een nieuw bouwen. Ze ligt bovendien op een plek waar al een wetsvoorstel openligt.
+Voor bedrijven bestaat er zelfs al een Europese exitheffing, in artikel 5 van de ATAD-richtlijn uit 2016. De vraag aan een land wordt daarmee kleiner: het bestaande instrument breder trekken in plaats van een nieuw bouwen. Ze ligt bovendien op een plek waar de wet al wordt herzien.
 
 Dat vertrek niet theoretisch is, bleek in Noorwegen. Na de verhoging van de vermogensbelasting in 2022 vertrokken meer dan dertig miljardairs en multimiljonairs. Het land schrapte daarop de termijn van vijf jaar op de exitheffing, zodat verhuizen geen kwijtschelding meer is.
 
@@ -85,7 +85,7 @@ Nederland is geen uitzondering, al zijn de bedragen kleiner. Sinds 1 januari 202
 
 In Frankrijk geldt 4.600 euro per persoon per verkiezing; rechtspersonen mogen niets geven en de uitgavenplafonds liggen op 16,9 en 22,5 miljoen euro per presidentscampagne. In Californië werd in november 2026 een eenmalige heffing van 5 procent op het vermogen van miljardairs verworpen met 52,8 procent tegen, na zware campagnes van techondernemers. Een populair idee kan dus worden weggestemd als de tegenkant meer geld heeft.
 
-In het uitgewerkte voorstel staat de lobbyrem in hetzelfde wetsvoorstel als de heffing. Zeven onderdelen worden daarin genoemd.
+In het voorstel staat de lobbyrem in hetzelfde wetsvoorstel als de heffing. Zeven onderdelen worden daarin genoemd.
 
 - Een donatieplafond van 500 euro per partij per jaar, met een verbod voor rechtspersonen.
 - Verdriedubbeling van kleine giften uit een publiek budget.
