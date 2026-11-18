@@ -28,29 +28,29 @@ A Databricks SQL warehouse is built for large scans. A customer portal asks a di
 
 Those workloads have lived in a separate database for decades. A pipeline usually sat in between to keep both sides in sync.
 
-Lakebase is the attempt to remove that second platform. Databricks announced it in June 2025, weeks after saying it would acquire Neon, the serverless Postgres company. Reports put that deal at about one billion dollars. Lakebase packages that architecture, and the same Postgres service is also sold on Neon's own platform.
+Lakebase is the attempt to remove that second platform. Databricks announced it in June 2025, weeks after saying it would acquire Neon, the serverless Postgres company. Reports put that deal at about one billion dollars ([CNBC](https://www.cnbc.com/2025/05/14/databricks-is-buying-database-startup-neon-for-about-1-billion.html)). Lakebase packages that architecture, and the same Postgres service is also sold on Neon's own platform.
 
 ### A standard Postgres, with the usual extensions
 
-There is no new SQL dialect and no fork to learn. Lakebase runs Postgres 16, 17 or 18, with 17 as the default. The extension list covers what most apps expect. It includes pgvector 0.8 for embeddings, PostGIS 3.6 for spatial data, pgRouting, hll, pg_trgm, pg_stat_statements and pgcrypto.
+There is no new SQL dialect and no fork to learn. Lakebase runs Postgres 16, 17 or 18, with 17 as the default. The extension list includes pgvector 0.8 for embeddings, PostGIS 3.6 for spatial data, pgRouting, hll, pg_trgm, pg_stat_statements and pgcrypto.
 
-Existing drivers, ORMs and migration tools work as they are. A `psql` prompt against a Lakebase branch looks like a `psql` prompt anywhere else. That is the point.
+Existing drivers, ORMs and migration tools work as they are. A `psql` prompt against a Lakebase branch looks like a `psql` prompt anywhere else.
 
 ### Storage and compute are decoupled
 
-A project holds branches, databases, roles and computes. Each branch gets one read-write compute, and that compute can have read replicas. Sizing is expressed in Compute Units. One CU brings about 2 GB of RAM plus the matching CPU and local SSD.
+A project holds branches, databases, roles and computes. Each branch gets one read-write compute. Read replicas serve reads from that same storage, and a high availability endpoint goes further: it runs the primary plus one to three secondaries in different availability zones and promotes one automatically when the primary fails, with the connection string unchanged and an SLA behind it. Sizing is expressed in Compute Units. One CU brings about 2 GB of RAM plus the matching CPU and local SSD. The size also caps the connections: 218 at 1 CU, and a hard ceiling of 3,993 from 24 CU upwards.
 
-Autoscaling moves between 0.5 and 64 CU. It watches CPU load, memory use and the working set size. The gap between the minimum and the maximum cannot exceed 16 CU. Sizes from 65 to 112 CU exist as fixed computes. You reach those through the Postgres API, Terraform or the SDK rather than the UI.
+Autoscaling sizes one compute anywhere between 0.5 and 64 CU, watching CPU load, memory use and the working set size. The window you configure is far narrower: the difference between the minimum and the maximum cannot exceed 16 CU. A compute that has to absorb a 60 CU peak therefore cannot idle at 0.5 CU. Sizes from 65 to 112 CU exist as fixed computes. You reach those through the Postgres API, Terraform or the SDK rather than the UI.
 
-Scale to zero is the other half of the cost model. An idle compute suspends after a timeout. You set it between 60 seconds and 7 days. The default is 24 hours. The next query wakes it in a few hundred milliseconds, and connection strings stay valid while it sleeps. Only active compute time is billed.
+Scale to zero is the other half of the cost model. An idle compute suspends after a timeout. You set it between 60 seconds and 7 days. The default is 24 hours. The next query wakes it in a few hundred milliseconds, and connection strings stay valid while it sleeps. Only active compute time is billed. The feature has two conditions: it works only on a compute whose maximum is 32 CU or smaller, and it is not available on a high availability endpoint at all.
 
-That mechanism has a price of its own. Suspending a compute closes its connections. Anything living in the session disappears with them: temporary tables, prepared statements, advisory locks, `LISTEN` and `NOTIFY`. Workloads that need that state must keep scale to zero switched off. The compute then runs around the clock.
+That mechanism has a price of its own. Suspending a compute closes its connections. Anything living in the session disappears with them: temporary tables, prepared statements, advisory locks, `LISTEN` and `NOTIFY`, the connection pool and any transaction in flight. The statistics split: counters in `pg_stat_user_tables` survive a suspend, the data collected by `pg_stat_statements` does not. Workloads that need the session state must keep scale to zero switched off. The compute then runs around the clock, and a client needs retry logic for the first query after a wake-up.
 
 ### Branches and point-in-time recovery
 
 Every project starts with a root branch called `production`. Further branches hang off it in a tree. A child inherits the schema and the data of its parent through copy-on-write pointers. Creating one takes seconds and copies no storage. Only blocks that change are written.
 
-Children stay isolated. Schema changes, role grants and data edits on one branch do not touch its parent or its siblings. That makes per-developer branches and agent sandboxes practical. A branch can also start from any point in the parent's history. Point-in-time recovery and historical testing use the same mechanism.
+Children stay isolated. Schema changes, role grants and data edits on one branch do not touch its parent or its siblings. That makes per-developer branches and agent sandboxes practical. A branch can also start from any point in the parent's restore window. Point-in-time recovery and historical testing use the same mechanism. The storage saving lasts only while a branch is short-lived: a branch without an expiration is billed for its full data size.
 
 ### Unity Catalog: a read-only catalog, not magic
 
@@ -62,13 +62,13 @@ The second detail is compute. Querying the catalog needs serverless compute: a s
 
 ### Four patterns the service is built for
 
-**Serving lakehouse data.** Synced tables copy a Unity Catalog table into Postgres through a managed Lakeflow pipeline. You pick a Gold table or a feature table and choose continuous, triggered or snapshot sync. The result is a read-only Postgres table that apps query by key. Continuous mode keeps it within seconds of the source.
+**Serving lakehouse data.** Synced tables copy a Unity Catalog table into Postgres through a managed Lakeflow pipeline. You pick a Gold table, meaning one from the curated layer of the lakehouse, or a feature table, and choose continuous, triggered or snapshot sync. What lands in Postgres is meant to be read: apps query the copy by key, and writing to it is technically possible but expressly discouraged, because a write drifts from the source of truth that the next sync assumes. Continuous mode keeps the copy within seconds of the source.
 
-Databricks advises read-only use of synced tables. Writes would drift from the source of truth. A beta option, LTAP Direct Writes, sends bulk loads straight to the storage layer. Those loads skip the compute endpoint.
+A beta option, LTAP Direct Writes, sends the bulk load straight to the storage layer of the branch instead of through the live compute. Those loads skip the compute endpoint, so they finish faster and add no query load while they run.
 
 **Operational data back into the lakehouse.** Lakebase Change Data Feed reads the Postgres write-ahead log. Every insert, update and delete becomes a row in a Unity Catalog managed Delta table, batched roughly every 15 seconds. Rows carry `_pg_change_type`, an LSN, a transaction ID and a timestamp, in the same shape as Delta Change Data Feed. That removes the Debezium or Kafka connector from the audit-trail story. Tables need `REPLICA IDENTITY FULL`, so the log holds both the old and the new row. The feature is in Public Preview.
 
-**An application backend.** Any Postgres client connects, including Databricks Apps. Autoscaling absorbs traffic spikes without dropping connections. Branching replaces the seeding scripts that development environments usually need.
+**An application backend.** Any Postgres client connects, including Databricks Apps. Autoscaling absorbs traffic spikes without dropping connections, as long as the compute stays awake. Branching replaces the seeding scripts that development environments usually need.
 
 **Agents and machine learning.** Agents built with LangGraph or the OpenAI Agents SDK can keep conversation state in Postgres, next to the tables they read. Models served through Model Serving fetch real-time features from an online feature store backed by Lakebase. No separate Redis or DynamoDB cluster is needed.
 
@@ -76,7 +76,7 @@ Databricks advises read-only use of synced tables. Writes would drift from the s
 
 The managed model removes things people rely on. There is no superuser and no access to the host operating system, so features that demand either are out. Postgres logs are not accessible. Parameters can be set at session, database or role level, but not at instance level. Unlogged and temporary tables live on the local disk of the compute. They do not survive a restart or a scale-to-zero cycle.
 
-Storage scales to 8 TB per instance, per the docs. That is plenty for serving and agent workloads. It is far too small to archive raw history, which stays in Delta Lake and object storage.
+Storage is not a disk on the compute. Lakebase keeps the data in a distributed layer that writes through to Databricks-managed object storage, so no single machine holds the authoritative copy and a compute failure, restart or failover loses no committed transaction. Databricks puts the ceiling at 8 TB per instance, which is ample for serving and agent workloads and far too small to archive raw history. That stays in Delta Lake and object storage.
 
 Change Data Feed is a preview, and a workspace admin has to enable it. Teams that plan an audit trail around it should check the status in their own workspace first.
 
@@ -101,5 +101,5 @@ It makes less sense as a general-purpose operational database for a team that do
 - [Use cases](https://docs.databricks.com/aws/en/oltp/projects/use-cases)
 - [Databricks Lakebase is now Generally Available](https://www.databricks.com/blog/databricks-lakebase-generally-available) and [Lakebase Postgres is now generally available on Google Cloud](https://www.databricks.com/blog/lakebase-postgres-now-generally-available-google-cloud)
 - [Databricks scales Lakebase to 8TB per instance](https://developers.databricks.com/perspectives/what-operational-database-scales-to-8tb-per-instance-while-remaining-fully-serverless-and-auto-managed-for-enterprise-production-workloads)
-- [Databricks agrees to acquire Neon](https://www.databricks.com/company/newsroom/press-releases/databricks-agrees-acquire-neon-help-developers-deliver-ai-systems) (May 14, 2025)
+- [Databricks agrees to acquire Neon](https://www.databricks.com/company/newsroom/press-releases/databricks-agrees-acquire-neon-help-developers-deliver-ai-systems) (May 14, 2025) and [the reported price](https://www.cnbc.com/2025/05/14/databricks-is-buying-database-startup-neon-for-about-1-billion.html)
 - Image: [Technician with laptop working on server rack at NERSC](https://commons.wikimedia.org/wiki/File:Technician_with_laptop_working_on_server_rack_at_NERSC.jpg), Derrick Coetzee, Wikimedia Commons (CC0), painterly filter
