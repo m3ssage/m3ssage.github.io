@@ -16,7 +16,7 @@ drempels — het zegt alleen wat een woord betekent.
 | **neutraliteitspoort** | De semantische controle op partijdigheid in een post. Levert een oordeel met een drempel, en mag alleen met een expliciete reden gepasseerd worden. | poort `Inhoud` |
 | **taalregel** | De deterministische controle of een post in de juiste taal staat: de site is Engelstalig, Nederlands mag alleen als de post primair over Nederland gaat. | `blog-axi taal`, rubriek `blog-taal` |
 | **rubriek** | Een semantische poort in de Jev-bibliotheek (`~/.hermes/jev-rubrieken/`) met eigen voorbeelden en een drempel. `blog-taal` is er één van deze repo. | `~/.hermes/jev-rubrieken/` |
-| **categorie-audit** | De controle op de categorielabels van de posts, met een fail-drempel onder 0,049; de band daarboven is een let-op-signaal. | `blog-axi categorie` |
+| **categorie-audit** | De controle op de categorielabels van de posts, met een fail-drempel en een band daarboven die een let-op-signaal oplevert. De getallen staan in `CONSTRAINTS.md`; hier alleen de betekenis. | `blog-axi categorie` |
 | **`categories_allowed`** | De enige bron van toegestane categorieën, in de siteconfiguratie. Een categorie die daar niet in staat is een fout. | `mkdocs.yml` |
 | **taallabel `Dutch`** | Een label náást de onderwerpscategorieën: een Nederlandse post draagt `Dutch`, een Engelse post niet. Categorieën en tags blijven verder Engels, ook bij een Nederlandse post. | `CONSTRAINTS.md`, poort `categorie` |
 | **bronlabel `YouTube`** | Hetzelfde idee voor de herkomst: een post bij een videolink draagt `YouTube`. | poort `categorie` |
@@ -27,10 +27,10 @@ drempels — het zegt alleen wat een woord betekent.
 | **`gh-deploy`** | `mkdocs gh-deploy --force`, de daadwerkelijke publicatie. Draait alleen als de strict-stap groen is: een gewaarschuwde build publiceert niets. | CI |
 | **acceptatiespec** | De controle **ná** de deploy op wat de lezer echt krijgt: titel in de `<h1>`, kop-afbeelding op `width="250"` in de lightbox, en elk beeld in de postinhoud laadt (200, `image/*`). Exit 0/1/2. | `tests/acceptance/publicatie.py` |
 | **lightbox** | De beeldvergroter van het thema (glightbox). Een postpagina hoort zijn kop-afbeelding in de lightbox te tonen; dat is meetbaar, in tegenstelling tot het aantal keren dat de CSS-naam in de pagina voorkomt. | acceptatiespec |
-| **scoreboard / complexity-baseline** | De complexiteitspoort: cyclomatic complexity per blok via radon, met 10 als grens. Een bekend blok mag niet boven zijn eigen gemeten waarde groeien; een uitzondering staat met reden en getal in de baseline. | `scripts/scoreboard.py`, `scripts/complexity-baseline.json` |
+| **scoreboard / complexity-baseline** | De complexiteitspoort: cyclomatic complexity per blok via radon. Een bekend blok mag niet boven zijn eigen gemeten waarde groeien; een uitzondering staat met reden en getal in de baseline. De grens zelf staat in `CONSTRAINTS.md`. | `scripts/scoreboard.py`, `scripts/complexity-baseline.json` |
 | **hygiëne-poort** | De pre-push hook die zoekt naar secrets en lokale home-paden. `--dashes=off`, want streepjesgebruik is schrijfstijl en geen fout. | `.git/hooks/pre-push` |
 | **`overrides/`** | De eigen aanpassingen op het Material-thema (`custom_dir`). Hier staat hoe de site rendert, niet wat erin staat. | `mkdocs.yml` |
-| **gepinde dependency** | `requirements.txt` staat op versies die de site heel laten (`selectolax==1.0.0`; 1.0.1 laat het `<img>` op elke postpagina verdwijnen). Niet losjes ophogen. | `requirements.txt` |
+| **gepinde dependency** | `requirements.txt` staat op versies die de site heel laten: een losse ophoging kan de kop-afbeelding van elke post laten verdwijnen. Welke pin, en het gemeten verschil, staan in `CONSTRAINTS.md`. | `requirements.txt` |
 | **`site/` en `.cache`** | Bouwuitvoer. Staan in `.gitignore` en horen nooit in een commit; bouw lokaal buiten de repo of in de gitignorde map. | `.gitignore` |
 
 Waarom `adr/` en niet `docs/adr/`: `docs/` is de **gepubliceerde** content van de site. Een ADR hoort
