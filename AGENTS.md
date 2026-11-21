@@ -25,6 +25,8 @@ schrijft: Hermes, het blog-profiel met zijn workers en de eigenaar.
 | Een drempel, poort of uitzondering bekijken | `CONSTRAINTS.md`; een nieuwe uitzondering hoort met reden in `scripts/complexity-baseline.json` |
 | Bulk-, onbeheerd of meerstaps werk | skill `hermes-kanban-project-setup` (kaart in een worktree, push na jouw akkoord) |
 | Na een push: is het klaar en staat het live? | `blog-axi klaar` (één oordeel, exit 0/1/2/3); details in skill `mkdocs-blog-publishing` |
+| Wat een term hier betekent | `GLOSSARY.md` — poort, floor, `klaar`, let-op-signaal, slug, kop-afbeelding, acceptatiespec |
+| Waarom het zo is en niet anders | `adr/` — één bestand per beslissing |
 
 De poortvolgorde en wat elke poort dekt staan in `CONSTRAINTS.md`; herhaal ze hier niet, dan lopen er
 twee versies uiteen.
