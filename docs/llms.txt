@@ -2,13 +2,108 @@
 
 > Personal site and blog of Eelco van Bommel: long-form articles on AI, technology, science, culture and society.
 
+Every post is listed below with its date, category and one-line summary, newest first per category. Posts are written in English or Dutch; the language is visible from the title.
+
 ## Main pages
 
 - [Blog](https://pages.bommel.xyz/blog/): all posts, newest first
 - [About](https://pages.bommel.xyz/about/): how this site is built
 - [Sitemap](https://pages.bommel.xyz/sitemap.xml): every URL with a lastmod date
 
-## Notes
 
-- Posts are written in English and each post ends with a Sources list of linked pages.
-- Categories: AI, Culture, Economics, Lifestyle, Nature, Science, Society, Software Development, Sport, Technology, Travel, YouTube.
+## AI (7)
+
+- [Software Isn't Dead, Generic Software Is](https://pages.bommel.xyz/blog/2026/10/24/software-isnt-dead-generic-software-is/): Chris Ashby argues the generic SaaS dashboard is running out of road, and names eight other shapes of software that are wide open in the agent era. (2026-10-24)
+- [From chatbot to agent: the AI that stopped waiting for a prompt | Bert Slagter and Jelle van Baardewijk #2376](https://pages.bommel.xyz/blog/2026/10/07/the-rise-of-ai-from-chatbot-to-agent--bert-slagter-and-jelle-van-baardewijk-2376/): Bert Slagter on how a language model is made, which numbers the episode gets wrong, and what changes when AI stops waiting for a prompt. (2026-10-07)
+- [The Real Lesson of Firstmate: In the Age of Agents, Build the Tools That Fit You](https://pages.bommel.xyz/blog/2026/09/16/the-real-lesson-of-firstmate-in-the-age-of-agents-build-the-tools-that-fit-you/): The real lesson of Firstmate: wrappers around existing tools, worktrees and validation, and four principles worth stealing. (2026-09-16)
+- [Pi Agent's Developer on Why Minimal Beats Maximal in AI Coding](https://pages.bommel.xyz/blog/2026/09/13/pi-agents-developer-on-why-minimal-beats-maximal-in-ai-coding/): Pi Agent's developer on why a minimal coding harness with four tools can beat heavier rivals, and the workflow behind it. (2026-09-13)
+- [The Real Reason AI Is Going Back to the Terminal](https://pages.bommel.xyz/blog/2025/10/30/the-real-reason-ai-is-going-back-to-the-terminal/): Why AI coding agents went back to the terminal: what Anthropic, OpenAI, Google and Cursor shipped in 2025, and why the loop fits. (2025-10-30)
+- [An AI Research Assistant Promises Citation-Backed Drafts. A Study Counted Fabricated References.](https://pages.bommel.xyz/blog/2025/08/09/academic-ai-research-tool-boost-your-research-productivity-in-one-click/): An AI research assistant sells citation-backed drafts. A study counted fabricated references, and publishers and universities answered with rules. (2025-08-09)
+- [We are AI](https://pages.bommel.xyz/blog/2024/11/01/we-are-ai/): AI reflects the choices people make: how bias is inherited, why fluent output is not understanding, and what is built around it. (2024-11-01)
+
+## Science (5)
+
+- [The Menopause Cliff: Hormones Shift a Decade Earlier Than the Textbooks Said](https://pages.bommel.xyz/blog/2026/10/19/the-menopause-cliff-hormones-shift-a-decade-earlier-than-the-textbooks-said/): A study of 300 million lab tests finds that menopause arrives as a body-wide cliff, with hormone changes starting 12 to 15 years before the final period. (2026-10-19)
+- [Climate.us: Rebuilding Climate.gov Outside the Government](https://pages.bommel.xyz/blog/2026/09/28/climateus-rebuilding-climategov-outside-the-government/): Climate.us rebuilds Climate.gov outside government: what Americans used the site for, when the updates stopped, and the plan. (2026-09-28)
+- [It's Happening: Europe Is Building an Impossible Fusion Reactor](https://pages.bommel.xyz/blog/2026/08/25/its-happening-europe-is-building-an-impossible-fusion-reactor/): Proxima Fusion's stellarator design, and why a Munich startup funded with 411 million euro bets against the classic tokamak. (2026-08-25)
+- [Pattern Collider](https://pages.bommel.xyz/blog/2024/10/27/pattern-collider/): Pattern Collider is a small web tool for generating and exploring quasiperiodic tilings, and a playful way into symmetry. (2024-10-27)
+- [Penrose tiles!](https://pages.bommel.xyz/blog/2024/10/27/penrose-tiles/): How Penrose tiles fit together without gaps or repeats, why they cannot be periodic, and what makes them fascinating. (2024-10-27)
+
+## Technology (10)
+
+- [Omarchy 4.0: Could This Be the First Truly AI-Embedded Operating System?](https://pages.bommel.xyz/blog/2026/09/03/omarchy-40-could-this-be-the-first-truly-ai-embedded-operating-system/): Omarchy 4.0 treats the AI agent as a first-class citizen of the desktop, unlike systems that bolt an assistant onto the side. (2026-09-03)
+- [Singapore's Biological Data Center: 16 Million Living Neurons at Work](https://pages.bommel.xyz/blog/2026/08/28/singapores-biological-data-center-16-million-living-neurons-at-work/): Singapore's biological data center: a prototype that computes on living human neurons, and why biology appeals for data work. (2026-08-28)
+- [IBM and the University of Chicago Show Quantum Advantage — With Proof](https://pages.bommel.xyz/blog/2026/08/26/ibm-and-the-university-of-chicago-show-quantum-advantage--with-proof/): IBM and the University of Chicago report quantum advantage with proof: 70 logical qubits and a verifiable sampling problem. (2026-08-26)
+- [The SLZB-MR4U: Why a Multi-Radio Zigbee and Thread Stick Is a Smart Home Upgrade](https://pages.bommel.xyz/blog/2026/08/26/the-slzb-mr4u-why-a-multi-radio-zigbee-and-thread-stick-is-a-smart-home-upgrade/): Why a multi-radio Zigbee and Thread stick beats a USB dongle, and how to place radios where the mesh actually needs them. (2026-08-26)
+- [TaskDaemon-4 and the Impossible Appointment](https://pages.bommel.xyz/blog/2026/08/25/taskdaemon-4-and-the-impossible-appointment/): A short story about TaskDaemon-4, an AI agent handed a simple scheduling task, and the wall of red it runs into. (2026-08-25)
+- [The Memory Price Surge: Why RAM and Storage Got So Expensive](https://pages.bommel.xyz/blog/2026/08/24/the-memory-price-surge-why-ram-and-storage-got-so-expensive/): Why RAM and SSDs suddenly got more expensive: the AI memory boom, the numbers behind it, and who feels the pain. (2026-08-24)
+- [Deep Dive Into Cleaning With Dry Ice](https://pages.bommel.xyz/blog/2025/08/28/deep-dive-into-cleaning-with-dry-ice/): How dry ice blasting cleans surfaces without chemicals or abrasive scrubbing, and where the method works best. (2025-08-28)
+- [Why Tech Platforms Intentionally Work Worse, The Enshittification Phenomenon](https://pages.bommel.xyz/blog/2025/07/28/why-tech-platforms-intentionally-work-worse-the-enshittification-phenomenon/): The enshittification phenomenon: why platforms that once felt user-friendly gradually get worse, as told by VPRO Tegenlicht. (2025-07-28)
+- [What if sailing had no rules?](https://pages.bommel.xyz/blog/2025/07/28/what-if-sailing-had-no-rules/): What happens when sailing drops its rulebook: marine engineers and sailors on the limits of hull speed, design and physics. (2025-07-28)
+- [Is SaaS Dead?, Here's a Senior Engineer's Perspective](https://pages.bommel.xyz/blog/2025/07/19/is-saas-dead-heres-a-senior-engineers-perspective/): Is SaaS dead? A senior engineer's answer, sector by sector: accounting and financial software, web hosting and payment providers. (2025-07-19)
+
+## Software Development (7)
+
+- [Databricks Lakebase: Postgres Beside the Lakehouse](https://pages.bommel.xyz/blog/2026/11/17/databricks-lakebase-postgres-beside-the-lakehouse/): Lakebase is Databricks' managed serverless Postgres: copy-on-write branches, scale to zero, synced tables and WAL changes as Delta, plus the limits. (2026-11-17)
+- [Enterprise Design with EDGY: One Language for the Whole Enterprise](https://pages.bommel.xyz/blog/2026/11/01/enterprise-design-with-edgy-one-language-for-the-whole-enterprise/): EDGY is an open-source language for designing an enterprise as a whole: three facets, twelve elements, and a night train to practise on. (2026-11-01)
+- [Enterprise Design with EDGY: A Common Language for the Whole Organisation](https://pages.bommel.xyz/blog/2026/08/28/enterprise-design-with-edgy-a-common-language-for-the-whole-organisation/): EDGY as a common language for organisations: its three facets and the intersections where disciplines like UX and process meet. (2026-08-28)
+- [Van Coder naar Architect/Builder](https://pages.bommel.xyz/blog/2026/02/14/van-coder-naar-architectbuilder/): From writing code to conducting AI agents: how the developer's role shifts from pull requests to prompt requests. (2026-02-14)
+- [C4 models as code, Simon Brown, NDC Oslo 2023](https://pages.bommel.xyz/blog/2025/07/24/c4-models-as-code-simon-brown-ndc-oslo-2023/): Simon Brown on diagrams as code with Structurizr: why architecture diagrams go stale and how to keep them current. (2025-07-24)
+- [Software Architecture, The Hard Parts - Neal Ford](https://pages.bommel.xyz/blog/2025/07/19/software-architecture-the-hard-parts---neal-ford/): Neal Ford on the hard parts of software architecture: finding the right granularity, the myth of effortless reuse, and harder decisions. (2025-07-19)
+- [Minimum Viable Architecture, Randy Shoup, YOW! 2022](https://pages.bommel.xyz/blog/2025/07/19/minimum-viable-architecture-randy-shoup-yow-2022/): Randy Shoup's case for a minimum viable architecture: build what the problem needs today, not an infinitely scalable design upfront. (2025-07-19)
+
+## Economics (7)
+
+- [Van één bedrag naar een staffel: rekenen aan een vermogensbelasting](https://pages.bommel.xyz/blog/2026/11/11/van-%C3%A9%C3%A9n-bedrag-naar-een-staffel-rekenen-aan-een-vermogensbelasting/): Hoe je een vermogensbelasting onderbouwt met een formule in plaats van één bedrag, en welke rol een exitheffing en lobbyregels daarbij spelen. (2026-11-11)
+- [The 57 Threshold: When More Money Stops Buying More Life](https://pages.bommel.xyz/blog/2026/10/25/the-57-threshold-when-more-money-stops-buying-more-life/): James Shack unpacks why people take a guaranteed £10,000 over a bigger expected win, and why 57 is where more money starts buying less life. (2026-10-25)
+- [What Big Tech, Pharma and Food Companies Pay Where They Sell](https://pages.bommel.xyz/blog/2026/10/13/what-big-tech-pharma-and-food-companies-pay-where-they-sell/): A Tegenlicht clip claims Amazon paid no tax in Europe. Here is what European court rulings and the first public country-by-country reports actually show. (2026-10-13)
+- [Huizenmarkt op slot: 'iemand moet de prijs betalen' | Jona van Loenen](https://pages.bommel.xyz/blog/2025/07/24/dutch-housing-market-locked-someone-has-to-pay-the-price--jona-van-loenen/): Jona van Loenen betoogt dat de Nederlandse huizenprijzen de financieringsruimte volgen en niet het woningtekort, en toetst dat aan de analyse van DNB. (2025-07-24)
+- [Military spending and the future of Europe, #2006 Lex Hoogduin, Paul Buitink, Kees de Kort](https://pages.bommel.xyz/blog/2025/07/19/military-spending-and-the-future-of-europe-2006-lex-hoogduin-paul-buitink-kees-de-kort/): Economists Lex Hoogduin, Paul Buitink and Kees de Kort on higher military spending and what it means for Europe. (2025-07-19)
+- [Import tariffs](https://pages.bommel.xyz/blog/2025/04/10/import-tariffs/): What an import tariff is, how it works in practice for importers and consumers, and what it does to prices at the till. (2025-04-10)
+- [Updates van ABN-risicomodellen vertraagd](https://pages.bommel.xyz/blog/2024/11/13/abn-riskmodel-updates-delayed/): ABN Amro stelde de verbetering van zijn risicomodellen uit, waardoor de bank meer kapitaal aanhoudt dan nodig is en de aandeleninkoop opschuift. (2024-11-13)
+
+## Society (9)
+
+- [Tachtig jaar hervormen zonder de leraar](https://pages.bommel.xyz/blog/2026/11/08/tachtig-jaar-hervormen-zonder-de-leraar/): Minder autonomie voor de leraar, meer bestuurlijke lagen en een leesvaardigheid die sinds 2003 met 72 punten daalde: wat tachtig jaar hervormen opleverde. (2026-11-08)
+- [Geen enkele dierentuin verloor ooit zijn vergunning: wat Nederland nu wil veranderen](https://pages.bommel.xyz/blog/2026/10/12/the-netherlands-overhauls-its-zoo-permit-system-what-the-documents-say/): Het vergunningenstelsel voor dierentuinen wordt herzien. Wat de visiebrief, de Raad voor Dieraangelegenheden en de Dolfinariumzaken laten zien. (2026-10-12)
+- [Guilty Until Proven Sick: A Patient-Advocacy Reel and the Data on Diagnostic Delay](https://pages.bommel.xyz/blog/2026/10/11/guilty-until-proven-sick-a-patient-advocacy-reel-and-the-data-on-diagnostic-delay/) (2026-10-11)
+- [Tipping in America: How a $2.13 Wage Floor Became Everyone's Checkout Prompt](https://pages.bommel.xyz/blog/2026/10/08/tipping-in-america-how-a-voluntary-custom-reached-the-checkout-screen/): American tipping runs on a $2.13 wage floor and a screen full of suggested percentages. What the official data, the surveys and the research show. (2026-10-08)
+- [Technology and connection: what the evidence says about dating apps, dancing and children](https://pages.bommel.xyz/blog/2026/10/07/technology-and-connection-what-the-evidence-says-about-dating-apps-dancing-and-children/): What the evidence says about four circulating claims on dating apps, dancing and children, from a Nexus Conference clip. (2026-10-07)
+- [Systems Thinking: Why Patterns Are So Hard to See — and What to Do About It](https://pages.bommel.xyz/blog/2026/08/28/systems-thinking-why-patterns-are-so-hard-to-see--and-what-to-do-about-it/): What systems thinking actually is, why the patterns behind stubborn problems are so hard to see, and what can be done about it. (2026-08-28)
+- [Fault Lines in American Power: From Reproductive Battles to Institutional Leverage](https://pages.bommel.xyz/blog/2026/08/27/fault-lines-in-american-power-from-reproductive-battles-to-institutional-leverage/): Fault lines in American power: reproductive rights as a postcode lottery, targeted political violence, and institutional manoeuvring. (2026-08-27)
+- [The Line: a 170-km City Announced, a 2.4-km First Phase Planned](https://pages.bommel.xyz/blog/2025/10/06/inside-the-line-saudi-arabias-linear-city-from-a-170-km-plan-to-a-24-km-first-phase/): Saudi Arabia announced a 170-km mirrored city in the desert at Neom. Reporting puts the first phase at 2.4 km, with $50 billion already spent. (2025-10-06)
+- [Chat control: the EU proposal to scan messages for abuse material](https://pages.bommel.xyz/blog/2025/01/02/chat-control-the-eu-proposal-to-scan-messages-for-abuse-material/): The EU proposal to scan messages for child abuse material: what it covers, what is already in force, and where opinions diverge. (2025-01-02)
+
+## Culture (7)
+
+- [De bedriegertjes van Rozendaal: water dat je verrast, al drie eeuwen](https://pages.bommel.xyz/blog/2026/11/07/bedriegertjes-rozendaal/): Hoe de bedriegertjes in het park van kasteel Rosendael al eeuwen bezoekers natspuiten, waar het water vandaan komt en wie ze liet aanleggen. (2026-11-07)
+- [Baroeg Open Air 2026: twee dagen punk, metal en rave in Rotterdam](https://pages.bommel.xyz/blog/2026/08/26/baroeg-open-air-2026-two-days-of-punk-metal-and-rave-in-rotterdam/): Baroeg Open Air 2026: twee dagen punk, metal en rave in het Rotterdamse Zuiderpark, met zo'n veertig acts in een heel weekend. (2026-08-26)
+- [Four Phases of the Parisian Art Ecosystem: From Royal Academy to Global Art Fair](https://pages.bommel.xyz/blog/2026/08/26/four-phases-of-the-parisian-art-ecosystem-from-royal-academy-to-global-art-fair/): How Paris became the art capital of the West, and how that ecosystem moved from royal academy and Salon to global art fair. (2026-08-26)
+- [The Same Height Party: Where Everyone Meets at Eye Level](https://pages.bommel.xyz/blog/2026/08/26/the-same-height-party-where-everyone-meets-at-eye-level/): The same height party: a social experiment where every guest wears the same shoes, from a 1997 art installation to Oakland. (2026-08-26)
+- [Huis Bergh: heropening van het grootste waterkasteel van Nederland](https://pages.bommel.xyz/blog/2026/08/25/huis-bergh-reopening-of-the-netherlands-largest-water-castle/): Huis Bergh heropent na bijna drie jaar restauratie: de geschiedenis van het kasteel, de branden en de particuliere kunstcollectie. (2026-08-25)
+- [Lowlands 2026: het jaar dat de ticketoorlog uitbleef](https://pages.bommel.xyz/blog/2026/08/25/lowlands-2026-the-year-the-ticket-war-didnt-happen/): Lowlands 2026 raakte niet uitverkocht: wat dat zegt over het festival, de ticketoorlog die uitbleef en de nieuwe directie. (2026-08-25)
+- [Het oude Nederland](https://pages.bommel.xyz/blog/2024/10/26/the-ancient-netherlands/): Een rondgang langs de Nederlandse prehistorie, de Romeinse tijd en de vroege middeleeuwen, en hoe elk tijdperk de identiteit van het land vormgaf. (2024-10-26)
+
+## Nature (3)
+
+- [Stikstof: 0,005 mol in het model, 21 mol in Duitsland en wie de rekening betaalt](https://pages.bommel.xyz/blog/2026/10/06/nitrogen-in-the-netherlands-what-nature-measures-what-the-models-calculate-and-who-pays/): Wat het RIVM meet, wat AERIUS berekent en wie de rekening van het stikstofdossier betaalt: boeren, bouwers en duizenden PAS-melders. (2026-10-06)
+- [Why Vultures Matter: Nature's Overlooked Sanitation Service](https://pages.bommel.xyz/blog/2026/08/30/why-vultures-matter-natures-overlooked-sanitation-service/): Why vultures matter: nature's sanitation service, the ecosystem benefits they provide, and the Indian vulture crisis. (2026-08-30)
+- [We're reclaiming Iceland's Deserts - here's how](https://pages.bommel.xyz/blog/2025/10/04/were-reclaiming-icelands-deserts---heres-how/): Mossy Earth's rewilding project: how Iceland's eroded deserts are being reclaimed with native birchwoods and willows. (2025-10-04)
+
+## Lifestyle (1)
+
+- [8 Evidence-Based Ways to Influence Your Metabolism](https://pages.bommel.xyz/blog/2026/08/28/8-evidence-based-ways-to-influence-your-metabolism/): How your daily energy use is built up, what determines resting metabolism, and eight evidence-based ways to influence it. (2026-08-28)
+
+## Sport (1)
+
+- [NAC Breda in 2026: de grote favoriet met het grootste budget voor een directe terugkeer](https://pages.bommel.xyz/blog/2026/09/04/nac-breda-in-2026-the-big-budget-favourite-for-an-immediate-comeback/): NAC Breda na degradatie: het budget, de continuïteit op de bank en de kansen op een directe terugkeer naar de Eredivisie. (2026-09-04)
+
+## Travel (2)
+
+- [Breda's nachtleven: een avondje uit voor jong en oud](https://pages.bommel.xyz/blog/2026/09/05/bredas-nightlife-a-night-out-for-young-and-old-alike/): Het nachtleven van Breda mengt generaties: de bruine kroeg, de uitgaansstraten en waarom jong en oud dezelfde avond uit delen. (2026-09-05)
+- [Tivoli Gardens: The Perfect Centerpiece for a Small Copenhagen Trip](https://pages.bommel.xyz/blog/2026/08/26/tivoli-gardens-the-perfect-centerpiece-for-a-small-copenhagen-trip/): Tivoli Gardens as the centerpiece of a short Copenhagen trip: what you will find inside, when to go and what it costs. (2026-08-26)
+
+## YouTube (2)
+
+- [Buzz: Block's Agent-Native Workspace, Explained](https://pages.bommel.xyz/blog/2026/09/23/buzz-blocks-agent-native-workspace-explained/): Block's Buzz treats agents as teammates with identities and channels, and bets on open protocols: where it works, where it is rough. (2026-09-23)
+- [Birds Are the Only Surviving Dinosaurs: Steve Brusatte's 'The Story of Birds'](https://pages.bommel.xyz/blog/2026/08/27/birds-are-the-only-surviving-dinosaurs-steve-brusattes-the-story-of-birds/): Steve Brusatte on why birds are literally surviving dinosaurs, how flight happened by accident, and what feathered fossils show. (2026-08-27)
