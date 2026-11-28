@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{#-
+  Discovery voor AI-agents — llms.txt v2 (https://llmstxt.org/).
+
+  `rel="describedby"` wijst naar het llms.txt-bestand dat deze pagina beschrijft. Zonder deze regel
+  moet een agent het pad raden (/llms.txt) en dat doet alleen een agent die de conventie al kent;
+  met deze regel leert elke agent die de HTML leest dat er een index bestaat.
+
+  De .md-variant uit dezelfde spec (`rel="alternate" type="text/markdown"`) staat er bewust NIET:
+  er worden geen .md-versies van de pagina's gepubliceerd, en een link naar een 404 is erger dan
+  geen link. Komt die build-stap er ooit, dan hoort de alternate hier naast.
+
+  main.html in het theme is niet meer dan `{% extends "base.html" %}` en vult geen blokken, dus dit
+  bestand neemt niets weg. `super()` blijft staan voor het geval het theme extrahead ooit vult.
+-#}
+{% block extrahead %}
+    {{ super() }}
+    <link rel="describedby" href="{{ config.site_url }}llms.txt" title="llms.txt: index van alle posts voor AI-agents">
+{% endblock %}
